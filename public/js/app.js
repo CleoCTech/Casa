@@ -38505,7 +38505,80 @@ var render = function() {
           ])
         ]),
         _vm._v(" "),
-        _vm._m(0)
+        _c("div", { staticClass: "col-12" }, [
+          _c("div", { staticClass: "row" }, [
+            _c("div", { staticClass: "footer-bottom" }, [
+              _c(
+                "div",
+                { staticClass: "social" },
+                [
+                  _vm._m(0),
+                  _vm._v(" "),
+                  _c(
+                    "a",
+                    {
+                      attrs: { href: "https://www.wwxl.nl/", target: "_blank" }
+                    },
+                    [
+                      _c(
+                        "font",
+                        { staticStyle: { "vertical-align": "inherit" } },
+                        [
+                          _c(
+                            "font",
+                            { staticStyle: { "vertical-align": "inherit" } },
+                            [_vm._v("Design by CleoCTech")]
+                          )
+                        ],
+                        1
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "font",
+                    { staticStyle: { "vertical-align": "inherit" } },
+                    [
+                      _c(
+                        "font",
+                        { staticStyle: { "vertical-align": "inherit" } },
+                        [_vm._v(" | ")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "a",
+                    {
+                      attrs: {
+                        href: "https://www.lefficient.nl/",
+                        target: "_blank"
+                      }
+                    },
+                    [
+                      _c(
+                        "font",
+                        { staticStyle: { "vertical-align": "inherit" } },
+                        [
+                          _c(
+                            "font",
+                            { staticStyle: { "vertical-align": "inherit" } },
+                            [_vm._v("Custom Website by CleoCTech")]
+                          )
+                        ],
+                        1
+                      )
+                    ],
+                    1
+                  )
+                ],
+                1
+              )
+            ])
+          ])
+        ])
       ])
     ])
   ])
@@ -38515,49 +38588,30 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "col-12" }, [
-      _c("div", { staticClass: "row" }, [
-        _c("div", { staticClass: "footer-bottom" }, [
-          _c("div", { staticClass: "social" }, [
-            _c("ul", [
-              _c("li", [
-                _c(
-                  "a",
-                  {
-                    attrs: {
-                      href: "https://www.instagram.com/casajewelry/",
-                      target: "_blank"
-                    }
-                  },
-                  [
-                    _c("i", {
-                      staticClass: "fa fa-instagram",
-                      attrs: { "aria-hidden": "true" }
-                    })
-                  ]
-                )
-              ]),
-              _c("li", [
-                _c(
-                  "a",
-                  {
-                    attrs: {
-                      href:
-                        "https://www.facebook.com/Casa-Jewelry-239369542790567/",
-                      target: "_blank"
-                    }
-                  },
-                  [
-                    _c("i", {
-                      staticClass: "fa fa-facebook-official",
-                      attrs: { "aria-hidden": "true" }
-                    })
-                  ]
-                )
-              ])
-            ])
-          ])
-        ])
+    return _c("ul", [
+      _c("li", [
+        _c(
+          "a",
+          { attrs: { href: "https://www.instagram.com/", target: "_blank" } },
+          [
+            _c("i", {
+              staticClass: "fa fa-instagram",
+              attrs: { "aria-hidden": "true" }
+            })
+          ]
+        )
+      ]),
+      _c("li", [
+        _c(
+          "a",
+          { attrs: { href: "https://www.facebook.com/", target: "_blank" } },
+          [
+            _c("i", {
+              staticClass: "fa fa-facebook-official",
+              attrs: { "aria-hidden": "true" }
+            })
+          ]
+        )
       ])
     ])
   }
