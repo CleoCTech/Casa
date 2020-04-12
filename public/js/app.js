@@ -1943,6 +1943,15 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 
 /* harmony default export */ __webpack_exports__["default"] = ({
@@ -1962,7 +1971,8 @@ __webpack_require__.r(__webpack_exports__);
   },
   methods: {
     getProducts: function getProducts() {
-      var self = this;
+      var self = this; //api link where data will be fetch from . it has to be json api
+
       axios.get("https://jsonplaceholder.typicode.com/todos").then(function (response) {
         self.products = response.data;
         self.$parent.is_loading = false;
@@ -37622,52 +37632,57 @@ var render = function() {
   return _c("div", [
     _c("div", [_c("banner-area")], 1),
     _vm._v(" "),
-    _vm.products !== null && !_vm.$parent.is_loading && _vm.products.length > 0
-      ? _c(
-          "div",
-          { staticClass: "row" },
-          [
-            _vm._m(0),
-            _vm._v(" "),
-            _vm._l(_vm.products.slice(0, 9), function(product) {
-              return _c(
-                "div",
-                {
-                  key: product.id,
-                  staticClass: "col-4 col-sm-4 col-md-4 col-xl-4 m-0 p-0"
-                },
-                [
-                  _c(
+    _c("section", { staticClass: "product-area" }, [
+      _c("div", { staticClass: "container-fluid" }, [
+        _vm.products !== null &&
+        !_vm.$parent.is_loading &&
+        _vm.products.length > 0
+          ? _c(
+              "div",
+              { staticClass: "row" },
+              [
+                _vm._m(0),
+                _vm._v(" "),
+                _vm._l(_vm.products.slice(0, 9), function(product) {
+                  return _c(
                     "div",
-                    { staticClass: "productx bg-pink homex text-center" },
+                    {
+                      key: product.id,
+                      staticClass: "col-4 col-sm-4 col-md-4 col-xs-4 p-0"
+                    },
                     [
-                      _vm._m(1, true),
-                      _vm._v(" "),
-                      _c(
-                        "div",
-                        {
-                          staticClass:
-                            "product-namex text-pink hometitlex text-center"
-                        },
-                        [
-                          _c("a", { attrs: { href: "/" } }, [
-                            _c("h5", [_vm._v(_vm._s(product.title))])
-                          ])
-                        ]
-                      )
+                      _c("div", { staticClass: "product bg-pink home" }, [
+                        _vm._m(1, true),
+                        _vm._v(" "),
+                        _c(
+                          "div",
+                          { staticClass: "product-name text-pink hometitle" },
+                          [
+                            _c("a", { attrs: { href: "/" } }, [
+                              _c(
+                                "h5",
+                                {
+                                  staticStyle: { "vertical-align": "inherit" }
+                                },
+                                [_vm._v(_vm._s(product.title))]
+                              )
+                            ])
+                          ]
+                        )
+                      ])
                     ]
                   )
-                ]
-              )
-            })
-          ],
-          2
-        )
-      : !_vm.$parent.is_loading && _vm.products.length == 0
-      ? _c("div", { staticClass: "row" }, [
-          _vm._v("\n        Oops!! No products found\n    ")
-        ])
-      : _vm._e(),
+                })
+              ],
+              2
+            )
+          : !_vm.$parent.is_loading && _vm.products.length == 0
+          ? _c("div", { staticClass: "row" }, [
+              _vm._v("\n            Oops!! No products found\n        ")
+            ])
+          : _vm._e()
+      ])
+    ]),
     _vm._v(" "),
     _c("div", [_c("Subscribe-Area")], 1)
   ])
@@ -37687,11 +37702,17 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "product-imgx mb-2" }, [
-      _c("img", {
-        staticClass: "img-fluid",
-        attrs: { src: "https://picsum.photos/200/300" }
-      })
+    return _c("div", { staticClass: "product-img" }, [
+      _c("a", { attrs: { href: "#" } }, [
+        _c("img", {
+          staticClass: "img-fluid",
+          attrs: {
+            src:
+              "https://www.shop.casa-jewelry.eu/themes/assets/transparent/armbanden-armband-sieraden-casa-jewelry.png",
+            alt: "product"
+          }
+        })
+      ])
     ])
   }
 ]
