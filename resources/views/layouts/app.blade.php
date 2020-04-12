@@ -17,12 +17,14 @@
 
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Khand:300,400,500,600,700&amp;display=swap" rel="stylesheet">
     
     <!-- Styles -->
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/style.css') }}" rel="stylesheet">
 </head>
 <body>
     <style>
@@ -36,7 +38,7 @@
     </style>
     @yield('styles')
     <div id="app">
-        <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm fixed-top">
+        {{-- <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm fixed-top">
             <div class="container">
                 <a class="navbar-brand" href="{{ url('/') }}">
                     {{ config('app.name', 'Laravel') }}
@@ -104,8 +106,13 @@
                     </ul>
                 </div>
             </div>
-        </nav>
-
+        </nav>  /storage/images/logo2.png--}}
+        <header class="header-area fixed-top"><div class="container"><div class="row"><div class="col-sm-12"><div class="logo">
+            <a href="/"><img class="img-fluid" src="/storage/images/logo2.png" alt="logo"></a><div class="fright"><div class="social des-social"><ul><li><a class="catt" href="/template/cart"><i class="fa fa-shopping-bag" aria-hidden="true"></i><span>0</span></a></li></ul></div></div></div></div></div><div class="row"><div class="col-12"><nav class="navbar navbar-expand-lg navbar-light ">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button><div class="mobi-social social"><ul><li><a class="catt" href="/template/cart"><i class="fa fa-shopping-bag" aria-hidden="true"></i><span>0</span></a></li></ul></div><div class="collapse navbar-collapse" id="navbarTogglerDemo03"><ul class="navbar-nav mr-auto"><li class="nav-item active"><a class="nav-link" href="/">HOME <span class="sr-only">(current)</span></a></li><li class="nav-item"><a class="nav-link " href="/shop">SHOP</a></li><li class="nav-item"><a class="nav-link " href="/collecties">COLLECTIES</a></li><li class="nav-item"><a class="nav-link " href="/sieraden-tips">SIERADEN TIPS</a></li><li class="nav-item"><a class="nav-link " href="/over-casa">OVER CASA</a></li><li class="nav-item"><a class="nav-link " href="/duurzaamheid">DUURZAAMHEID</a></li><li class="nav-item"><a class="nav-link " href="/contact">CONTACT</a></li></ul></div></nav></div></div></div></header>
+        <div id="header-spacer"></div>
         <main class="py-4">
             @yield('content')
             <div class="loading-div" id="is_loading"><img src="/storage/images/loading.gif"></div>

@@ -1,0 +1,169 @@
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 999;
+}
+
+.header-area {
+    background: #F5DDD0;
+    overflow: hidden;
+    /* z-index: 999 !important; */
+}
+
+.logo {
+    text-align: center;
+}
+
+.logo img {
+    height: 160px;
+    width: auto;
+}
+
+.logo img {
+    height: 160px;
+    width: auto;
+}
+
+a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #856E62;
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+.social ul {
+    margin: 0;
+    padding: 0;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+.social ul li {
+    list-style: none;
+    display: inline;
+}
+
+.social ul li a.catt {
+    color: #856E62;
+    transform: rotate(30deg);
+}
+
+.social ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: #C6B9AD;
+    font-size: 24px;
+    padding: 5px 6px;
+}
+
+.social ul li a span {
+    background: #C6B9AD;
+    color: #fff;
+    padding: 5px;
+    height: 15px;
+    width: 15px;
+    display: inline-block;
+    overflow: hidden;
+    font-size: 12px;
+    border-radius: 50%;
+    line-height: 7px;
+    margin-left: -12px;
+    margin-bottom: 0;
+}
+
+#header-spacer {
+    height: 202px;
+}
