@@ -248,7 +248,15 @@
                     <div class="row">
                         <div class="footer-bottom">
                             <div class="social">
-                                
+                                <ul><li>
+                                    <a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li><li><a href="https://www.facebook.com/" target="_blank">
+                                    <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                                </ul>
+                                <a href="https://www.wwxl.nl/" target="_blank"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Design by CleoCTech</font></font></a>
+                                <font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> | </font></font>
+                                <a href="https://www.lefficient.nl/" target="_blank"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Custom Website by CleoCTech</font></font></a>
                             </div>
                         </div>
                     </div>

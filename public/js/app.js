@@ -38518,7 +38518,45 @@ var staticRenderFns = [
     return _c("div", { staticClass: "col-12" }, [
       _c("div", { staticClass: "row" }, [
         _c("div", { staticClass: "footer-bottom" }, [
-          _c("div", { staticClass: "social" })
+          _c("div", { staticClass: "social" }, [
+            _c("ul", [
+              _c("li", [
+                _c(
+                  "a",
+                  {
+                    attrs: {
+                      href: "https://www.instagram.com/casajewelry/",
+                      target: "_blank"
+                    }
+                  },
+                  [
+                    _c("i", {
+                      staticClass: "fa fa-instagram",
+                      attrs: { "aria-hidden": "true" }
+                    })
+                  ]
+                )
+              ]),
+              _c("li", [
+                _c(
+                  "a",
+                  {
+                    attrs: {
+                      href:
+                        "https://www.facebook.com/Casa-Jewelry-239369542790567/",
+                      target: "_blank"
+                    }
+                  },
+                  [
+                    _c("i", {
+                      staticClass: "fa fa-facebook-official",
+                      attrs: { "aria-hidden": "true" }
+                    })
+                  ]
+                )
+              ])
+            ])
+          ])
         ])
       ])
     ])

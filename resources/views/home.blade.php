@@ -171,6 +171,14 @@
     .footer-bottom .social {
         margin-top: 15px;
     }
-    
+    .social ul {
+        margin: 0;
+        padding: 0;
+    }
+    a {
+        text-decoration: none;
+        font-size: 16px;
+        color: #856E62;
+    }
     </style>
 @endsection
