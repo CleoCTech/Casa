@@ -1985,6 +1985,79 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/inc/footer.vue?vue&type=script&lang=js&":
+/*!*********************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/inc/footer.vue?vue&type=script&lang=js& ***!
+  \*********************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+// export default {
+//   data() {
+//     return {
+//       textDecoration: 'underline',
+//       textWeight: 'bold'
+//     }
+//   },
+//   computed: {
+//     styling: function() {
+//       return {
+//         textDecoration: this.textDecoration,
+//         textWeight: this.textWeight
+//       }
+//     }
+//   }
+// }
+
+/***/ }),
+
 /***/ "./node_modules/bootstrap/dist/js/bootstrap.js":
 /*!*****************************************************!*\
   !*** ./node_modules/bootstrap/dist/js/bootstrap.js ***!
@@ -37788,7 +37861,7 @@ var render = function() {
       _c("div", { staticClass: "container" }, [
         _c("div", { staticClass: "row" }, [
           _c("div", { staticClass: "col-6 col-md-2 col-xl-2" }, [
-            _c("div", { staticClass: "foo-menu" }, [
+            _c("div", { staticClass: "fo-menu" }, [
               _c(
                 "h3",
                 [
@@ -37799,7 +37872,7 @@ var render = function() {
                       _c(
                         "font",
                         { staticStyle: { "vertical-align": "inherit" } },
-                        [_vm._v("COLLECTIONS")]
+                        [_vm._v("JEWELERY")]
                       )
                     ],
                     1
@@ -37807,12 +37880,11 @@ var render = function() {
                 ],
                 1
               ),
-              _vm._v(" "),
               _c("ul", [
                 _c("li", [
                   _c(
                     "a",
-                    { attrs: { href: "http://" } },
+                    { attrs: { href: "/armbanden" } },
                     [
                       _c(
                         "font",
@@ -37830,11 +37902,10 @@ var render = function() {
                     1
                   )
                 ]),
-                _vm._v(" "),
                 _c("li", [
                   _c(
                     "a",
-                    { attrs: { href: "http://" } },
+                    { attrs: { href: "/bangles" } },
                     [
                       _c(
                         "font",
@@ -37852,11 +37923,10 @@ var render = function() {
                     1
                   )
                 ]),
-                _vm._v(" "),
                 _c("li", [
                   _c(
                     "a",
-                    { attrs: { href: "http://" } },
+                    { attrs: { href: "/colliers" } },
                     [
                       _c(
                         "font",
@@ -37874,11 +37944,10 @@ var render = function() {
                     1
                   )
                 ]),
-                _vm._v(" "),
                 _c("li", [
                   _c(
                     "a",
-                    { attrs: { href: "http://" } },
+                    { attrs: { href: "/hangers" } },
                     [
                       _c(
                         "font",
@@ -37896,11 +37965,10 @@ var render = function() {
                     1
                   )
                 ]),
-                _vm._v(" "),
                 _c("li", [
                   _c(
                     "a",
-                    { attrs: { href: "http://" } },
+                    { attrs: { href: "/oorringen" } },
                     [
                       _c(
                         "font",
@@ -37918,11 +37986,10 @@ var render = function() {
                     1
                   )
                 ]),
-                _vm._v(" "),
                 _c("li", [
                   _c(
                     "a",
-                    { attrs: { href: "http://" } },
+                    { attrs: { href: "/oorhangers" } },
                     [
                       _c(
                         "font",
@@ -37931,7 +37998,7 @@ var render = function() {
                           _c(
                             "font",
                             { staticStyle: { "vertical-align": "inherit" } },
-                            [_vm._v("Dangling Earrings")]
+                            [_vm._v("Dangling earrings")]
                           )
                         ],
                         1
@@ -37940,11 +38007,10 @@ var render = function() {
                     1
                   )
                 ]),
-                _vm._v(" "),
                 _c("li", [
                   _c(
                     "a",
-                    { attrs: { href: "http://" } },
+                    { attrs: { href: "/oorknoppen" } },
                     [
                       _c(
                         "font",
@@ -37953,7 +38019,7 @@ var render = function() {
                           _c(
                             "font",
                             { staticStyle: { "vertical-align": "inherit" } },
-                            [_vm._v("Ear Buds")]
+                            [_vm._v("Ear buds")]
                           )
                         ],
                         1
@@ -37962,11 +38028,10 @@ var render = function() {
                     1
                   )
                 ]),
-                _vm._v(" "),
                 _c("li", [
                   _c(
                     "a",
-                    { attrs: { href: "http://" } },
+                    { attrs: { href: "/ringen" } },
                     [
                       _c(
                         "font",
@@ -37984,11 +38049,10 @@ var render = function() {
                     1
                   )
                 ]),
-                _vm._v(" "),
                 _c("li", [
                   _c(
                     "a",
-                    { attrs: { href: "http://" } },
+                    { attrs: { href: "/clips" } },
                     [
                       _c(
                         "font",
@@ -38011,7 +38075,7 @@ var render = function() {
           ]),
           _vm._v(" "),
           _c("div", { staticClass: "col-6 col-md-2 col-xl-2" }, [
-            _c("div", { staticClass: "foo-menu" }, [
+            _c("div", { staticClass: "fo-menu" }, [
               _c(
                 "h3",
                 [
@@ -38022,7 +38086,7 @@ var render = function() {
                       _c(
                         "font",
                         { staticStyle: { "vertical-align": "inherit" } },
-                        [_vm._v("JEWERLY")]
+                        [_vm._v("COLLECTIONS")]
                       )
                     ],
                     1
@@ -38030,12 +38094,11 @@ var render = function() {
                 ],
                 1
               ),
-              _vm._v(" "),
               _c("ul", [
                 _c("li", [
                   _c(
                     "a",
-                    { attrs: { href: "http://" } },
+                    { attrs: { href: "/hoops" } },
                     [
                       _c(
                         "font",
@@ -38044,7 +38107,7 @@ var render = function() {
                           _c(
                             "font",
                             { staticStyle: { "vertical-align": "inherit" } },
-                            [_vm._v("Bracelets")]
+                            [_vm._v("Hoops")]
                           )
                         ],
                         1
@@ -38053,11 +38116,10 @@ var render = function() {
                     1
                   )
                 ]),
-                _vm._v(" "),
                 _c("li", [
                   _c(
                     "a",
-                    { attrs: { href: "http://" } },
+                    { attrs: { href: "/tricolori" } },
                     [
                       _c(
                         "font",
@@ -38066,7 +38128,7 @@ var render = function() {
                           _c(
                             "font",
                             { staticStyle: { "vertical-align": "inherit" } },
-                            [_vm._v("Bangles")]
+                            [_vm._v("TriColori")]
                           )
                         ],
                         1
@@ -38075,11 +38137,10 @@ var render = function() {
                     1
                   )
                 ]),
-                _vm._v(" "),
                 _c("li", [
                   _c(
                     "a",
-                    { attrs: { href: "http://" } },
+                    { attrs: { href: "/icons" } },
                     [
                       _c(
                         "font",
@@ -38088,7 +38149,7 @@ var render = function() {
                           _c(
                             "font",
                             { staticStyle: { "vertical-align": "inherit" } },
-                            [_vm._v("Colliers")]
+                            [_vm._v("Icons")]
                           )
                         ],
                         1
@@ -38097,11 +38158,10 @@ var render = function() {
                     1
                   )
                 ]),
-                _vm._v(" "),
                 _c("li", [
                   _c(
                     "a",
-                    { attrs: { href: "http://" } },
+                    { attrs: { href: "/pearls" } },
                     [
                       _c(
                         "font",
@@ -38110,7 +38170,7 @@ var render = function() {
                           _c(
                             "font",
                             { staticStyle: { "vertical-align": "inherit" } },
-                            [_vm._v("Pendants")]
+                            [_vm._v("Pearls")]
                           )
                         ],
                         1
@@ -38119,11 +38179,10 @@ var render = function() {
                     1
                   )
                 ]),
-                _vm._v(" "),
                 _c("li", [
                   _c(
                     "a",
-                    { attrs: { href: "http://" } },
+                    { attrs: { href: "/tuscany" } },
                     [
                       _c(
                         "font",
@@ -38132,7 +38191,7 @@ var render = function() {
                           _c(
                             "font",
                             { staticStyle: { "vertical-align": "inherit" } },
-                            [_vm._v("Earrings")]
+                            [_vm._v("Tuscany")]
                           )
                         ],
                         1
@@ -38141,11 +38200,10 @@ var render = function() {
                     1
                   )
                 ]),
-                _vm._v(" "),
                 _c("li", [
                   _c(
                     "a",
-                    { attrs: { href: "http://" } },
+                    { attrs: { href: "/bubbles" } },
                     [
                       _c(
                         "font",
@@ -38154,7 +38212,7 @@ var render = function() {
                           _c(
                             "font",
                             { staticStyle: { "vertical-align": "inherit" } },
-                            [_vm._v("Dangling Earrings")]
+                            [_vm._v("Bubbles")]
                           )
                         ],
                         1
@@ -38168,7 +38226,7 @@ var render = function() {
           ]),
           _vm._v(" "),
           _c("div", { staticClass: "col-6 col-md-2 col-xl-2" }, [
-            _c("div", { staticClass: "foo-menu" }, [
+            _c("div", { staticClass: "fo-menu" }, [
               _c(
                 "h3",
                 [
@@ -38187,12 +38245,11 @@ var render = function() {
                 ],
                 1
               ),
-              _vm._v(" "),
               _c("ul", [
                 _c("li", [
                   _c(
                     "a",
-                    { attrs: { href: "http://" } },
+                    { attrs: { href: "/informatie/privacy" } },
                     [
                       _c(
                         "font",
@@ -38201,7 +38258,7 @@ var render = function() {
                           _c(
                             "font",
                             { staticStyle: { "vertical-align": "inherit" } },
-                            [_vm._v("Bracelets")]
+                            [_vm._v("Privacy")]
                           )
                         ],
                         1
@@ -38210,11 +38267,10 @@ var render = function() {
                     1
                   )
                 ]),
-                _vm._v(" "),
                 _c("li", [
                   _c(
                     "a",
-                    { attrs: { href: "http://" } },
+                    { attrs: { href: "/informatie/verkoop-voorwaarden" } },
                     [
                       _c(
                         "font",
@@ -38223,7 +38279,7 @@ var render = function() {
                           _c(
                             "font",
                             { staticStyle: { "vertical-align": "inherit" } },
-                            [_vm._v("Bangles")]
+                            [_vm._v("Conditions of sale")]
                           )
                         ],
                         1
@@ -38232,11 +38288,15 @@ var render = function() {
                     1
                   )
                 ]),
-                _vm._v(" "),
                 _c("li", [
                   _c(
                     "a",
-                    { attrs: { href: "http://" } },
+                    {
+                      attrs: {
+                        href: "https://www.casa-jewelry.eu/",
+                        target: "_blank"
+                      }
+                    },
                     [
                       _c(
                         "font",
@@ -38245,7 +38305,7 @@ var render = function() {
                           _c(
                             "font",
                             { staticStyle: { "vertical-align": "inherit" } },
-                            [_vm._v("Colliers")]
+                            [_vm._v("Corporate")]
                           )
                         ],
                         1
@@ -38254,11 +38314,10 @@ var render = function() {
                     1
                   )
                 ]),
-                _vm._v(" "),
                 _c("li", [
                   _c(
                     "a",
-                    { attrs: { href: "http://" } },
+                    { attrs: { href: "/sitemap.xml" } },
                     [
                       _c(
                         "font",
@@ -38267,7 +38326,7 @@ var render = function() {
                           _c(
                             "font",
                             { staticStyle: { "vertical-align": "inherit" } },
-                            [_vm._v("Pendants")]
+                            [_vm._v("Sitemap")]
                           )
                         ],
                         1
@@ -38276,11 +38335,10 @@ var render = function() {
                     1
                   )
                 ]),
-                _vm._v(" "),
                 _c("li", [
                   _c(
                     "a",
-                    { attrs: { href: "http://" } },
+                    { attrs: { href: "/contact" } },
                     [
                       _c(
                         "font",
@@ -38289,7 +38347,7 @@ var render = function() {
                           _c(
                             "font",
                             { staticStyle: { "vertical-align": "inherit" } },
-                            [_vm._v("Earrings")]
+                            [_vm._v("Contact")]
                           )
                         ],
                         1
@@ -38303,7 +38361,7 @@ var render = function() {
           ]),
           _vm._v(" "),
           _c("div", { staticClass: "col-6 col-md-2 col-xl-2" }, [
-            _c("div", { staticClass: "foo-menu" }, [
+            _c("div", { staticClass: "fo-menu" }, [
               _c(
                 "h3",
                 [
@@ -38314,7 +38372,7 @@ var render = function() {
                       _c(
                         "font",
                         { staticStyle: { "vertical-align": "inherit" } },
-                        [_vm._v("NAME JEWERLY")]
+                        [_vm._v("CASA JEWELRY")]
                       )
                     ],
                     1
@@ -38322,12 +38380,11 @@ var render = function() {
                 ],
                 1
               ),
-              _vm._v(" "),
               _c("ul", [
                 _c("li", [
                   _c(
                     "a",
-                    { attrs: { href: "http://" } },
+                    { attrs: { href: "/over-casa" } },
                     [
                       _c(
                         "font",
@@ -38336,7 +38393,7 @@ var render = function() {
                           _c(
                             "font",
                             { staticStyle: { "vertical-align": "inherit" } },
-                            [_vm._v("Bracelets")]
+                            [_vm._v("About Casa")]
                           )
                         ],
                         1
@@ -38345,11 +38402,15 @@ var render = function() {
                     1
                   )
                 ]),
-                _vm._v(" "),
                 _c("li", [
                   _c(
                     "a",
-                    { attrs: { href: "http://" } },
+                    {
+                      attrs: {
+                        href: "https://www.casa-jewelry.eu/ons-team/",
+                        target: "_blank"
+                      }
+                    },
                     [
                       _c(
                         "font",
@@ -38358,7 +38419,7 @@ var render = function() {
                           _c(
                             "font",
                             { staticStyle: { "vertical-align": "inherit" } },
-                            [_vm._v("Bangles")]
+                            [_vm._v("Our team")]
                           )
                         ],
                         1
@@ -38367,11 +38428,15 @@ var render = function() {
                     1
                   )
                 ]),
-                _vm._v(" "),
                 _c("li", [
                   _c(
                     "a",
-                    { attrs: { href: "http://" } },
+                    {
+                      attrs: {
+                        href: "https://www.casa-jewelry.eu/design-your-line/",
+                        target: "_blank"
+                      }
+                    },
                     [
                       _c(
                         "font",
@@ -38380,7 +38445,7 @@ var render = function() {
                           _c(
                             "font",
                             { staticStyle: { "vertical-align": "inherit" } },
-                            [_vm._v("Colliers")]
+                            [_vm._v("Design Your Line")]
                           )
                         ],
                         1
@@ -38389,11 +38454,15 @@ var render = function() {
                     1
                   )
                 ]),
-                _vm._v(" "),
                 _c("li", [
                   _c(
                     "a",
-                    { attrs: { href: "http://" } },
+                    {
+                      attrs: {
+                        href: "https://www.casacollection.net/inloggen",
+                        target: "_blank"
+                      }
+                    },
                     [
                       _c(
                         "font",
@@ -38402,7 +38471,7 @@ var render = function() {
                           _c(
                             "font",
                             { staticStyle: { "vertical-align": "inherit" } },
-                            [_vm._v("Pendants")]
+                            [_vm._v("B2B login")]
                           )
                         ],
                         1
@@ -38415,115 +38484,7 @@ var render = function() {
             ])
           ]),
           _vm._v(" "),
-          _c("div", { staticClass: "col-sm-12 col-md-4 col-xl-4" }, [
-            _c(
-              "div",
-              { staticClass: "foo-menu" },
-              [
-                _c(
-                  "h3",
-                  [
-                    _c(
-                      "font",
-                      { staticStyle: { "vertical-align": "inherit" } },
-                      [
-                        _c(
-                          "font",
-                          { staticStyle: { "vertical-align": "inherit" } },
-                          [_vm._v("NEWSLETTER")]
-                        )
-                      ],
-                      1
-                    )
-                  ],
-                  1
-                ),
-                _vm._v(" "),
-                _c(
-                  "P",
-                  [
-                    _c(
-                      "font",
-                      { staticStyle: { "vertical-align": "inherit" } },
-                      [
-                        _c(
-                          "font",
-                          { staticStyle: { "vertical-align": "inherit" } },
-                          [
-                            _vm._v(
-                              "Would you like to be kept informed of our new jewelry collections and promotions?"
-                            )
-                          ]
-                        )
-                      ],
-                      1
-                    ),
-                    _vm._v(" "),
-                    _c(
-                      "font",
-                      { staticStyle: { "vertical-align": "inherit" } },
-                      [
-                        _c(
-                          "font",
-                          { staticStyle: { "vertical-align": "inherit" } },
-                          [
-                            _vm._v(
-                              "Enter your email address here and you will receive our newsletter up to 4 times a year."
-                            )
-                          ]
-                        )
-                      ],
-                      1
-                    )
-                  ],
-                  1
-                ),
-                _vm._v(" "),
-                _c(
-                  "form",
-                  {
-                    staticClass: "form-group row",
-                    attrs: { action: "", method: "post" }
-                  },
-                  [
-                    _c("input", {
-                      staticClass: "col-sm-8 form-control",
-                      attrs: {
-                        type: "email",
-                        placeholder: "your email",
-                        name: "email",
-                        required: ""
-                      }
-                    }),
-                    _vm._v(" "),
-                    _c(
-                      "button",
-                      {
-                        staticClass: "submit col-sm-4",
-                        attrs: { type: "submit" }
-                      },
-                      [
-                        _c(
-                          "font",
-                          { staticStyle: { "vertical-align": "inherit" } },
-                          [
-                            _c(
-                              "font",
-                              { staticStyle: { "vertical-align": "inherit" } },
-                              [_vm._v("Sign Up")]
-                            )
-                          ],
-                          1
-                        )
-                      ],
-                      1
-                    )
-                  ]
-                )
-              ],
-              1
-            )
-          ])
+          _vm._m(0)
         ]),
         _vm._v(" "),
         _c("div", { staticClass: "col-12" }, [
@@ -38533,7 +38494,7 @@ var render = function() {
                 "div",
                 { staticClass: "social" },
                 [
-                  _vm._m(0),
+                  _vm._m(1),
                   _vm._v(" "),
                   _c(
                     "a",
@@ -38609,6 +38570,45 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "col-sm-12 col-md-4 col-xl-4" }, [
+      _c("div", { staticClass: "fo-menu" }, [
+        _c("h3", [_vm._v("NEWSLETTER")]),
+        _c("p", [
+          _vm._v(
+            "Would you like to be kept informed of our new jewelry collections and promotions? Enter your email address here and you will receive our newsletter up to 4 times a year."
+          )
+        ]),
+        _c(
+          "form",
+          {
+            staticClass: "form-group row",
+            attrs: { method: "post", action: "/themes/functions/optin.php" }
+          },
+          [
+            _c("input", {
+              staticClass: "col-sm-8 form-control",
+              attrs: {
+                type: "email",
+                placeholder: "uw email",
+                name: "email",
+                required: ""
+              }
+            }),
+            _vm._v(" "),
+            _c(
+              "button",
+              { staticClass: "submit col-sm-4", attrs: { type: "submit" } },
+              [_vm._v("Sign Up")]
+            )
+          ]
+        )
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
     return _c("ul", [
       _c("li", [
         _c(
@@ -38658,121 +38658,88 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", [
-    _c("section", { staticClass: "subscribex" }, [
-      _c("div", { staticClass: "container" }, [
-        _c("div", { staticClass: "row" }, [
-          _c("div", { staticClass: "col-12" }, [
-            _c("div", { staticClass: "section-title pb-0 text-center" }, [
-              _c("img", {
-                staticClass: "img-fluid",
-                attrs: { src: "", alt: "Email" }
-              }),
-              _vm._v(" "),
-              _c(
-                "h2",
-                [
-                  _c(
-                    "font",
-                    { staticStyle: { "vertical-align": "inherit" } },
-                    [
-                      _c(
-                        "font",
-                        { staticStyle: { "vertical-align": "inherit" } },
-                        [_vm._v("Free Vouncher?")]
-                      )
-                    ],
-                    1
-                  )
-                ],
-                1
-              ),
-              _vm._v(" "),
-              _c(
-                "h5",
-                [
-                  _c(
-                    "font",
-                    { staticStyle: { "vertical-align": "inherit" } },
-                    [
-                      _c(
-                        "font",
-                        { staticStyle: { "vertical-align": "inherit" } },
-                        [
-                          _vm._v(
-                            "Sign up for our newsletter and win a piece of jewerly!"
-                          )
-                        ]
-                      )
-                    ],
-                    1
-                  )
-                ],
-                1
-              )
-            ])
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "col-12" }, [
-            _c("div", { staticClass: "Gratis pb-4" }, [
-              _c("div", { staticClass: "subscribe" }, [
+  return _vm._m(0)
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", [
+      _c("section", { staticClass: "waardebon" }, [
+        _c("div", { staticClass: "container" }, [
+          _c("div", { staticClass: "row" }, [
+            _c("div", { staticClass: "col-12" }, [
+              _c("div", { staticClass: "section-title pb-0 text-center" }, [
                 _c("img", {
                   staticClass: "img-fluid",
-                  attrs: { src: "https://picsum.photos/200/300", alt: "Image" }
+                  attrs: {
+                    src:
+                      "https://www.shop.casa-jewelry.eu/themes/theme/assets/img/ms.png",
+                    alt: "envelope"
+                  }
                 }),
                 _vm._v(" "),
-                _c(
-                  "form",
-                  {
-                    staticClass: "form-group row",
-                    attrs: { method: "post", action: "" }
-                  },
-                  [
-                    _c("input", {
-                      staticClass:
-                        "col-sm-10 col-md-10 col-lg-10 col-xl-10 form-control",
-                      attrs: {
-                        type: "email",
-                        placeholder: "your email",
-                        name: "email",
-                        required: ""
-                      }
-                    }),
-                    _vm._v(" "),
-                    _c(
-                      "button",
-                      {
-                        staticClass:
-                          "submit col-sm-2 col-md-2 col-lg-2 col-xl-2",
-                        attrs: { type: "submit" }
-                      },
-                      [
-                        _c(
-                          "font",
-                          { staticStyle: { "vertical-align": "inherit" } },
-                          [
-                            _c(
-                              "font",
-                              { staticStyle: { "vertical-align": "inherit" } },
-                              [_vm._v("Sign Up")]
-                            )
-                          ],
-                          1
-                        )
-                      ],
-                      1
-                    )
-                  ]
-                )
+                _c("h2", { staticStyle: { "vertical-align": "inherit" } }, [
+                  _vm._v("Free Voucher?")
+                ]),
+                _vm._v(" "),
+                _c("h5", { staticStyle: { "vertical-align": "inherit" } }, [
+                  _vm._v(
+                    "Sign up for our newsletter and win a piece of jewelry!"
+                  )
+                ])
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "col-12" }, [
+              _c("div", { staticClass: "Gratis pb-4" }, [
+                _c("div", { staticClass: "subscribe" }, [
+                  _c("img", {
+                    staticClass: "img-fluid",
+                    attrs: {
+                      src:
+                        "https://www.shop.casa-jewelry.eu/themes/theme/assets/img/Casa_Jewlery_Bowl-Silver-Set@2x.png",
+                      alt: "music"
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c(
+                    "form",
+                    {
+                      staticClass: "form-group row",
+                      attrs: { method: "post", action: "" }
+                    },
+                    [
+                      _c("input", {
+                        staticClass: "col-sm-10 form-control",
+                        attrs: {
+                          type: "email",
+                          placeholder: "Your Email",
+                          name: "email",
+                          required: ""
+                        }
+                      }),
+                      _vm._v(" "),
+                      _c(
+                        "button",
+                        {
+                          staticClass: "submit col-sm-2",
+                          attrs: { type: "submit" }
+                        },
+                        [_vm._v("Sign Up")]
+                      )
+                    ]
+                  )
+                ])
               ])
             ])
           ])
         ])
       ])
     ])
-  ])
-}
-var staticRenderFns = []
+  }
+]
 render._withStripped = true
 
 
@@ -51161,21 +51128,24 @@ __webpack_require__.r(__webpack_exports__);
 /*!************************************************!*\
   !*** ./resources/js/components/inc/footer.vue ***!
   \************************************************/
-/*! exports provided: default */
+/*! no static exports found */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _footer_vue_vue_type_template_id_e808d912___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./footer.vue?vue&type=template&id=e808d912& */ "./resources/js/components/inc/footer.vue?vue&type=template&id=e808d912&");
-/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+/* harmony import */ var _footer_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./footer.vue?vue&type=script&lang=js& */ "./resources/js/components/inc/footer.vue?vue&type=script&lang=js&");
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _footer_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _footer_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
-var script = {}
+
+
 
 
 /* normalize component */
 
-var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__["default"])(
-  script,
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _footer_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
   _footer_vue_vue_type_template_id_e808d912___WEBPACK_IMPORTED_MODULE_0__["render"],
   _footer_vue_vue_type_template_id_e808d912___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
@@ -51189,6 +51159,22 @@ var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_
 if (false) { var api; }
 component.options.__file = "resources/js/components/inc/footer.vue"
 /* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/inc/footer.vue?vue&type=script&lang=js&":
+/*!*************************************************************************!*\
+  !*** ./resources/js/components/inc/footer.vue?vue&type=script&lang=js& ***!
+  \*************************************************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_footer_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib??ref--4-0!../../../../node_modules/vue-loader/lib??vue-loader-options!./footer.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/inc/footer.vue?vue&type=script&lang=js&");
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_footer_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_footer_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_footer_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_footer_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_footer_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0___default.a); 
 
 /***/ }),
 

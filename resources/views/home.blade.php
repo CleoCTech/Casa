@@ -161,100 +161,78 @@
             margin-left: -15px;
         }
 
-        .Gratis {
+        .section-title img {
+            height: 35px;
+        }
+
+        .Gratis{
             text-align: center;
         }
-        .subcribe {
+
+        .subscribe {
             text-align: center;
             width: 40%;
             margin: 0 auto;
         }
-        .subcribe img {
+
+        .subscribe img {
             margin: 15px 0;
         }
-        .subcribe .row {
+
+        .subscribe .row {
             margin-right: 0;
             margin-left: 0;
         }
+
         .form-group {
             margin-bottom: 0;
         }
-        .subcribe .form-control {
-        display: block;
-        width: 100%;
-        height: 30px;
-        padding: 10px;
-        font-size: 1rem;
-        font-weight: 400;
-        line-height: 1.5;
-        color: #222;
-        background-color: #F5DDD0;
-        background-clip: padding-box;
-        border: 1px solid #F5DDD0;
-        border-radius: 0;
-    }
-        .subcribe .submit {
-        color: #707070;
-        background-color: #fff;
-        border: 1px solid #707070;
-        padding: 0;
-        transition: all 0.4s ease;
-    }
-    .footer-area {
-        background: #C6B9AD;
-        padding: 30px 0;
-        overflow: hidden;
-        margin-top: auto;
-    }
-    ol, ul {
-        list-style: none;
-    }
-    html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
-        margin: 0;
-        padding: 0;
-        border: 0;
-        font-size: 100%;
-        font: inherit;
-        vertical-align: baseline;
-    }
-    .fo-menu ul li a {
-        text-decoration: none;
-        color: #fff;
-        font-size: 16px;
-        display: inline-block;
-        line-height: 1.3;
-        transition: all 0.4s ease;
-        text-transform: capitalize;
-    }
-    .fo-menu p {
-        color: #fff;
-        line-height: 1.2;
-    }
-    .fo-menu .row {
-        margin-right: 0;
-        margin-left: 0;
-        padding: 15px 0;
-    }
-    p {
-        font-size: 16px;
-    }
-    .footer-bottom {
-        margin-top: 15px;
-        text-align: right;
-        width: 100%;
-        border-top: 1px solid #fff;
-    }
-    .footer-bottom .social {
-        margin-top: 15px;
-    }
-    .social ul {
-        margin: 0;
-        padding: 0;
-    }
-    a {
-        text-decoration: none;
-        font-size: 16px;
-        color: #856E62;
-    }
+
+        .subscribe .form-control {
+            display: block;
+            width: 100%;
+            height: 30px;
+            padding: 10px;
+            font-size: 1rem;
+            font-weight: 400;
+            line-height: 1.5;
+            color: #222;
+            background-color: #F5DDD0;
+            background-clip: padding-box;
+            border: 1px solid #F5DDD0;
+            border-radius: 0;
+        }
+
+        .subscribe .submit {
+            color: #707070;
+            background-color: #fff;
+            border: 1px solid #707070;
+            padding: 0;
+            transition: all 0.4s ease;
+        }
+
+        .subcribe .submit:hover {
+            transition: all 0.4s ease;
+            border: 1px solid #856E62;
+            background: #856E62;
+            color: #fff;
+        }
+
+        button {
+            height: 30px;
+            min-width: 20px!important;
+        }
+
+        button, select {
+            text-transform: none;
+        }
+
+        button, input, optgroup, select, textarea {
+            font-family: inherit;
+            font-size: 100%;
+            line-height: 1.15;
+            margin: 0;
+        }
+    
     </style>
 @endsection
