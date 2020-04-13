@@ -1899,6 +1899,122 @@ module.exports = {
 
 /***/ }),
 
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/about/about.vue?vue&type=script&lang=js&":
+/*!**********************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/about/about.vue?vue&type=script&lang=js& ***!
+  \**********************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _jewerly_tips_conctact_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../jewerly_tips/conctact.vue */ "./resources/js/components/jewerly_tips/conctact.vue");
+/* harmony import */ var _aboutarea_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./aboutarea.vue */ "./resources/js/components/about/aboutarea.vue");
+//
+//
+//
+//
+//
+//
+//
+
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+  name: 'app',
+  components: {
+    'contact-area': _jewerly_tips_conctact_vue__WEBPACK_IMPORTED_MODULE_0__["default"],
+    'about-area': _aboutarea_vue__WEBPACK_IMPORTED_MODULE_1__["default"]
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/collections/collection.vue?vue&type=script&lang=js&":
+/*!*********************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/collections/collection.vue?vue&type=script&lang=js& ***!
+  \*********************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _slider_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./slider.vue */ "./resources/js/components/collections/slider.vue");
+/* harmony import */ var _jewerlyCollections_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./jewerlyCollections.vue */ "./resources/js/components/collections/jewerlyCollections.vue");
+//
+//
+//
+//
+//
+//
+//
+
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+  name: 'app',
+  components: {
+    'slider-area': _slider_vue__WEBPACK_IMPORTED_MODULE_0__["default"],
+    'jewerly-collections': _jewerlyCollections_vue__WEBPACK_IMPORTED_MODULE_1__["default"]
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/contact/contact.vue?vue&type=script&lang=js&":
+/*!**************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/contact/contact.vue?vue&type=script&lang=js& ***!
+  \**************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _contactarea_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./contactarea.vue */ "./resources/js/components/contact/contactarea.vue");
+//
+//
+//
+//
+//
+//
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+  name: 'app',
+  components: {
+    'contact-area': _contactarea_vue__WEBPACK_IMPORTED_MODULE_0__["default"]
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/durability/durability.vue?vue&type=script&lang=js&":
+/*!********************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/durability/durability.vue?vue&type=script&lang=js& ***!
+  \********************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _jewerly_tips_conctact_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../jewerly_tips/conctact.vue */ "./resources/js/components/jewerly_tips/conctact.vue");
+/* harmony import */ var _sustainabilityarea_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./sustainabilityarea.vue */ "./resources/js/components/durability/sustainabilityarea.vue");
+//
+//
+//
+//
+//
+//
+//
+
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+  name: 'app',
+  components: {
+    'contact-area': _jewerly_tips_conctact_vue__WEBPACK_IMPORTED_MODULE_0__["default"],
+    'sustain-area': _sustainabilityarea_vue__WEBPACK_IMPORTED_MODULE_1__["default"]
+  }
+});
+
+/***/ }),
+
 /***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/home.vue?vue&type=script&lang=js&":
 /*!***************************************************************************************************************************************************************!*\
   !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/home.vue?vue&type=script&lang=js& ***!
@@ -2055,6 +2171,40 @@ __webpack_require__.r(__webpack_exports__);
 //     }
 //   }
 // }
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/jewerly_tips/jewerlytips.vue?vue&type=script&lang=js&":
+/*!***********************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/jewerly_tips/jewerlytips.vue?vue&type=script&lang=js& ***!
+  \***********************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _conctact_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./conctact.vue */ "./resources/js/components/jewerly_tips/conctact.vue");
+/* harmony import */ var _mantainence_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./mantainence.vue */ "./resources/js/components/jewerly_tips/mantainence.vue");
+/* harmony import */ var _tipslist_vue__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./tipslist.vue */ "./resources/js/components/jewerly_tips/tipslist.vue");
+//
+//
+//
+//
+//
+//
+//
+//
+
+
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+  name: 'app',
+  components: {
+    'contact-area': _conctact_vue__WEBPACK_IMPORTED_MODULE_0__["default"],
+    'mantainence-area': _mantainence_vue__WEBPACK_IMPORTED_MODULE_1__["default"],
+    'tips-area': _tipslist_vue__WEBPACK_IMPORTED_MODULE_2__["default"]
+  }
+});
 
 /***/ }),
 
@@ -37687,6 +37837,2061 @@ exports.clearImmediate = (typeof self !== "undefined" && self.clearImmediate) ||
 
 /***/ }),
 
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/about/about.vue?vue&type=template&id=cd5317e0&":
+/*!**************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/about/about.vue?vue&type=template&id=cd5317e0& ***!
+  \**************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("div", [_c("contact-area"), _vm._v(" "), _c("about-area")], 1)
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/about/aboutarea.vue?vue&type=template&id=24b1ba1d&":
+/*!******************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/about/aboutarea.vue?vue&type=template&id=24b1ba1d& ***!
+  \******************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("section", { staticClass: "collectie" }, [
+    _c("div", { staticClass: "container" }, [
+      _c("div", { staticClass: "row" }, [
+        _c("div", { staticClass: "col-12" }, [
+          _c("div", { staticClass: "section-title" }, [
+            _c(
+              "h2",
+              [
+                _c(
+                  "font",
+                  { staticStyle: { "vertical-align": "inherit" } },
+                  [
+                    _c(
+                      "font",
+                      { staticStyle: { "vertical-align": "inherit" } },
+                      [_vm._v("About Casa Jewelry")]
+                    )
+                  ],
+                  1
+                )
+              ],
+              1
+            )
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "col-12 col-md-8" }, [
+          _c("div", { staticClass: "collectie-con" }, [
+            _c("p"),
+            _vm._v(" "),
+            _c(
+              "div",
+              { staticClass: "widget  clearfix", attrs: { id: "widget_25" } },
+              [
+                _c("div", { staticClass: "widget_header" }, [
+                  _c(
+                    "div",
+                    {
+                      staticClass:
+                        "elementor-element elementor-element-34ec2f9 elementor-widget elementor-widget-heading",
+                      attrs: {
+                        "data-id": "34ec2f9",
+                        "data-element_type": "widget",
+                        "data-widget_type": "heading.default"
+                      }
+                    },
+                    [
+                      _c("div", { staticClass: "elementor-widget-container" }, [
+                        _c(
+                          "p",
+                          {
+                            staticClass:
+                              "elementor-heading-title elementor-size-default"
+                          },
+                          [
+                            _c(
+                              "span",
+                              { staticStyle: { "font-size": "100%" } },
+                              [
+                                _c(
+                                  "font",
+                                  {
+                                    staticStyle: { "vertical-align": "inherit" }
+                                  },
+                                  [
+                                    _c(
+                                      "font",
+                                      {
+                                        staticStyle: {
+                                          "vertical-align": "inherit"
+                                        }
+                                      },
+                                      [_vm._v("The primal Dutch jewelry  ")]
+                                    )
+                                  ],
+                                  1
+                                ),
+                                _c(
+                                  "strong",
+                                  [
+                                    _c(
+                                      "font",
+                                      {
+                                        staticStyle: {
+                                          "vertical-align": "inherit"
+                                        }
+                                      },
+                                      [
+                                        _c(
+                                          "font",
+                                          {
+                                            staticStyle: {
+                                              "vertical-align": "inherit"
+                                            }
+                                          },
+                                          [_vm._v("brand Casa Jewelry")]
+                                        )
+                                      ],
+                                      1
+                                    )
+                                  ],
+                                  1
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "font",
+                                  {
+                                    staticStyle: { "vertical-align": "inherit" }
+                                  },
+                                  [
+                                    _c(
+                                      "font",
+                                      {
+                                        staticStyle: {
+                                          "vertical-align": "inherit"
+                                        }
+                                      },
+                                      [_vm._v("  was founded in 1967. ")]
+                                    ),
+                                    _vm._v(" "),
+                                    _c(
+                                      "font",
+                                      {
+                                        staticStyle: {
+                                          "vertical-align": "inherit"
+                                        }
+                                      },
+                                      [
+                                        _vm._v(
+                                          "At that time, silver jewelry was mainly intended for a niche market and jewelry still had to find its place in the large department stores and jewelery shops."
+                                        )
+                                      ]
+                                    )
+                                  ],
+                                  1
+                                )
+                              ],
+                              1
+                            )
+                          ]
+                        )
+                      ])
+                    ]
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "div",
+                    {
+                      staticClass:
+                        "elementor-element elementor-element-cfbb8d6 elementor-widget elementor-widget-text-editor",
+                      attrs: {
+                        "data-id": "cfbb8d6",
+                        "data-element_type": "widget",
+                        "data-widget_type": "text-editor.default"
+                      }
+                    },
+                    [
+                      _c("div", { staticClass: "elementor-widget-container" }, [
+                        _c(
+                          "div",
+                          {
+                            staticClass:
+                              "elementor-text-editor elementor-clearfix"
+                          },
+                          [
+                            _c("p", [
+                              _c(
+                                "span",
+                                { staticStyle: { "font-size": "100%" } },
+                                [
+                                  _c(
+                                    "font",
+                                    {
+                                      staticStyle: {
+                                        "vertical-align": "inherit"
+                                      }
+                                    },
+                                    [
+                                      _c(
+                                        "font",
+                                        {
+                                          staticStyle: {
+                                            "vertical-align": "inherit"
+                                          }
+                                        },
+                                        [
+                                          _vm._v(
+                                            "In this early period, department stores and jewelers searched for their own 'private label' to sell in their jewelry stores and jewelry departments."
+                                          )
+                                        ]
+                                      )
+                                    ],
+                                    1
+                                  )
+                                ],
+                                1
+                              )
+                            ]),
+                            _vm._v(" "),
+                            _c("p", [
+                              _c(
+                                "span",
+                                { staticStyle: { "font-size": "100%" } },
+                                [
+                                  _c(
+                                    "font",
+                                    {
+                                      staticStyle: {
+                                        "vertical-align": "inherit"
+                                      }
+                                    },
+                                    [
+                                      _c(
+                                        "font",
+                                        {
+                                          staticStyle: {
+                                            "vertical-align": "inherit"
+                                          }
+                                        },
+                                        [
+                                          _vm._v(
+                                            "The name 'Casa Collection' originated during this period and Casa Collection became an important supplier of silver jewelry for these companies.In 2011, a new generation of designers took over at Casa and the name was changed to  "
+                                          )
+                                        ]
+                                      )
+                                    ],
+                                    1
+                                  ),
+                                  _c(
+                                    "strong",
+                                    [
+                                      _c(
+                                        "font",
+                                        {
+                                          staticStyle: {
+                                            "vertical-align": "inherit"
+                                          }
+                                        },
+                                        [
+                                          _c(
+                                            "font",
+                                            {
+                                              staticStyle: {
+                                                "vertical-align": "inherit"
+                                              }
+                                            },
+                                            [_vm._v("Casa Jewelry")]
+                                          )
+                                        ],
+                                        1
+                                      )
+                                    ],
+                                    1
+                                  ),
+                                  _vm._v(" "),
+                                  _c(
+                                    "font",
+                                    {
+                                      staticStyle: {
+                                        "vertical-align": "inherit"
+                                      }
+                                    },
+                                    [
+                                      _c(
+                                        "font",
+                                        {
+                                          staticStyle: {
+                                            "vertical-align": "inherit"
+                                          }
+                                        },
+                                        [_vm._v(" .")]
+                                      )
+                                    ],
+                                    1
+                                  )
+                                ],
+                                1
+                              )
+                            ]),
+                            _vm._v(" "),
+                            _c("p"),
+                            _vm._v(" "),
+                            _c("p", [
+                              _c(
+                                "span",
+                                { staticStyle: { "font-size": "100%" } },
+                                [
+                                  _c(
+                                    "font",
+                                    {
+                                      staticStyle: {
+                                        "vertical-align": "inherit"
+                                      }
+                                    },
+                                    [
+                                      _c(
+                                        "font",
+                                        {
+                                          staticStyle: {
+                                            "vertical-align": "inherit"
+                                          }
+                                        },
+                                        [
+                                          _vm._v(
+                                            "Saskia Brugge still designs the majority of the collection and uses highly regarded manufacturers in Italy, Thailand, Germany and the USA for the production. "
+                                          )
+                                        ]
+                                      ),
+                                      _vm._v(" "),
+                                      _c(
+                                        "font",
+                                        {
+                                          staticStyle: {
+                                            "vertical-align": "inherit"
+                                          }
+                                        },
+                                        [
+                                          _vm._v(
+                                            "Jewelry is partly designed in Italy for the perfect stylish look and feel."
+                                          )
+                                        ]
+                                      )
+                                    ],
+                                    1
+                                  )
+                                ],
+                                1
+                              )
+                            ]),
+                            _vm._v(" "),
+                            _c("p"),
+                            _vm._v(" "),
+                            _c("p", [
+                              _c(
+                                "span",
+                                { staticStyle: { "font-size": "100%" } },
+                                [
+                                  _c(
+                                    "em",
+                                    [
+                                      _c(
+                                        "font",
+                                        {
+                                          staticStyle: {
+                                            "vertical-align": "inherit"
+                                          }
+                                        },
+                                        [
+                                          _c(
+                                            "font",
+                                            {
+                                              staticStyle: {
+                                                "vertical-align": "inherit"
+                                              }
+                                            },
+                                            [
+                                              _vm._v(
+                                                "Mix & Match your own creation in silver, gold or rosé. "
+                                              )
+                                            ]
+                                          ),
+                                          _vm._v(" "),
+                                          _c(
+                                            "font",
+                                            {
+                                              staticStyle: {
+                                                "vertical-align": "inherit"
+                                              }
+                                            },
+                                            [
+                                              _vm._v(
+                                                "Combine gemstones, freshwater pearls, mother of pearl or leather to your own style. "
+                                              )
+                                            ]
+                                          ),
+                                          _vm._v(" "),
+                                          _c(
+                                            "font",
+                                            {
+                                              staticStyle: {
+                                                "vertical-align": "inherit"
+                                              }
+                                            },
+                                            [
+                                              _vm._v(
+                                                "From classic to modern, sleek to exuberance, trendy or timeless; "
+                                              )
+                                            ]
+                                          ),
+                                          _vm._v(" "),
+                                          _c(
+                                            "font",
+                                            {
+                                              staticStyle: {
+                                                "vertical-align": "inherit"
+                                              }
+                                            },
+                                            [
+                                              _vm._v(
+                                                "Casa has a wide collection of jewelry in stock and delivers your order in the short term."
+                                              )
+                                            ]
+                                          )
+                                        ],
+                                        1
+                                      )
+                                    ],
+                                    1
+                                  )
+                                ]
+                              )
+                            ]),
+                            _vm._v(" "),
+                            _c("p"),
+                            _vm._v(" "),
+                            _c("p", [
+                              _c(
+                                "span",
+                                { staticStyle: { "font-size": "100%" } },
+                                [
+                                  _c(
+                                    "strong",
+                                    [
+                                      _c(
+                                        "font",
+                                        {
+                                          staticStyle: {
+                                            "vertical-align": "inherit"
+                                          }
+                                        },
+                                        [
+                                          _c(
+                                            "font",
+                                            {
+                                              staticStyle: {
+                                                "vertical-align": "inherit"
+                                              }
+                                            },
+                                            [_vm._v("Casa, House of Jewelry")]
+                                          )
+                                        ],
+                                        1
+                                      )
+                                    ],
+                                    1
+                                  ),
+                                  _vm._v(" "),
+                                  _c(
+                                    "font",
+                                    {
+                                      staticStyle: {
+                                        "vertical-align": "inherit"
+                                      }
+                                    },
+                                    [
+                                      _c(
+                                        "font",
+                                        {
+                                          staticStyle: {
+                                            "vertical-align": "inherit"
+                                          }
+                                        },
+                                        [_vm._v(" .")]
+                                      )
+                                    ],
+                                    1
+                                  )
+                                ],
+                                1
+                              )
+                            ])
+                          ]
+                        )
+                      ])
+                    ]
+                  )
+                ])
+              ]
+            ),
+            _vm._v(" "),
+            _c("p")
+          ])
+        ]),
+        _vm._v(" "),
+        _vm._m(0)
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "row" }, [
+        _c("div", { staticClass: "col-12" }, [
+          _c("div", { staticClass: "section-title" }, [
+            _c(
+              "h2",
+              [
+                _c(
+                  "font",
+                  { staticStyle: { "vertical-align": "inherit" } },
+                  [
+                    _c(
+                      "font",
+                      { staticStyle: { "vertical-align": "inherit" } },
+                      [_vm._v("Silver guarantee certified jewelry")]
+                    )
+                  ],
+                  1
+                )
+              ],
+              1
+            )
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "col-12 col-md-8" }, [
+          _c("div", { staticClass: "collectie-con" }, [
+            _c("p"),
+            _vm._v(" "),
+            _c("p", [
+              _c(
+                "span",
+                { staticStyle: { "font-size": "100%" } },
+                [
+                  _c(
+                    "font",
+                    { staticStyle: { "vertical-align": "inherit" } },
+                    [
+                      _c(
+                        "font",
+                        { staticStyle: { "vertical-align": "inherit" } },
+                        [
+                          _vm._v(
+                            "Casa Jewelry uses silver as a base for the jewelry. "
+                          )
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "font",
+                        { staticStyle: { "vertical-align": "inherit" } },
+                        [
+                          _vm._v(
+                            "All our jewelry over 8 grams are certified by "
+                          )
+                        ]
+                      )
+                    ],
+                    1
+                  ),
+                  _c(
+                    "span",
+                    { staticStyle: { "text-decoration": "underline" } },
+                    [
+                      _c(
+                        "font",
+                        { staticStyle: { "vertical-align": "inherit" } },
+                        [
+                          _c(
+                            "font",
+                            { staticStyle: { "vertical-align": "inherit" } },
+                            [_vm._v("the ")]
+                          )
+                        ],
+                        1
+                      ),
+                      _c(
+                        "a",
+                        {
+                          attrs: {
+                            href: "https://waarborg.nl/keurtekens/",
+                            target: "_blank",
+                            rel: "noopener"
+                          }
+                        },
+                        [
+                          _c(
+                            "font",
+                            { staticStyle: { "vertical-align": "inherit" } },
+                            [
+                              _c(
+                                "font",
+                                {
+                                  staticStyle: { "vertical-align": "inherit" }
+                                },
+                                [_vm._v("Guarantee")]
+                              )
+                            ],
+                            1
+                          )
+                        ],
+                        1
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "font",
+                    { staticStyle: { "vertical-align": "inherit" } },
+                    [
+                      _c(
+                        "font",
+                        { staticStyle: { "vertical-align": "inherit" } },
+                        [
+                          _vm._v(
+                            " Act. Sterling silver 925 jewelry is a well-known alloy silver and consists of 92.25% pure silver and the 7.5% consists of other materials, mainly copper. "
+                          )
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "font",
+                        { staticStyle: { "vertical-align": "inherit" } },
+                        [
+                          _vm._v(
+                            "The silver jewelry is strong due to the addition of the 7.5% other metal."
+                          )
+                        ]
+                      )
+                    ],
+                    1
+                  )
+                ],
+                1
+              )
+            ]),
+            _vm._v(" "),
+            _c("p"),
+            _vm._v(" "),
+            _c("p")
+          ])
+        ]),
+        _vm._v(" "),
+        _vm._m(1)
+      ])
+    ])
+  ])
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "col-12 col-md-4" }, [
+      _c("div", { staticClass: "collectie-con text-center" })
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "col-12 col-md-4" }, [
+      _c("div", { staticClass: "collectie-con text-center" })
+    ])
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/collections/collection.vue?vue&type=template&id=26279b63&":
+/*!*************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/collections/collection.vue?vue&type=template&id=26279b63& ***!
+  \*************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "div",
+    [_c("slider-area"), _vm._v(" "), _c("jewerly-collections")],
+    1
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/collections/jewerlyCollections.vue?vue&type=template&id=286e8b64&":
+/*!*********************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/collections/jewerlyCollections.vue?vue&type=template&id=286e8b64& ***!
+  \*********************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("div", [
+    _c("section", { staticClass: "collectie Delightful" }, [
+      _c("div", { staticClass: "col-12" }, [
+        _c("div", { staticClass: "section-title text-center" }, [
+          _c(
+            "h2",
+            [
+              _c(
+                "font",
+                { staticStyle: { "vertical-align": "inherit" } },
+                [
+                  _c("font", { staticStyle: { "vertical-align": "inherit" } }, [
+                    _vm._v("Delightful Jewelry")
+                  ])
+                ],
+                1
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "h4",
+            [
+              _c(
+                "font",
+                { staticStyle: { "vertical-align": "inherit" } },
+                [
+                  _c("font", { staticStyle: { "vertical-align": "inherit" } }, [
+                    _vm._v("COLLECTIONS FOR EVERY OCCASION")
+                  ])
+                ],
+                1
+              )
+            ],
+            1
+          )
+        ])
+      ]),
+      _vm._v(" "),
+      _vm._m(0),
+      _vm._v(" "),
+      _vm._m(1),
+      _vm._v(" "),
+      _vm._m(2)
+    ])
+  ])
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row bg-pinkss" }, [
+      _c("div", { staticClass: "col-12" }, [
+        _c("div", { staticClass: "container" }, [
+          _c("div", { staticClass: "row" }, [
+            _c("div", { staticClass: "col-12 col-md-8" }, [
+              _c(
+                "div",
+                {
+                  staticClass:
+                    "Delight-left bg-pinkss full-1 vertical-center-parent"
+                },
+                [
+                  _c("div", { staticClass: "vertical-center" }, [
+                    _c(
+                      "a",
+                      {
+                        staticClass: "collectie-afbeelding-mobiel",
+                        attrs: { href: "/hoops" }
+                      },
+                      [
+                        _c("img", {
+                          staticClass: "img-fluid",
+                          attrs: {
+                            src:
+                              "/themes/assets/transparent/Hoops-sieraden-collectie-Casa_jewelry.png",
+                            alt: "",
+                            title: ""
+                          }
+                        })
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _c("h2", [_vm._v("Hoops")]),
+                    _vm._v(" "),
+                    _c("p", [_vm._v("Oorringen, oorknoppen, oorhangers,…")]),
+                    _vm._v(" "),
+                    _c("p", [
+                      _vm._v("Bij "),
+                      _c("em", [_vm._v("Hoops")]),
+                      _vm._v(
+                        " vindt u de meest uitgebreide collectie oorsieraden."
+                      )
+                    ]),
+                    _vm._v(" "),
+                    _c("p", [
+                      _vm._v("Voor elke gelegenheid, voor elk moment…")
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "mt-5" }, [
+                      _c(
+                        "a",
+                        { staticClass: "btn-cus", attrs: { href: "/hoops" } },
+                        [_vm._v("Naar de collectie")]
+                      )
+                    ])
+                  ])
+                ]
+              )
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "col-md-4 collectie-afbeelding" }, [
+              _c(
+                "div",
+                {
+                  staticClass: "Delight-right bg-pinkss vertical-center-parent"
+                },
+                [
+                  _c("div", { staticClass: "vertical-center" }, [
+                    _c("a", { attrs: { href: "/hoops" } }, [
+                      _c("img", {
+                        staticClass: "img-fluid",
+                        attrs: {
+                          src:
+                            "https://www.shop.casa-jewelry.eu/themes/assets/transparent/Hoops-sieraden-collectie-Casa_jewelry.png",
+                          alt: "",
+                          title: ""
+                        }
+                      })
+                    ])
+                  ])
+                ]
+              )
+            ])
+          ])
+        ])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row bg-pink" }, [
+      _c("div", { staticClass: "col-12" }, [
+        _c("div", { staticClass: "container" }, [
+          _c("div", { staticClass: "row" }, [
+            _c("div", { staticClass: "col-md-4 collectie-afbeelding" }, [
+              _c(
+                "div",
+                { staticClass: "Delight-right bg-pink vertical-center-parent" },
+                [
+                  _c("div", { staticClass: "vertical-center" }, [
+                    _c("a", { attrs: { href: "/tricolori" } }, [
+                      _c("img", {
+                        staticClass: "img-fluid",
+                        attrs: {
+                          src:
+                            "https://www.shop.casa-jewelry.eu/themes/assets/transparent/Sieraden-tri-Colori-bowl-collectie-Casa-Jewelry.png",
+                          alt: "",
+                          title: ""
+                        }
+                      })
+                    ])
+                  ])
+                ]
+              )
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "col-12 col-md-8" }, [
+              _c(
+                "div",
+                {
+                  staticClass:
+                    "Delight-left bg-pink full-2 text-right vertical-center-parent"
+                },
+                [
+                  _c("div", { staticClass: "vertical-center" }, [
+                    _c(
+                      "a",
+                      {
+                        staticClass: "collectie-afbeelding-mobiel",
+                        attrs: { href: "/tricolori" }
+                      },
+                      [
+                        _c("img", {
+                          staticClass: "img-fluid",
+                          attrs: {
+                            src:
+                              "/themes/assets/transparent/Sieraden-tri-Colori-bowl-collectie-Casa-Jewelry.png",
+                            alt: "",
+                            title: ""
+                          }
+                        })
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _c("h2", [_vm._v("TriColori")]),
+                    _vm._v(" "),
+                    _c("p", [
+                      _vm._v("What shall I wear? Silver, gold or rosé?"),
+                      _c("br"),
+                      _vm._v("Bij "),
+                      _c("em", [_vm._v("Tricolori")]),
+                      _vm._v(
+                        " kan u de juiste keuze maken die het beste past bij uw outfit."
+                      )
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "mt-5" }, [
+                      _c(
+                        "a",
+                        {
+                          staticClass: "btn-cus",
+                          attrs: { href: "/tricolori" }
+                        },
+                        [_vm._v("Naar de collectie")]
+                      )
+                    ])
+                  ])
+                ]
+              )
+            ])
+          ])
+        ])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row bg-pinks" }, [
+      _c("div", { staticClass: "col-12" }, [
+        _c("div", { staticClass: "container" }, [
+          _c("div", { staticClass: "row" }, [
+            _c("div", { staticClass: "col-12 col-md-8" }, [
+              _c(
+                "div",
+                {
+                  staticClass:
+                    "Delight-left bg-pinks full-3 vertical-center-parent"
+                },
+                [
+                  _c("div", { staticClass: "vertical-center" }, [
+                    _c(
+                      "a",
+                      {
+                        staticClass: "collectie-afbeelding-mobiel",
+                        attrs: { href: "/icons" }
+                      },
+                      [
+                        _c("img", {
+                          staticClass: "img-fluid",
+                          attrs: {
+                            src:
+                              "https://www.shop.casa-jewelry.eu/themes/assets/transparent/zilveren-sieraden-Casa-jewelry-ICONS.png",
+                            alt: "",
+                            title: ""
+                          }
+                        })
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _c("h2", [_vm._v("ICONS")]),
+                    _vm._v(" "),
+                    _c("p", [
+                      _vm._v(
+                        "Iconische ontwerpen die het dna van Casa Jewelry mee bepaald hebben."
+                      ),
+                      _c("br"),
+                      _vm._v(
+                        "Tijdloze creaties van Icons die zorgen voor bewonderende blikken."
+                      )
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "mt-5" }, [
+                      _c(
+                        "a",
+                        { staticClass: "btn-cus", attrs: { href: "/icons" } },
+                        [_vm._v("Naar de collectie")]
+                      )
+                    ])
+                  ])
+                ]
+              )
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "col-md-4 collectie-afbeelding" }, [
+              _c(
+                "div",
+                {
+                  staticClass: "Delight-right bg-pinks vertical-center-parent"
+                },
+                [
+                  _c("div", { staticClass: "vertical-center" }, [
+                    _c("a", { attrs: { href: "/icons" } }, [
+                      _c("img", {
+                        staticClass: "img-fluid",
+                        attrs: {
+                          src:
+                            "https://www.shop.casa-jewelry.eu/themes/assets/transparent/zilveren-sieraden-Casa-jewelry-ICONS.png",
+                          alt: "",
+                          title: ""
+                        }
+                      })
+                    ])
+                  ])
+                ]
+              )
+            ])
+          ])
+        ])
+      ])
+    ])
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/collections/slider.vue?vue&type=template&id=bee9aab4&":
+/*!*********************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/collections/slider.vue?vue&type=template&id=bee9aab4& ***!
+  \*********************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _vm._m(0)
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", [
+      _c("section", { staticClass: "slider-area" }, [
+        _c("div", { staticClass: "container-fluid" }, [
+          _c("div", { staticClass: "row" }, [
+            _c("div", {
+              staticClass: "collecties_afbeelding",
+              staticStyle: {
+                "background-image":
+                  "url(/storage/images/header-casa-jewelry_sieraden-zilver-Amsterdam_1900.png)"
+              }
+            })
+          ])
+        ])
+      ])
+    ])
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/contact/contact.vue?vue&type=template&id=2760ad94&":
+/*!******************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/contact/contact.vue?vue&type=template&id=2760ad94& ***!
+  \******************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("div", [_c("contact-area")], 1)
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/contact/contactarea.vue?vue&type=template&id=401fec43&":
+/*!**********************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/contact/contactarea.vue?vue&type=template&id=401fec43& ***!
+  \**********************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("section", { staticClass: "contact-area" }, [
+    _c("div", { staticClass: "container" }, [
+      _c("div", { staticClass: "row" }, [
+        _c("div", { staticClass: "col-12" }, [
+          _c("div", { staticClass: "section-title" }, [
+            _c(
+              "h2",
+              [
+                _c(
+                  "font",
+                  { staticStyle: { "vertical-align": "inherit" } },
+                  [
+                    _c(
+                      "font",
+                      { staticStyle: { "vertical-align": "inherit" } },
+                      [_vm._v("Contact Casa Jewelry")]
+                    )
+                  ],
+                  1
+                )
+              ],
+              1
+            )
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "col-md-12" }, [
+          _c("div", { staticClass: "text-white" }, [
+            _c(
+              "p",
+              [
+                _c(
+                  "font",
+                  { staticStyle: { "vertical-align": "inherit" } },
+                  [
+                    _c(
+                      "font",
+                      { staticStyle: { "vertical-align": "inherit" } },
+                      [_vm._v("Visits by appointment only.")]
+                    )
+                  ],
+                  1
+                )
+              ],
+              1
+            ),
+            _vm._v(" "),
+            _c(
+              "p",
+              [
+                _c(
+                  "font",
+                  { staticStyle: { "vertical-align": "inherit" } },
+                  [
+                    _c(
+                      "font",
+                      { staticStyle: { "vertical-align": "inherit" } },
+                      [
+                        _vm._v(
+                          "Our products are located at a different location "
+                        )
+                      ]
+                    )
+                  ],
+                  1
+                )
+              ],
+              1
+            )
+          ])
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "row" }, [
+        _c("div", { staticClass: "col-md-4 pt-5" }, [
+          _c("div", { staticClass: "contact-info pt-5" }, [
+            _c("div", { staticClass: "pt-5" }, [
+              _c(
+                "p",
+                [
+                  _c(
+                    "font",
+                    { staticStyle: { "vertical-align": "inherit" } },
+                    [
+                      _c(
+                        "font",
+                        { staticStyle: { "vertical-align": "inherit" } },
+                        [
+                          _vm._v(
+                            "\r\n                                    email: "
+                          )
+                        ]
+                      )
+                    ],
+                    1
+                  ),
+                  _c(
+                    "a",
+                    { attrs: { href: "mailto:info@casa-jewelry.eu" } },
+                    [
+                      _c(
+                        "font",
+                        { staticStyle: { "vertical-align": "inherit" } },
+                        [
+                          _c(
+                            "font",
+                            { staticStyle: { "vertical-align": "inherit" } },
+                            [_vm._v("info@casa-jewelry.eu ")]
+                          )
+                        ],
+                        1
+                      )
+                    ],
+                    1
+                  ),
+                  _c("br"),
+                  _vm._v(" "),
+                  _c(
+                    "span",
+                    { staticStyle: { color: "#ddd" } },
+                    [
+                      _c(
+                        "font",
+                        { staticStyle: { "vertical-align": "inherit" } },
+                        [
+                          _c(
+                            "font",
+                            { staticStyle: { "vertical-align": "inherit" } },
+                            [
+                              _vm._v(
+                                "Koningin Wilhelminaplein 8 1062HK Amsterdam"
+                              )
+                            ]
+                          )
+                        ],
+                        1
+                      )
+                    ],
+                    1
+                  ),
+                  _c("br"),
+                  _vm._v(" "),
+                  _c(
+                    "font",
+                    { staticStyle: { "vertical-align": "inherit" } },
+                    [
+                      _c(
+                        "font",
+                        { staticStyle: { "vertical-align": "inherit" } },
+                        [
+                          _vm._v(
+                            "\r\n                                    t: +31 20 646 1000 "
+                          )
+                        ]
+                      )
+                    ],
+                    1
+                  ),
+                  _c("br"),
+                  _vm._v(" "),
+                  _c(
+                    "font",
+                    { staticStyle: { "vertical-align": "inherit" } },
+                    [
+                      _c(
+                        "font",
+                        { staticStyle: { "vertical-align": "inherit" } },
+                        [
+                          _vm._v(
+                            "\r\n                                    Chamber of Commerce no: 33117967\r\n                                "
+                          )
+                        ]
+                      )
+                    ],
+                    1
+                  )
+                ],
+                1
+              )
+            ])
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "col-md-8 pt-5" }, [
+          _c("div", { staticClass: "contact-from" }, [
+            _c(
+              "form",
+              {
+                attrs: {
+                  method: "post",
+                  action: "/themes/functions/contact.php"
+                }
+              },
+              [
+                _c("div", { staticClass: "form-row" }, [
+                  _c("div", { staticClass: "form-group col-md-6" }, [
+                    _c(
+                      "label",
+                      { attrs: { for: "inputEmail4" } },
+                      [
+                        _c(
+                          "font",
+                          { staticStyle: { "vertical-align": "inherit" } },
+                          [
+                            _c(
+                              "font",
+                              { staticStyle: { "vertical-align": "inherit" } },
+                              [_vm._v("Name")]
+                            )
+                          ],
+                          1
+                        )
+                      ],
+                      1
+                    ),
+                    _vm._v(" "),
+                    _c("input", {
+                      staticClass: "form-control",
+                      attrs: { type: "text", id: "inputEmail4", name: "name" }
+                    })
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "form-group col-md-6" }, [
+                    _c(
+                      "label",
+                      { attrs: { for: "inputPassword4" } },
+                      [
+                        _c(
+                          "font",
+                          { staticStyle: { "vertical-align": "inherit" } },
+                          [
+                            _c(
+                              "font",
+                              { staticStyle: { "vertical-align": "inherit" } },
+                              [_vm._v("E-mail")]
+                            )
+                          ],
+                          1
+                        )
+                      ],
+                      1
+                    ),
+                    _vm._v(" "),
+                    _c("input", {
+                      staticClass: "form-control",
+                      attrs: {
+                        type: "email",
+                        id: "inputPassword4",
+                        name: "email"
+                      }
+                    })
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "form-group" }, [
+                  _c(
+                    "label",
+                    { attrs: { for: "inputAddress" } },
+                    [
+                      _c(
+                        "font",
+                        { staticStyle: { "vertical-align": "inherit" } },
+                        [
+                          _c(
+                            "font",
+                            { staticStyle: { "vertical-align": "inherit" } },
+                            [_vm._v("company name (if applicable)")]
+                          )
+                        ],
+                        1
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c("input", {
+                    staticClass: "form-control",
+                    attrs: { type: "text", id: "inputAddress", name: "company" }
+                  })
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "form-row" }, [
+                  _c("div", { staticClass: "form-group col-md-12" }, [
+                    _c(
+                      "label",
+                      { attrs: { for: "" } },
+                      [
+                        _c(
+                          "font",
+                          { staticStyle: { "vertical-align": "inherit" } },
+                          [
+                            _c(
+                              "font",
+                              { staticStyle: { "vertical-align": "inherit" } },
+                              [_vm._v("Topic")]
+                            )
+                          ],
+                          1
+                        )
+                      ],
+                      1
+                    ),
+                    _vm._v(" "),
+                    _c("input", {
+                      staticClass: "form-control",
+                      attrs: { type: "text", name: "subject" }
+                    })
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "form-group" }, [
+                  _c(
+                    "label",
+                    { attrs: { for: "inputAddress" } },
+                    [
+                      _c(
+                        "font",
+                        { staticStyle: { "vertical-align": "inherit" } },
+                        [
+                          _c(
+                            "font",
+                            { staticStyle: { "vertical-align": "inherit" } },
+                            [_vm._v("Message")]
+                          )
+                        ],
+                        1
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c("textarea", {
+                    staticClass: "form-control",
+                    attrs: {
+                      id: "exampleFormControlTextarea1",
+                      rows: "3",
+                      name: "message"
+                    }
+                  })
+                ]),
+                _vm._v(" "),
+                _vm._m(0),
+                _c(
+                  "button",
+                  {
+                    staticClass: "btn-cus g-recaptcha",
+                    attrs: {
+                      type: "submit",
+                      "data-sitekey":
+                        "6LfWPMEUAAAAAOhthlwoA8mQu4-4lY9oNMrdsJFp",
+                      "data-callback": "onSubmitRecaptcha"
+                    }
+                  },
+                  [
+                    _c(
+                      "font",
+                      { staticStyle: { "vertical-align": "inherit" } },
+                      [
+                        _c(
+                          "font",
+                          { staticStyle: { "vertical-align": "inherit" } },
+                          [_vm._v("Send")]
+                        )
+                      ],
+                      1
+                    )
+                  ],
+                  1
+                ),
+                _vm._v(" "),
+                _c(
+                  "small",
+                  [
+                    _c(
+                      "font",
+                      { staticStyle: { "vertical-align": "inherit" } },
+                      [
+                        _c(
+                          "font",
+                          { staticStyle: { "vertical-align": "inherit" } },
+                          [
+                            _vm._v(
+                              "This site is protected by reCAPTCHA and the Google\r\n                                "
+                            )
+                          ]
+                        )
+                      ],
+                      1
+                    ),
+                    _c(
+                      "a",
+                      {
+                        attrs: { href: "https://policies.google.com/privacy" }
+                      },
+                      [
+                        _c(
+                          "font",
+                          { staticStyle: { "vertical-align": "inherit" } },
+                          [
+                            _c(
+                              "font",
+                              { staticStyle: { "vertical-align": "inherit" } },
+                              [_vm._v("Privacy Policy")]
+                            )
+                          ],
+                          1
+                        )
+                      ],
+                      1
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "font",
+                      { staticStyle: { "vertical-align": "inherit" } },
+                      [
+                        _c(
+                          "font",
+                          { staticStyle: { "vertical-align": "inherit" } },
+                          [_vm._v(" and\r\n                                ")]
+                        )
+                      ],
+                      1
+                    ),
+                    _c(
+                      "a",
+                      { attrs: { href: "https://policies.google.com/terms" } },
+                      [
+                        _c(
+                          "font",
+                          { staticStyle: { "vertical-align": "inherit" } },
+                          [
+                            _c(
+                              "font",
+                              { staticStyle: { "vertical-align": "inherit" } },
+                              [_vm._v("Terms of Service")]
+                            )
+                          ],
+                          1
+                        )
+                      ],
+                      1
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "font",
+                      { staticStyle: { "vertical-align": "inherit" } },
+                      [
+                        _c(
+                          "font",
+                          { staticStyle: { "vertical-align": "inherit" } },
+                          [
+                            _vm._v(
+                              " apply.\r\n                                "
+                            )
+                          ]
+                        )
+                      ],
+                      1
+                    )
+                  ],
+                  1
+                ),
+                _vm._v(" "),
+                _c("input", {
+                  attrs: {
+                    type: "hidden",
+                    id: "contact_token",
+                    name: "token",
+                    value:
+                      "03AHaCkAbB7_X2DxukrWHyZRS2v4E4lCxv_E_4y5XOuzOutnUis9wSSLCsGswzM2Q0B1wuyQ7oqnLm08WKlnczm--rpenp1amIdnI9Gn58A2IPo2kWal0BVJXU6y2SRg7Uxyfi5V4EwfiUsVQ3FAJY9fEkMZr6-_ngJzpnDHgERJCATTuLkK1Fx3LR0MRuNY0uFPQHGRudcdngPMvb24shdpdpgmb9-8pGJjAq22fEqzVv3TRHTgR6jK2hP6wufm3YyEwwFA1rfrZ9ZPEUO6QUgKIYw7C-Cve4agt7-tYNHHYkeK_cU8J1IN2ogM6leKskKkBh_2TUjlTtHUPuRaiQRAHrkBhXvcdEOjMqqm9OeRQLOmnv0t9dsdfc6nslJLa6Defq48j32TS6spN4jd9gDmnTDreU-5l1fA"
+                  }
+                })
+              ]
+            )
+          ])
+        ])
+      ])
+    ])
+  ])
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", [
+      _c(
+        "div",
+        {
+          staticClass: "grecaptcha-badge",
+          staticStyle: {
+            width: "256px",
+            height: "60px",
+            position: "fixed",
+            visibility: "hidden",
+            display: "block",
+            transition: "right 0.3s ease 0s",
+            bottom: "14px",
+            right: "-186px",
+            "box-shadow": "gray 0px 0px 5px",
+            "border-radius": "2px",
+            overflow: "hidden"
+          },
+          attrs: { "data-style": "none" }
+        },
+        [
+          _c("div", { staticClass: "grecaptcha-logo" }, [
+            _c("iframe", {
+              attrs: {
+                src:
+                  "https://www.google.com/recaptcha/api2/anchor?ar=1&k=6LfWPMEUAAAAAOhthlwoA8mQu4-4lY9oNMrdsJFp&co=aHR0cHM6Ly93d3cuc2hvcC5jYXNhLWpld2VscnkuZXU6NDQz&hl=en&v=NjSCg_IbX1Pdc6A9cf-rvw4e&size=invisible&cb=s9lv2qnrmwe9",
+                width: "256",
+                height: "60",
+                role: "presentation",
+                name: "a-1gyl7tp1ne3j",
+                frameborder: "0",
+                scrolling: "no",
+                sandbox:
+                  "allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"
+              }
+            })
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "grecaptcha-error" }),
+          _c("textarea", {
+            staticClass: "g-recaptcha-response",
+            staticStyle: {
+              width: "250px",
+              height: "40px",
+              border: "1px solid rgb(193, 193, 193)",
+              margin: "10px 25px",
+              padding: "0px",
+              resize: "none",
+              display: "none"
+            },
+            attrs: { id: "g-recaptcha-response", name: "g-recaptcha-response" }
+          })
+        ]
+      ),
+      _c("iframe", {
+        staticStyle: { display: "none" },
+        attrs: { __idm_frm__: "234" }
+      })
+    ])
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/durability/durability.vue?vue&type=template&id=d8e9fdd8&":
+/*!************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/durability/durability.vue?vue&type=template&id=d8e9fdd8& ***!
+  \************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("div", [_c("contact-area"), _vm._v(" "), _c("sustain-area")], 1)
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/durability/sustainabilityarea.vue?vue&type=template&id=9f156182&":
+/*!********************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/durability/sustainabilityarea.vue?vue&type=template&id=9f156182& ***!
+  \********************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("section", { staticClass: "collectie" }, [
+    _c("div", { staticClass: "container" }, [
+      _c("div", { staticClass: "row" }, [
+        _c("div", { staticClass: "col-12" }, [
+          _c("div", { staticClass: "section-title" }, [
+            _c(
+              "h2",
+              [
+                _c(
+                  "font",
+                  { staticStyle: { "vertical-align": "inherit" } },
+                  [
+                    _c(
+                      "font",
+                      { staticStyle: { "vertical-align": "inherit" } },
+                      [_vm._v("Sustainability jewelry")]
+                    )
+                  ],
+                  1
+                )
+              ],
+              1
+            )
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "col-12 col-md-8" }, [
+          _c("div", { staticClass: "collectie-con" }, [
+            _c("p"),
+            _vm._v(" "),
+            _c(
+              "p",
+              [
+                _c(
+                  "font",
+                  { staticStyle: { "vertical-align": "inherit" } },
+                  [
+                    _c(
+                      "font",
+                      { staticStyle: { "vertical-align": "inherit" } },
+                      [
+                        _vm._v(
+                          "At Casa Jewelry, great importance is attached to our earth, the people who live there and future generations."
+                        )
+                      ]
+                    )
+                  ],
+                  1
+                )
+              ],
+              1
+            ),
+            _vm._v(" "),
+            _c(
+              "p",
+              [
+                _c(
+                  "font",
+                  { staticStyle: { "vertical-align": "inherit" } },
+                  [
+                    _c(
+                      "font",
+                      { staticStyle: { "vertical-align": "inherit" } },
+                      [
+                        _vm._v(
+                          "We are constantly devising methods to reduce our ecological footprint."
+                        )
+                      ]
+                    )
+                  ],
+                  1
+                )
+              ],
+              1
+            ),
+            _vm._v(" "),
+            _c(
+              "p",
+              [
+                _c(
+                  "font",
+                  { staticStyle: { "vertical-align": "inherit" } },
+                  [
+                    _c(
+                      "font",
+                      { staticStyle: { "vertical-align": "inherit" } },
+                      [
+                        _vm._v(
+                          "We have implemented the following measures in recent decades."
+                        )
+                      ]
+                    )
+                  ],
+                  1
+                )
+              ],
+              1
+            ),
+            _vm._v(" "),
+            _c("p"),
+            _vm._v(" "),
+            _c("ul", [
+              _c(
+                "li",
+                [
+                  _c(
+                    "font",
+                    { staticStyle: { "vertical-align": "inherit" } },
+                    [
+                      _c(
+                        "font",
+                        { staticStyle: { "vertical-align": "inherit" } },
+                        [
+                          _vm._v(
+                            "Casa Jewelry only uses recycled cardboard and recycled plastic as packaging material."
+                          )
+                        ]
+                      )
+                    ],
+                    1
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "li",
+                [
+                  _c(
+                    "font",
+                    { staticStyle: { "vertical-align": "inherit" } },
+                    [
+                      _c(
+                        "font",
+                        { staticStyle: { "vertical-align": "inherit" } },
+                        [
+                          _vm._v(
+                            "Our written correspondence takes place via email to minimize the use of (recycled) paper."
+                          )
+                        ]
+                      )
+                    ],
+                    1
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "li",
+                [
+                  _c(
+                    "font",
+                    { staticStyle: { "vertical-align": "inherit" } },
+                    [
+                      _c(
+                        "font",
+                        { staticStyle: { "vertical-align": "inherit" } },
+                        [
+                          _vm._v(
+                            "The production of our jewelery has been largely relocated to Europe in order to reduce the emissions from the transport of our jewelery."
+                          )
+                        ]
+                      )
+                    ],
+                    1
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "li",
+                [
+                  _c(
+                    "font",
+                    { staticStyle: { "vertical-align": "inherit" } },
+                    [
+                      _c(
+                        "font",
+                        { staticStyle: { "vertical-align": "inherit" } },
+                        [
+                          _vm._v(
+                            "Part of our collection is produced with recycled silver."
+                          )
+                        ]
+                      )
+                    ],
+                    1
+                  )
+                ],
+                1
+              )
+            ]),
+            _vm._v(" "),
+            _c(
+              "p",
+              [
+                _c("br"),
+                _vm._v(" "),
+                _c(
+                  "font",
+                  { staticStyle: { "vertical-align": "inherit" } },
+                  [
+                    _c(
+                      "font",
+                      { staticStyle: { "vertical-align": "inherit" } },
+                      [
+                        _vm._v(
+                          "In addition to the environment, the well-being of the people we work with is central."
+                        )
+                      ]
+                    )
+                  ],
+                  1
+                )
+              ],
+              1
+            ),
+            _vm._v(" "),
+            _c(
+              "p",
+              [
+                _c(
+                  "font",
+                  { staticStyle: { "vertical-align": "inherit" } },
+                  [
+                    _c(
+                      "font",
+                      { staticStyle: { "vertical-align": "inherit" } },
+                      [
+                        _vm._v(
+                          "We personally ensure that there is no child labor or any other form of human rights abuses in the factories where our jewelry is produced."
+                        )
+                      ]
+                    )
+                  ],
+                  1
+                )
+              ],
+              1
+            ),
+            _vm._v(" "),
+            _c(
+              "p",
+              [
+                _c(
+                  "font",
+                  { staticStyle: { "vertical-align": "inherit" } },
+                  [
+                    _c(
+                      "font",
+                      { staticStyle: { "vertical-align": "inherit" } },
+                      [
+                        _vm._v(
+                          "Casa Jewelry is convinced that there is always room for improvement in sustainable business operations and has therefore formulated a number of objectives for the coming years."
+                        )
+                      ]
+                    )
+                  ],
+                  1
+                )
+              ],
+              1
+            ),
+            _vm._v(" "),
+            _c(
+              "p",
+              [
+                _c(
+                  "font",
+                  { staticStyle: { "vertical-align": "inherit" } },
+                  [
+                    _c(
+                      "font",
+                      { staticStyle: { "vertical-align": "inherit" } },
+                      [
+                        _vm._v(
+                          "Clearly mapping our supply chain, RJC membership and reducing the use of recycled plastic are part of this."
+                        )
+                      ]
+                    )
+                  ],
+                  1
+                )
+              ],
+              1
+            ),
+            _vm._v(" "),
+            _c("p")
+          ])
+        ]),
+        _vm._v(" "),
+        _vm._m(0)
+      ])
+    ])
+  ])
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "col-12 col-md-4" }, [
+      _c("div", { staticClass: "collectie-con text-center" })
+    ])
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
 /***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/home.vue?vue&type=template&id=fa6affac&":
 /*!*******************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/home.vue?vue&type=template&id=fa6affac& ***!
@@ -37857,712 +40062,723 @@ var render = function() {
   return _c("div", [
     _c("div", { staticClass: "mt-5" }, [_vm._v("\n         \n    ")]),
     _vm._v(" "),
-    _c("footer", { staticClass: "footer-area", attrs: { id: "footer" } }, [
-      _c("div", { staticClass: "container" }, [
-        _c("div", { staticClass: "row" }, [
-          _c("div", { staticClass: "col-6 col-md-2 col-xl-2" }, [
-            _c("div", { staticClass: "fo-menu" }, [
-              _c(
-                "h3",
-                [
-                  _c(
-                    "font",
-                    { staticStyle: { "vertical-align": "inherit" } },
-                    [
-                      _c(
-                        "font",
-                        { staticStyle: { "vertical-align": "inherit" } },
-                        [_vm._v("JEWELERY")]
-                      )
-                    ],
-                    1
-                  )
-                ],
-                1
-              ),
-              _c("ul", [
-                _c("li", [
-                  _c(
-                    "a",
-                    { attrs: { href: "/armbanden" } },
-                    [
-                      _c(
-                        "font",
-                        { staticStyle: { "vertical-align": "inherit" } },
-                        [
-                          _c(
-                            "font",
-                            { staticStyle: { "vertical-align": "inherit" } },
-                            [_vm._v("Bracelets")]
-                          )
-                        ],
-                        1
-                      )
-                    ],
-                    1
-                  )
-                ]),
-                _c("li", [
-                  _c(
-                    "a",
-                    { attrs: { href: "/bangles" } },
-                    [
-                      _c(
-                        "font",
-                        { staticStyle: { "vertical-align": "inherit" } },
-                        [
-                          _c(
-                            "font",
-                            { staticStyle: { "vertical-align": "inherit" } },
-                            [_vm._v("Bangles")]
-                          )
-                        ],
-                        1
-                      )
-                    ],
-                    1
-                  )
-                ]),
-                _c("li", [
-                  _c(
-                    "a",
-                    { attrs: { href: "/colliers" } },
-                    [
-                      _c(
-                        "font",
-                        { staticStyle: { "vertical-align": "inherit" } },
-                        [
-                          _c(
-                            "font",
-                            { staticStyle: { "vertical-align": "inherit" } },
-                            [_vm._v("Colliers")]
-                          )
-                        ],
-                        1
-                      )
-                    ],
-                    1
-                  )
-                ]),
-                _c("li", [
-                  _c(
-                    "a",
-                    { attrs: { href: "/hangers" } },
-                    [
-                      _c(
-                        "font",
-                        { staticStyle: { "vertical-align": "inherit" } },
-                        [
-                          _c(
-                            "font",
-                            { staticStyle: { "vertical-align": "inherit" } },
-                            [_vm._v("Pendants")]
-                          )
-                        ],
-                        1
-                      )
-                    ],
-                    1
-                  )
-                ]),
-                _c("li", [
-                  _c(
-                    "a",
-                    { attrs: { href: "/oorringen" } },
-                    [
-                      _c(
-                        "font",
-                        { staticStyle: { "vertical-align": "inherit" } },
-                        [
-                          _c(
-                            "font",
-                            { staticStyle: { "vertical-align": "inherit" } },
-                            [_vm._v("Earrings")]
-                          )
-                        ],
-                        1
-                      )
-                    ],
-                    1
-                  )
-                ]),
-                _c("li", [
-                  _c(
-                    "a",
-                    { attrs: { href: "/oorhangers" } },
-                    [
-                      _c(
-                        "font",
-                        { staticStyle: { "vertical-align": "inherit" } },
-                        [
-                          _c(
-                            "font",
-                            { staticStyle: { "vertical-align": "inherit" } },
-                            [_vm._v("Dangling earrings")]
-                          )
-                        ],
-                        1
-                      )
-                    ],
-                    1
-                  )
-                ]),
-                _c("li", [
-                  _c(
-                    "a",
-                    { attrs: { href: "/oorknoppen" } },
-                    [
-                      _c(
-                        "font",
-                        { staticStyle: { "vertical-align": "inherit" } },
-                        [
-                          _c(
-                            "font",
-                            { staticStyle: { "vertical-align": "inherit" } },
-                            [_vm._v("Ear buds")]
-                          )
-                        ],
-                        1
-                      )
-                    ],
-                    1
-                  )
-                ]),
-                _c("li", [
-                  _c(
-                    "a",
-                    { attrs: { href: "/ringen" } },
-                    [
-                      _c(
-                        "font",
-                        { staticStyle: { "vertical-align": "inherit" } },
-                        [
-                          _c(
-                            "font",
-                            { staticStyle: { "vertical-align": "inherit" } },
-                            [_vm._v("Rings")]
-                          )
-                        ],
-                        1
-                      )
-                    ],
-                    1
-                  )
-                ]),
-                _c("li", [
-                  _c(
-                    "a",
-                    { attrs: { href: "/clips" } },
-                    [
-                      _c(
-                        "font",
-                        { staticStyle: { "vertical-align": "inherit" } },
-                        [
-                          _c(
-                            "font",
-                            { staticStyle: { "vertical-align": "inherit" } },
-                            [_vm._v("Clips")]
-                          )
-                        ],
-                        1
-                      )
-                    ],
-                    1
-                  )
-                ])
-              ])
-            ])
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "col-6 col-md-2 col-xl-2" }, [
-            _c("div", { staticClass: "fo-menu" }, [
-              _c(
-                "h3",
-                [
-                  _c(
-                    "font",
-                    { staticStyle: { "vertical-align": "inherit" } },
-                    [
-                      _c(
-                        "font",
-                        { staticStyle: { "vertical-align": "inherit" } },
-                        [_vm._v("COLLECTIONS")]
-                      )
-                    ],
-                    1
-                  )
-                ],
-                1
-              ),
-              _c("ul", [
-                _c("li", [
-                  _c(
-                    "a",
-                    { attrs: { href: "/hoops" } },
-                    [
-                      _c(
-                        "font",
-                        { staticStyle: { "vertical-align": "inherit" } },
-                        [
-                          _c(
-                            "font",
-                            { staticStyle: { "vertical-align": "inherit" } },
-                            [_vm._v("Hoops")]
-                          )
-                        ],
-                        1
-                      )
-                    ],
-                    1
-                  )
-                ]),
-                _c("li", [
-                  _c(
-                    "a",
-                    { attrs: { href: "/tricolori" } },
-                    [
-                      _c(
-                        "font",
-                        { staticStyle: { "vertical-align": "inherit" } },
-                        [
-                          _c(
-                            "font",
-                            { staticStyle: { "vertical-align": "inherit" } },
-                            [_vm._v("TriColori")]
-                          )
-                        ],
-                        1
-                      )
-                    ],
-                    1
-                  )
-                ]),
-                _c("li", [
-                  _c(
-                    "a",
-                    { attrs: { href: "/icons" } },
-                    [
-                      _c(
-                        "font",
-                        { staticStyle: { "vertical-align": "inherit" } },
-                        [
-                          _c(
-                            "font",
-                            { staticStyle: { "vertical-align": "inherit" } },
-                            [_vm._v("Icons")]
-                          )
-                        ],
-                        1
-                      )
-                    ],
-                    1
-                  )
-                ]),
-                _c("li", [
-                  _c(
-                    "a",
-                    { attrs: { href: "/pearls" } },
-                    [
-                      _c(
-                        "font",
-                        { staticStyle: { "vertical-align": "inherit" } },
-                        [
-                          _c(
-                            "font",
-                            { staticStyle: { "vertical-align": "inherit" } },
-                            [_vm._v("Pearls")]
-                          )
-                        ],
-                        1
-                      )
-                    ],
-                    1
-                  )
-                ]),
-                _c("li", [
-                  _c(
-                    "a",
-                    { attrs: { href: "/tuscany" } },
-                    [
-                      _c(
-                        "font",
-                        { staticStyle: { "vertical-align": "inherit" } },
-                        [
-                          _c(
-                            "font",
-                            { staticStyle: { "vertical-align": "inherit" } },
-                            [_vm._v("Tuscany")]
-                          )
-                        ],
-                        1
-                      )
-                    ],
-                    1
-                  )
-                ]),
-                _c("li", [
-                  _c(
-                    "a",
-                    { attrs: { href: "/bubbles" } },
-                    [
-                      _c(
-                        "font",
-                        { staticStyle: { "vertical-align": "inherit" } },
-                        [
-                          _c(
-                            "font",
-                            { staticStyle: { "vertical-align": "inherit" } },
-                            [_vm._v("Bubbles")]
-                          )
-                        ],
-                        1
-                      )
-                    ],
-                    1
-                  )
-                ])
-              ])
-            ])
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "col-6 col-md-2 col-xl-2" }, [
-            _c("div", { staticClass: "fo-menu" }, [
-              _c(
-                "h3",
-                [
-                  _c(
-                    "font",
-                    { staticStyle: { "vertical-align": "inherit" } },
-                    [
-                      _c(
-                        "font",
-                        { staticStyle: { "vertical-align": "inherit" } },
-                        [_vm._v("INFORMATION")]
-                      )
-                    ],
-                    1
-                  )
-                ],
-                1
-              ),
-              _c("ul", [
-                _c("li", [
-                  _c(
-                    "a",
-                    { attrs: { href: "/informatie/privacy" } },
-                    [
-                      _c(
-                        "font",
-                        { staticStyle: { "vertical-align": "inherit" } },
-                        [
-                          _c(
-                            "font",
-                            { staticStyle: { "vertical-align": "inherit" } },
-                            [_vm._v("Privacy")]
-                          )
-                        ],
-                        1
-                      )
-                    ],
-                    1
-                  )
-                ]),
-                _c("li", [
-                  _c(
-                    "a",
-                    { attrs: { href: "/informatie/verkoop-voorwaarden" } },
-                    [
-                      _c(
-                        "font",
-                        { staticStyle: { "vertical-align": "inherit" } },
-                        [
-                          _c(
-                            "font",
-                            { staticStyle: { "vertical-align": "inherit" } },
-                            [_vm._v("Conditions of sale")]
-                          )
-                        ],
-                        1
-                      )
-                    ],
-                    1
-                  )
-                ]),
-                _c("li", [
-                  _c(
-                    "a",
-                    {
-                      attrs: {
-                        href: "https://www.casa-jewelry.eu/",
-                        target: "_blank"
-                      }
-                    },
-                    [
-                      _c(
-                        "font",
-                        { staticStyle: { "vertical-align": "inherit" } },
-                        [
-                          _c(
-                            "font",
-                            { staticStyle: { "vertical-align": "inherit" } },
-                            [_vm._v("Corporate")]
-                          )
-                        ],
-                        1
-                      )
-                    ],
-                    1
-                  )
-                ]),
-                _c("li", [
-                  _c(
-                    "a",
-                    { attrs: { href: "/sitemap.xml" } },
-                    [
-                      _c(
-                        "font",
-                        { staticStyle: { "vertical-align": "inherit" } },
-                        [
-                          _c(
-                            "font",
-                            { staticStyle: { "vertical-align": "inherit" } },
-                            [_vm._v("Sitemap")]
-                          )
-                        ],
-                        1
-                      )
-                    ],
-                    1
-                  )
-                ]),
-                _c("li", [
-                  _c(
-                    "a",
-                    { attrs: { href: "/contact" } },
-                    [
-                      _c(
-                        "font",
-                        { staticStyle: { "vertical-align": "inherit" } },
-                        [
-                          _c(
-                            "font",
-                            { staticStyle: { "vertical-align": "inherit" } },
-                            [_vm._v("Contact")]
-                          )
-                        ],
-                        1
-                      )
-                    ],
-                    1
-                  )
-                ])
-              ])
-            ])
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "col-6 col-md-2 col-xl-2" }, [
-            _c("div", { staticClass: "fo-menu" }, [
-              _c(
-                "h3",
-                [
-                  _c(
-                    "font",
-                    { staticStyle: { "vertical-align": "inherit" } },
-                    [
-                      _c(
-                        "font",
-                        { staticStyle: { "vertical-align": "inherit" } },
-                        [_vm._v("CASA JEWELRY")]
-                      )
-                    ],
-                    1
-                  )
-                ],
-                1
-              ),
-              _c("ul", [
-                _c("li", [
-                  _c(
-                    "a",
-                    { attrs: { href: "/over-casa" } },
-                    [
-                      _c(
-                        "font",
-                        { staticStyle: { "vertical-align": "inherit" } },
-                        [
-                          _c(
-                            "font",
-                            { staticStyle: { "vertical-align": "inherit" } },
-                            [_vm._v("About Casa")]
-                          )
-                        ],
-                        1
-                      )
-                    ],
-                    1
-                  )
-                ]),
-                _c("li", [
-                  _c(
-                    "a",
-                    {
-                      attrs: {
-                        href: "https://www.casa-jewelry.eu/ons-team/",
-                        target: "_blank"
-                      }
-                    },
-                    [
-                      _c(
-                        "font",
-                        { staticStyle: { "vertical-align": "inherit" } },
-                        [
-                          _c(
-                            "font",
-                            { staticStyle: { "vertical-align": "inherit" } },
-                            [_vm._v("Our team")]
-                          )
-                        ],
-                        1
-                      )
-                    ],
-                    1
-                  )
-                ]),
-                _c("li", [
-                  _c(
-                    "a",
-                    {
-                      attrs: {
-                        href: "https://www.casa-jewelry.eu/design-your-line/",
-                        target: "_blank"
-                      }
-                    },
-                    [
-                      _c(
-                        "font",
-                        { staticStyle: { "vertical-align": "inherit" } },
-                        [
-                          _c(
-                            "font",
-                            { staticStyle: { "vertical-align": "inherit" } },
-                            [_vm._v("Design Your Line")]
-                          )
-                        ],
-                        1
-                      )
-                    ],
-                    1
-                  )
-                ]),
-                _c("li", [
-                  _c(
-                    "a",
-                    {
-                      attrs: {
-                        href: "https://www.casacollection.net/inloggen",
-                        target: "_blank"
-                      }
-                    },
-                    [
-                      _c(
-                        "font",
-                        { staticStyle: { "vertical-align": "inherit" } },
-                        [
-                          _c(
-                            "font",
-                            { staticStyle: { "vertical-align": "inherit" } },
-                            [_vm._v("B2B login")]
-                          )
-                        ],
-                        1
-                      )
-                    ],
-                    1
-                  )
-                ])
-              ])
-            ])
-          ]),
-          _vm._v(" "),
-          _vm._m(0)
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "col-12" }, [
+    _c(
+      "footer",
+      {
+        staticClass: "footer-area py-4S",
+        staticStyle: {},
+        attrs: { id: "footer" }
+      },
+      [
+        _c("div", { staticClass: "container" }, [
           _c("div", { staticClass: "row" }, [
-            _c("div", { staticClass: "footer-bottom" }, [
-              _c(
-                "div",
-                { staticClass: "social" },
-                [
-                  _vm._m(1),
-                  _vm._v(" "),
-                  _c(
-                    "a",
-                    {
-                      attrs: { href: "https://www.wwxl.nl/", target: "_blank" }
-                    },
-                    [
-                      _c(
-                        "font",
-                        { staticStyle: { "vertical-align": "inherit" } },
-                        [
-                          _c(
-                            "font",
-                            { staticStyle: { "vertical-align": "inherit" } },
-                            [_vm._v("Design by CleoCTech")]
-                          )
-                        ],
-                        1
-                      )
-                    ],
-                    1
-                  ),
-                  _vm._v(" "),
-                  _c(
-                    "font",
-                    { staticStyle: { "vertical-align": "inherit" } },
-                    [
-                      _c(
-                        "font",
-                        { staticStyle: { "vertical-align": "inherit" } },
-                        [_vm._v(" | ")]
-                      )
-                    ],
-                    1
-                  ),
-                  _vm._v(" "),
-                  _c(
-                    "a",
-                    {
-                      attrs: {
-                        href: "https://www.lefficient.nl/",
-                        target: "_blank"
-                      }
-                    },
-                    [
-                      _c(
-                        "font",
-                        { staticStyle: { "vertical-align": "inherit" } },
-                        [
-                          _c(
-                            "font",
-                            { staticStyle: { "vertical-align": "inherit" } },
-                            [_vm._v("Custom Website by CleoCTech")]
-                          )
-                        ],
-                        1
-                      )
-                    ],
-                    1
-                  )
-                ],
-                1
-              )
+            _c("div", { staticClass: "col-6 col-md-2 col-xl-2" }, [
+              _c("div", { staticClass: "fo-menu" }, [
+                _c(
+                  "h3",
+                  [
+                    _c(
+                      "font",
+                      { staticStyle: { "vertical-align": "inherit" } },
+                      [
+                        _c(
+                          "font",
+                          { staticStyle: { "vertical-align": "inherit" } },
+                          [_vm._v("JEWELERY")]
+                        )
+                      ],
+                      1
+                    )
+                  ],
+                  1
+                ),
+                _c("ul", [
+                  _c("li", [
+                    _c(
+                      "a",
+                      { attrs: { href: "/armbanden" } },
+                      [
+                        _c(
+                          "font",
+                          { staticStyle: { "vertical-align": "inherit" } },
+                          [
+                            _c(
+                              "font",
+                              { staticStyle: { "vertical-align": "inherit" } },
+                              [_vm._v("Bracelets")]
+                            )
+                          ],
+                          1
+                        )
+                      ],
+                      1
+                    )
+                  ]),
+                  _c("li", [
+                    _c(
+                      "a",
+                      { attrs: { href: "/bangles" } },
+                      [
+                        _c(
+                          "font",
+                          { staticStyle: { "vertical-align": "inherit" } },
+                          [
+                            _c(
+                              "font",
+                              { staticStyle: { "vertical-align": "inherit" } },
+                              [_vm._v("Bangles")]
+                            )
+                          ],
+                          1
+                        )
+                      ],
+                      1
+                    )
+                  ]),
+                  _c("li", [
+                    _c(
+                      "a",
+                      { attrs: { href: "/colliers" } },
+                      [
+                        _c(
+                          "font",
+                          { staticStyle: { "vertical-align": "inherit" } },
+                          [
+                            _c(
+                              "font",
+                              { staticStyle: { "vertical-align": "inherit" } },
+                              [_vm._v("Colliers")]
+                            )
+                          ],
+                          1
+                        )
+                      ],
+                      1
+                    )
+                  ]),
+                  _c("li", [
+                    _c(
+                      "a",
+                      { attrs: { href: "/hangers" } },
+                      [
+                        _c(
+                          "font",
+                          { staticStyle: { "vertical-align": "inherit" } },
+                          [
+                            _c(
+                              "font",
+                              { staticStyle: { "vertical-align": "inherit" } },
+                              [_vm._v("Pendants")]
+                            )
+                          ],
+                          1
+                        )
+                      ],
+                      1
+                    )
+                  ]),
+                  _c("li", [
+                    _c(
+                      "a",
+                      { attrs: { href: "/oorringen" } },
+                      [
+                        _c(
+                          "font",
+                          { staticStyle: { "vertical-align": "inherit" } },
+                          [
+                            _c(
+                              "font",
+                              { staticStyle: { "vertical-align": "inherit" } },
+                              [_vm._v("Earrings")]
+                            )
+                          ],
+                          1
+                        )
+                      ],
+                      1
+                    )
+                  ]),
+                  _c("li", [
+                    _c(
+                      "a",
+                      { attrs: { href: "/oorhangers" } },
+                      [
+                        _c(
+                          "font",
+                          { staticStyle: { "vertical-align": "inherit" } },
+                          [
+                            _c(
+                              "font",
+                              { staticStyle: { "vertical-align": "inherit" } },
+                              [_vm._v("Dangling earrings")]
+                            )
+                          ],
+                          1
+                        )
+                      ],
+                      1
+                    )
+                  ]),
+                  _c("li", [
+                    _c(
+                      "a",
+                      { attrs: { href: "/oorknoppen" } },
+                      [
+                        _c(
+                          "font",
+                          { staticStyle: { "vertical-align": "inherit" } },
+                          [
+                            _c(
+                              "font",
+                              { staticStyle: { "vertical-align": "inherit" } },
+                              [_vm._v("Ear buds")]
+                            )
+                          ],
+                          1
+                        )
+                      ],
+                      1
+                    )
+                  ]),
+                  _c("li", [
+                    _c(
+                      "a",
+                      { attrs: { href: "/ringen" } },
+                      [
+                        _c(
+                          "font",
+                          { staticStyle: { "vertical-align": "inherit" } },
+                          [
+                            _c(
+                              "font",
+                              { staticStyle: { "vertical-align": "inherit" } },
+                              [_vm._v("Rings")]
+                            )
+                          ],
+                          1
+                        )
+                      ],
+                      1
+                    )
+                  ]),
+                  _c("li", [
+                    _c(
+                      "a",
+                      { attrs: { href: "/clips" } },
+                      [
+                        _c(
+                          "font",
+                          { staticStyle: { "vertical-align": "inherit" } },
+                          [
+                            _c(
+                              "font",
+                              { staticStyle: { "vertical-align": "inherit" } },
+                              [_vm._v("Clips")]
+                            )
+                          ],
+                          1
+                        )
+                      ],
+                      1
+                    )
+                  ])
+                ])
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "col-6 col-md-2 col-xl-2" }, [
+              _c("div", { staticClass: "fo-menu" }, [
+                _c(
+                  "h3",
+                  [
+                    _c(
+                      "font",
+                      { staticStyle: { "vertical-align": "inherit" } },
+                      [
+                        _c(
+                          "font",
+                          { staticStyle: { "vertical-align": "inherit" } },
+                          [_vm._v("COLLECTIONS")]
+                        )
+                      ],
+                      1
+                    )
+                  ],
+                  1
+                ),
+                _c("ul", [
+                  _c("li", [
+                    _c(
+                      "a",
+                      { attrs: { href: "/hoops" } },
+                      [
+                        _c(
+                          "font",
+                          { staticStyle: { "vertical-align": "inherit" } },
+                          [
+                            _c(
+                              "font",
+                              { staticStyle: { "vertical-align": "inherit" } },
+                              [_vm._v("Hoops")]
+                            )
+                          ],
+                          1
+                        )
+                      ],
+                      1
+                    )
+                  ]),
+                  _c("li", [
+                    _c(
+                      "a",
+                      { attrs: { href: "/tricolori" } },
+                      [
+                        _c(
+                          "font",
+                          { staticStyle: { "vertical-align": "inherit" } },
+                          [
+                            _c(
+                              "font",
+                              { staticStyle: { "vertical-align": "inherit" } },
+                              [_vm._v("TriColori")]
+                            )
+                          ],
+                          1
+                        )
+                      ],
+                      1
+                    )
+                  ]),
+                  _c("li", [
+                    _c(
+                      "a",
+                      { attrs: { href: "/icons" } },
+                      [
+                        _c(
+                          "font",
+                          { staticStyle: { "vertical-align": "inherit" } },
+                          [
+                            _c(
+                              "font",
+                              { staticStyle: { "vertical-align": "inherit" } },
+                              [_vm._v("Icons")]
+                            )
+                          ],
+                          1
+                        )
+                      ],
+                      1
+                    )
+                  ]),
+                  _c("li", [
+                    _c(
+                      "a",
+                      { attrs: { href: "/pearls" } },
+                      [
+                        _c(
+                          "font",
+                          { staticStyle: { "vertical-align": "inherit" } },
+                          [
+                            _c(
+                              "font",
+                              { staticStyle: { "vertical-align": "inherit" } },
+                              [_vm._v("Pearls")]
+                            )
+                          ],
+                          1
+                        )
+                      ],
+                      1
+                    )
+                  ]),
+                  _c("li", [
+                    _c(
+                      "a",
+                      { attrs: { href: "/tuscany" } },
+                      [
+                        _c(
+                          "font",
+                          { staticStyle: { "vertical-align": "inherit" } },
+                          [
+                            _c(
+                              "font",
+                              { staticStyle: { "vertical-align": "inherit" } },
+                              [_vm._v("Tuscany")]
+                            )
+                          ],
+                          1
+                        )
+                      ],
+                      1
+                    )
+                  ]),
+                  _c("li", [
+                    _c(
+                      "a",
+                      { attrs: { href: "/bubbles" } },
+                      [
+                        _c(
+                          "font",
+                          { staticStyle: { "vertical-align": "inherit" } },
+                          [
+                            _c(
+                              "font",
+                              { staticStyle: { "vertical-align": "inherit" } },
+                              [_vm._v("Bubbles")]
+                            )
+                          ],
+                          1
+                        )
+                      ],
+                      1
+                    )
+                  ])
+                ])
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "col-6 col-md-2 col-xl-2" }, [
+              _c("div", { staticClass: "fo-menu" }, [
+                _c(
+                  "h3",
+                  [
+                    _c(
+                      "font",
+                      { staticStyle: { "vertical-align": "inherit" } },
+                      [
+                        _c(
+                          "font",
+                          { staticStyle: { "vertical-align": "inherit" } },
+                          [_vm._v("INFORMATION")]
+                        )
+                      ],
+                      1
+                    )
+                  ],
+                  1
+                ),
+                _c("ul", [
+                  _c("li", [
+                    _c(
+                      "a",
+                      { attrs: { href: "/informatie/privacy" } },
+                      [
+                        _c(
+                          "font",
+                          { staticStyle: { "vertical-align": "inherit" } },
+                          [
+                            _c(
+                              "font",
+                              { staticStyle: { "vertical-align": "inherit" } },
+                              [_vm._v("Privacy")]
+                            )
+                          ],
+                          1
+                        )
+                      ],
+                      1
+                    )
+                  ]),
+                  _c("li", [
+                    _c(
+                      "a",
+                      { attrs: { href: "/informatie/verkoop-voorwaarden" } },
+                      [
+                        _c(
+                          "font",
+                          { staticStyle: { "vertical-align": "inherit" } },
+                          [
+                            _c(
+                              "font",
+                              { staticStyle: { "vertical-align": "inherit" } },
+                              [_vm._v("Conditions of sale")]
+                            )
+                          ],
+                          1
+                        )
+                      ],
+                      1
+                    )
+                  ]),
+                  _c("li", [
+                    _c(
+                      "a",
+                      {
+                        attrs: {
+                          href: "https://www.casa-jewelry.eu/",
+                          target: "_blank"
+                        }
+                      },
+                      [
+                        _c(
+                          "font",
+                          { staticStyle: { "vertical-align": "inherit" } },
+                          [
+                            _c(
+                              "font",
+                              { staticStyle: { "vertical-align": "inherit" } },
+                              [_vm._v("Corporate")]
+                            )
+                          ],
+                          1
+                        )
+                      ],
+                      1
+                    )
+                  ]),
+                  _c("li", [
+                    _c(
+                      "a",
+                      { attrs: { href: "/sitemap.xml" } },
+                      [
+                        _c(
+                          "font",
+                          { staticStyle: { "vertical-align": "inherit" } },
+                          [
+                            _c(
+                              "font",
+                              { staticStyle: { "vertical-align": "inherit" } },
+                              [_vm._v("Sitemap")]
+                            )
+                          ],
+                          1
+                        )
+                      ],
+                      1
+                    )
+                  ]),
+                  _c("li", [
+                    _c(
+                      "a",
+                      { attrs: { href: "/contact" } },
+                      [
+                        _c(
+                          "font",
+                          { staticStyle: { "vertical-align": "inherit" } },
+                          [
+                            _c(
+                              "font",
+                              { staticStyle: { "vertical-align": "inherit" } },
+                              [_vm._v("Contact")]
+                            )
+                          ],
+                          1
+                        )
+                      ],
+                      1
+                    )
+                  ])
+                ])
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "col-6 col-md-2 col-xl-2" }, [
+              _c("div", { staticClass: "fo-menu" }, [
+                _c(
+                  "h3",
+                  [
+                    _c(
+                      "font",
+                      { staticStyle: { "vertical-align": "inherit" } },
+                      [
+                        _c(
+                          "font",
+                          { staticStyle: { "vertical-align": "inherit" } },
+                          [_vm._v("CASA JEWELRY")]
+                        )
+                      ],
+                      1
+                    )
+                  ],
+                  1
+                ),
+                _c("ul", [
+                  _c("li", [
+                    _c(
+                      "a",
+                      { attrs: { href: "/over-casa" } },
+                      [
+                        _c(
+                          "font",
+                          { staticStyle: { "vertical-align": "inherit" } },
+                          [
+                            _c(
+                              "font",
+                              { staticStyle: { "vertical-align": "inherit" } },
+                              [_vm._v("About Casa")]
+                            )
+                          ],
+                          1
+                        )
+                      ],
+                      1
+                    )
+                  ]),
+                  _c("li", [
+                    _c(
+                      "a",
+                      {
+                        attrs: {
+                          href: "https://www.casa-jewelry.eu/ons-team/",
+                          target: "_blank"
+                        }
+                      },
+                      [
+                        _c(
+                          "font",
+                          { staticStyle: { "vertical-align": "inherit" } },
+                          [
+                            _c(
+                              "font",
+                              { staticStyle: { "vertical-align": "inherit" } },
+                              [_vm._v("Our team")]
+                            )
+                          ],
+                          1
+                        )
+                      ],
+                      1
+                    )
+                  ]),
+                  _c("li", [
+                    _c(
+                      "a",
+                      {
+                        attrs: {
+                          href: "https://www.casa-jewelry.eu/design-your-line/",
+                          target: "_blank"
+                        }
+                      },
+                      [
+                        _c(
+                          "font",
+                          { staticStyle: { "vertical-align": "inherit" } },
+                          [
+                            _c(
+                              "font",
+                              { staticStyle: { "vertical-align": "inherit" } },
+                              [_vm._v("Design Your Line")]
+                            )
+                          ],
+                          1
+                        )
+                      ],
+                      1
+                    )
+                  ]),
+                  _c("li", [
+                    _c(
+                      "a",
+                      {
+                        attrs: {
+                          href: "https://www.casacollection.net/inloggen",
+                          target: "_blank"
+                        }
+                      },
+                      [
+                        _c(
+                          "font",
+                          { staticStyle: { "vertical-align": "inherit" } },
+                          [
+                            _c(
+                              "font",
+                              { staticStyle: { "vertical-align": "inherit" } },
+                              [_vm._v("B2B login")]
+                            )
+                          ],
+                          1
+                        )
+                      ],
+                      1
+                    )
+                  ])
+                ])
+              ])
+            ]),
+            _vm._v(" "),
+            _vm._m(0)
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "col-12" }, [
+            _c("div", { staticClass: "row" }, [
+              _c("div", { staticClass: "footer-bottom" }, [
+                _c(
+                  "div",
+                  { staticClass: "social" },
+                  [
+                    _vm._m(1),
+                    _vm._v(" "),
+                    _c(
+                      "a",
+                      {
+                        attrs: {
+                          href: "https://www.wwxl.nl/",
+                          target: "_blank"
+                        }
+                      },
+                      [
+                        _c(
+                          "font",
+                          { staticStyle: { "vertical-align": "inherit" } },
+                          [
+                            _c(
+                              "font",
+                              { staticStyle: { "vertical-align": "inherit" } },
+                              [_vm._v("Design by CleoCTech")]
+                            )
+                          ],
+                          1
+                        )
+                      ],
+                      1
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "font",
+                      { staticStyle: { "vertical-align": "inherit" } },
+                      [
+                        _c(
+                          "font",
+                          { staticStyle: { "vertical-align": "inherit" } },
+                          [_vm._v(" | ")]
+                        )
+                      ],
+                      1
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "a",
+                      {
+                        attrs: {
+                          href: "https://www.lefficient.nl/",
+                          target: "_blank"
+                        }
+                      },
+                      [
+                        _c(
+                          "font",
+                          { staticStyle: { "vertical-align": "inherit" } },
+                          [
+                            _c(
+                              "font",
+                              { staticStyle: { "vertical-align": "inherit" } },
+                              [_vm._v("Custom Website by CleoCTech")]
+                            )
+                          ],
+                          1
+                        )
+                      ],
+                      1
+                    )
+                  ],
+                  1
+                )
+              ])
             ])
           ])
         ])
-      ])
-    ])
+      ]
+    )
   ])
 }
 var staticRenderFns = [
@@ -38737,6 +40953,4480 @@ var staticRenderFns = [
           ])
         ])
       ])
+    ])
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/jewerly_tips/conctact.vue?vue&type=template&id=c1652adc&":
+/*!************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/jewerly_tips/conctact.vue?vue&type=template&id=c1652adc& ***!
+  \************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _vm._m(0)
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", [
+      _c("section", { staticClass: "contact-area" }, [
+        _c("div", { staticClass: "container" }, [
+          _c("div", { staticClass: "row" }, [
+            _c("div", { staticClass: "col-12" }, [
+              _c("div", { staticClass: "section-title text-center" }, [
+                _c("h2", [_vm._v(" ")])
+              ])
+            ])
+          ])
+        ])
+      ])
+    ])
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/jewerly_tips/jewerlytips.vue?vue&type=template&id=ff8f1f6a&":
+/*!***************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/jewerly_tips/jewerlytips.vue?vue&type=template&id=ff8f1f6a& ***!
+  \***************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "div",
+    [
+      _c("contact-area"),
+      _vm._v(" "),
+      _c("mantainence-area"),
+      _vm._v(" "),
+      _c("tips-area")
+    ],
+    1
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/jewerly_tips/mantainence.vue?vue&type=template&id=59057518&":
+/*!***************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/jewerly_tips/mantainence.vue?vue&type=template&id=59057518& ***!
+  \***************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("section", { staticClass: "collectie pb-0" }, [
+    _c("div", { staticClass: "container" }, [
+      _c("div", { staticClass: "row" }, [
+        _c("div", { staticClass: "col-12" }, [
+          _c("div", { staticClass: "section-title text-left" }, [
+            _c(
+              "h2",
+              [
+                _c(
+                  "font",
+                  { staticStyle: { "vertical-align": "inherit" } },
+                  [
+                    _c(
+                      "font",
+                      { staticStyle: { "vertical-align": "inherit" } },
+                      [_vm._v("Maintenance jewelry")]
+                    )
+                  ],
+                  1
+                )
+              ],
+              1
+            )
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "col-12 col-md-8" }, [
+          _c("div", { staticClass: "collectie-con" }, [
+            _c("p"),
+            _vm._v(" "),
+            _c("p", [
+              _c(
+                "span",
+                { staticStyle: { "font-size": "110%" } },
+                [
+                  _c(
+                    "font",
+                    { staticStyle: { "vertical-align": "inherit" } },
+                    [
+                      _c(
+                        "font",
+                        { staticStyle: { "vertical-align": "inherit" } },
+                        [
+                          _vm._v(
+                            "Give your Casa Jewelry jewelry the attention they deserve:"
+                          )
+                        ]
+                      )
+                    ],
+                    1
+                  )
+                ],
+                1
+              )
+            ]),
+            _vm._v(" "),
+            _c("p", [
+              _c(
+                "span",
+                { staticStyle: { "font-size": "110%" } },
+                [
+                  _c(
+                    "font",
+                    { staticStyle: { "vertical-align": "inherit" } },
+                    [
+                      _c(
+                        "font",
+                        { staticStyle: { "vertical-align": "inherit" } },
+                        [_vm._v("Casa Jewelry jewelry is made of 925 Silver.")]
+                      )
+                    ],
+                    1
+                  )
+                ],
+                1
+              )
+            ]),
+            _vm._v(" "),
+            _c("p", [
+              _c(
+                "span",
+                { staticStyle: { "font-size": "110%" } },
+                [
+                  _c(
+                    "font",
+                    { staticStyle: { "vertical-align": "inherit" } },
+                    [
+                      _c(
+                        "font",
+                        { staticStyle: { "vertical-align": "inherit" } },
+                        [
+                          _vm._v(
+                            "To give the silver extra shine and to protect it, the jewels are provided with a rhodium layer."
+                          )
+                        ]
+                      )
+                    ],
+                    1
+                  )
+                ],
+                1
+              )
+            ]),
+            _vm._v(" "),
+            _c("p", [
+              _c(
+                "span",
+                { staticStyle: { "font-size": "110%" } },
+                [
+                  _c(
+                    "font",
+                    { staticStyle: { "vertical-align": "inherit" } },
+                    [
+                      _c(
+                        "font",
+                        { staticStyle: { "vertical-align": "inherit" } },
+                        [
+                          _vm._v(
+                            "In our collection of yellow gold and rose gold plating, a galvanic process is used in which a layer of gold or rose gold is applied."
+                          )
+                        ]
+                      )
+                    ],
+                    1
+                  )
+                ],
+                1
+              )
+            ]),
+            _vm._v(" "),
+            _c("p", [
+              _c(
+                "span",
+                { staticStyle: { "font-size": "110%" } },
+                [
+                  _c(
+                    "font",
+                    { staticStyle: { "vertical-align": "inherit" } },
+                    [
+                      _c(
+                        "font",
+                        { staticStyle: { "vertical-align": "inherit" } },
+                        [
+                          _vm._v(
+                            "This process guarantees longer color retention (keep in mind the maintenance instructions)."
+                          )
+                        ]
+                      )
+                    ],
+                    1
+                  )
+                ],
+                1
+              )
+            ]),
+            _vm._v(" "),
+            _c("p"),
+            _vm._v(" "),
+            _c("p", [
+              _c(
+                "span",
+                { staticStyle: { "font-size": "110%" } },
+                [
+                  _c(
+                    "font",
+                    { staticStyle: { "vertical-align": "inherit" } },
+                    [
+                      _c(
+                        "font",
+                        { staticStyle: { "vertical-align": "inherit" } },
+                        [
+                          _vm._v(
+                            "Always apply your make-up, hairspray and perfume first and then put on your jewelry. "
+                          )
+                        ]
+                      )
+                    ],
+                    1
+                  )
+                ],
+                1
+              ),
+              _c("br"),
+              _c(
+                "span",
+                { staticStyle: { "font-size": "110%" } },
+                [
+                  _c(
+                    "font",
+                    { staticStyle: { "vertical-align": "inherit" } },
+                    [
+                      _c(
+                        "font",
+                        { staticStyle: { "vertical-align": "inherit" } },
+                        [
+                          _vm._v(
+                            "When brushing or washing hands, it is advisable to take off your jewelry. "
+                          )
+                        ]
+                      )
+                    ],
+                    1
+                  )
+                ],
+                1
+              ),
+              _c("br"),
+              _c(
+                "span",
+                { staticStyle: { "font-size": "110%" } },
+                [
+                  _c(
+                    "font",
+                    { staticStyle: { "vertical-align": "inherit" } },
+                    [
+                      _c(
+                        "font",
+                        { staticStyle: { "vertical-align": "inherit" } },
+                        [
+                          _vm._v(
+                            "On the beach, during exercise, in the sauna; "
+                          )
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "font",
+                        { staticStyle: { "vertical-align": "inherit" } },
+                        [_vm._v("preferably no jewelry. ")]
+                      )
+                    ],
+                    1
+                  )
+                ],
+                1
+              ),
+              _c("br"),
+              _c(
+                "span",
+                { staticStyle: { "font-size": "110%" } },
+                [
+                  _c(
+                    "font",
+                    { staticStyle: { "vertical-align": "inherit" } },
+                    [
+                      _c(
+                        "font",
+                        { staticStyle: { "vertical-align": "inherit" } },
+                        [
+                          _vm._v(
+                            "Always use a soft cloth to polish your silver. "
+                          )
+                        ]
+                      )
+                    ],
+                    1
+                  )
+                ],
+                1
+              ),
+              _c("br"),
+              _c(
+                "span",
+                { staticStyle: { "font-size": "110%" } },
+                [
+                  _c(
+                    "font",
+                    { staticStyle: { "vertical-align": "inherit" } },
+                    [
+                      _c(
+                        "font",
+                        { staticStyle: { "vertical-align": "inherit" } },
+                        [
+                          _vm._v(
+                            "Store your jewelry separately in a jewelry box or a jewelry bag. "
+                          )
+                        ]
+                      )
+                    ],
+                    1
+                  )
+                ],
+                1
+              ),
+              _c("br"),
+              _c(
+                "span",
+                { staticStyle: { "font-size": "110%" } },
+                [
+                  _c(
+                    "font",
+                    { staticStyle: { "vertical-align": "inherit" } },
+                    [
+                      _c(
+                        "font",
+                        { staticStyle: { "vertical-align": "inherit" } },
+                        [
+                          _vm._v(
+                            "If you follow these guidelines, you prevent unwanted damage to your jewelry."
+                          )
+                        ]
+                      )
+                    ],
+                    1
+                  )
+                ],
+                1
+              )
+            ]),
+            _vm._v(" "),
+            _c("p"),
+            _vm._v(" "),
+            _c("p", [
+              _c(
+                "span",
+                { staticStyle: { "font-size": "110%" } },
+                [
+                  _c(
+                    "font",
+                    { staticStyle: { "vertical-align": "inherit" } },
+                    [
+                      _c(
+                        "font",
+                        { staticStyle: { "vertical-align": "inherit" } },
+                        [
+                          _vm._v(
+                            "If for these or other reasons there is a loss of gloss or color, we recommend Haggerty's silver dip."
+                          )
+                        ]
+                      )
+                    ],
+                    1
+                  )
+                ],
+                1
+              )
+            ]),
+            _vm._v(" "),
+            _c("p", [
+              _c(
+                "span",
+                { staticStyle: { "font-size": "110%" } },
+                [
+                  _c(
+                    "font",
+                    { staticStyle: { "vertical-align": "inherit" } },
+                    [
+                      _c(
+                        "font",
+                        { staticStyle: { "vertical-align": "inherit" } },
+                        [
+                          _vm._v(
+                            "This is available for silver and gold jewelery."
+                          )
+                        ]
+                      )
+                    ],
+                    1
+                  )
+                ],
+                1
+              )
+            ]),
+            _vm._v(" "),
+            _c("p", [
+              _c(
+                "span",
+                { staticStyle: { "font-size": "110%" } },
+                [
+                  _c(
+                    "font",
+                    { staticStyle: { "vertical-align": "inherit" } },
+                    [
+                      _c(
+                        "font",
+                        { staticStyle: { "vertical-align": "inherit" } },
+                        [
+                          _vm._v(
+                            "Just dip your jewelry, rub with a silver polishing cloth and your jewelry is like new again!"
+                          )
+                        ]
+                      )
+                    ],
+                    1
+                  )
+                ],
+                1
+              )
+            ]),
+            _vm._v(" "),
+            _c("p"),
+            _vm._v(" "),
+            _c("p", [
+              _c(
+                "span",
+                { staticStyle: { "font-size": "110%" } },
+                [
+                  _c(
+                    "font",
+                    { staticStyle: { "vertical-align": "inherit" } },
+                    [
+                      _c(
+                        "font",
+                        { staticStyle: { "vertical-align": "inherit" } },
+                        [_vm._v("Have fun with your Casa Jewelry jewelry!")]
+                      )
+                    ],
+                    1
+                  )
+                ],
+                1
+              )
+            ]),
+            _vm._v(" "),
+            _c("p")
+          ])
+        ]),
+        _vm._v(" "),
+        _vm._m(0)
+      ])
+    ])
+  ])
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "col-12 col-md-4" }, [
+      _c("div", { staticClass: "collectie-con" })
+    ])
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/jewerly_tips/tipslist.vue?vue&type=template&id=550d04a9&":
+/*!************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/jewerly_tips/tipslist.vue?vue&type=template&id=550d04a9& ***!
+  \************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "section",
+    { staticClass: "product-area shop-product collection lijnen pb-5" },
+    [
+      _c("div", { staticClass: "container" }, [
+        _c("div", { staticClass: "row" }, [
+          _c("section", { staticClass: "collectie pt-0" }, [
+            _c("div", { staticClass: "container" }, [
+              _c("div", { staticClass: "row" }, [
+                _c("div", { staticClass: "col-12" }, [
+                  _c("div", { staticClass: "section-title text-left" }, [
+                    _c(
+                      "h2",
+                      [
+                        _c(
+                          "font",
+                          { staticStyle: { "vertical-align": "inherit" } },
+                          [
+                            _c(
+                              "font",
+                              { staticStyle: { "vertical-align": "inherit" } },
+                              [_vm._v("Calculate the ring size")]
+                            )
+                          ],
+                          1
+                        )
+                      ],
+                      1
+                    )
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "col-12 col-md-8" }, [
+                  _c("div", { staticClass: "collectie-con" }, [
+                    _c("p"),
+                    _vm._v(" "),
+                    _c("p", { staticStyle: { "text-align": "left" } }, [
+                      _c(
+                        "span",
+                        { staticStyle: { "font-size": "110%" } },
+                        [
+                          _c(
+                            "font",
+                            { staticStyle: { "vertical-align": "inherit" } },
+                            [
+                              _c(
+                                "font",
+                                {
+                                  staticStyle: { "vertical-align": "inherit" }
+                                },
+                                [
+                                  _vm._v(
+                                    "You can measure the ring size in various ways:"
+                                  )
+                                ]
+                              )
+                            ],
+                            1
+                          )
+                        ],
+                        1
+                      )
+                    ]),
+                    _vm._v(" "),
+                    _c("p", [
+                      _c(
+                        "span",
+                        { staticStyle: { "font-size": "110%" } },
+                        [
+                          _c(
+                            "font",
+                            { staticStyle: { "vertical-align": "inherit" } },
+                            [
+                              _c(
+                                "font",
+                                {
+                                  staticStyle: { "vertical-align": "inherit" }
+                                },
+                                [
+                                  _vm._v(
+                                    "If you have a ring that fits you well, it is possible to calculate the ring size using this ring and a ruler. "
+                                  )
+                                ]
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "font",
+                                {
+                                  staticStyle: { "vertical-align": "inherit" }
+                                },
+                                [
+                                  _vm._v(
+                                    "It is important that you measure the inner diameter of the ring. "
+                                  )
+                                ]
+                              )
+                            ],
+                            1
+                          )
+                        ],
+                        1
+                      )
+                    ]),
+                    _vm._v(" "),
+                    _c("p", [
+                      _c(
+                        "span",
+                        { staticStyle: { "font-size": "110%" } },
+                        [
+                          _c(
+                            "font",
+                            { staticStyle: { "vertical-align": "inherit" } },
+                            [
+                              _c(
+                                "font",
+                                {
+                                  staticStyle: { "vertical-align": "inherit" }
+                                },
+                                [
+                                  _vm._v(
+                                    "Place the ring on the ruler and then place an inside on the 0 centimeter. "
+                                  )
+                                ]
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "font",
+                                {
+                                  staticStyle: { "vertical-align": "inherit" }
+                                },
+                                [
+                                  _vm._v(
+                                    "You can read the diameter in millimeters on the other inside of the ring. "
+                                  )
+                                ]
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "font",
+                                {
+                                  staticStyle: { "vertical-align": "inherit" }
+                                },
+                                [
+                                  _vm._v(
+                                    "So you measure the inner diameter of the ring."
+                                  )
+                                ]
+                              )
+                            ],
+                            1
+                          )
+                        ],
+                        1
+                      )
+                    ]),
+                    _vm._v(" "),
+                    _c("p"),
+                    _vm._v(" "),
+                    _c("p"),
+                    _vm._v(" "),
+                    _c("p"),
+                    _vm._v(" "),
+                    _c("p")
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "col-12 col-md-4" }, [
+                  _c("div", { staticClass: "collectie-con text-center" }, [
+                    _c("img", {
+                      staticClass: "img-fluid",
+                      attrs: {
+                        src: "/storage/images/87_5dc2959630bb1.jpg",
+                        alt: "Measure the ring size with a well-fitting ring",
+                        title: "$ imgi ['title']"
+                      }
+                    }),
+                    _vm._v(" "),
+                    _c(
+                      "p",
+                      [
+                        _c(
+                          "font",
+                          { staticStyle: { "vertical-align": "inherit" } },
+                          [
+                            _c(
+                              "font",
+                              { staticStyle: { "vertical-align": "inherit" } },
+                              [
+                                _vm._v(
+                                  "Measure the ring size with a well-fitting ring"
+                                )
+                              ]
+                            )
+                          ],
+                          1
+                        )
+                      ],
+                      1
+                    )
+                  ])
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "row" }, [
+                _c("div", { staticClass: "col-12" }, [
+                  _c("div", { staticClass: "section-title text-left" }, [
+                    _c(
+                      "h2",
+                      [
+                        _c(
+                          "font",
+                          { staticStyle: { "vertical-align": "inherit" } },
+                          [
+                            _c(
+                              "font",
+                              { staticStyle: { "vertical-align": "inherit" } },
+                              [_vm._v("Measure ring size with string")]
+                            )
+                          ],
+                          1
+                        )
+                      ],
+                      1
+                    )
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "col-12 col-md-8" }, [
+                  _c("div", { staticClass: "collectie-con" }, [
+                    _c("p"),
+                    _vm._v(" "),
+                    _c("p", { staticStyle: { "text-align": "left" } }, [
+                      _c(
+                        "span",
+                        { staticStyle: { "font-size": "110%" } },
+                        [
+                          _c(
+                            "font",
+                            { staticStyle: { "vertical-align": "inherit" } },
+                            [
+                              _c(
+                                "font",
+                                {
+                                  staticStyle: { "vertical-align": "inherit" }
+                                },
+                                [
+                                  _vm._v(
+                                    "Another option is to determine the ring size using a cord or string. "
+                                  )
+                                ]
+                              )
+                            ],
+                            1
+                          )
+                        ],
+                        1
+                      )
+                    ]),
+                    _vm._v(" "),
+                    _c("p", [
+                      _c(
+                        "span",
+                        { staticStyle: { "font-size": "110%" } },
+                        [
+                          _c(
+                            "font",
+                            { staticStyle: { "vertical-align": "inherit" } },
+                            [
+                              _c(
+                                "font",
+                                {
+                                  staticStyle: { "vertical-align": "inherit" }
+                                },
+                                [
+                                  _vm._v(
+                                    "You can wrap the string around your finger and measure the circumference of your finger in millimeters. "
+                                  )
+                                ]
+                              )
+                            ],
+                            1
+                          )
+                        ],
+                        1
+                      )
+                    ]),
+                    _vm._v(" "),
+                    _c("p", [
+                      _c(
+                        "span",
+                        { staticStyle: { "font-size": "110%" } },
+                        [
+                          _c(
+                            "font",
+                            { staticStyle: { "vertical-align": "inherit" } },
+                            [
+                              _c(
+                                "font",
+                                {
+                                  staticStyle: { "vertical-align": "inherit" }
+                                },
+                                [
+                                  _vm._v(
+                                    "After the string has been wrapped around the finger, the diameter of the finger can be measured by measuring the length of the tuft. "
+                                  )
+                                ]
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "font",
+                                {
+                                  staticStyle: { "vertical-align": "inherit" }
+                                },
+                                [_vm._v("Here you need a ruler.")]
+                              )
+                            ],
+                            1
+                          )
+                        ],
+                        1
+                      )
+                    ]),
+                    _vm._v(" "),
+                    _c("p")
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "col-12 col-md-4" }, [
+                  _c("div", { staticClass: "collectie-con text-center" }, [
+                    _c("img", {
+                      staticClass: "img-fluid",
+                      attrs: {
+                        src: "/storage/images/87_5dc296087fe75.jpg",
+                        alt: "1. Wrap the string around the finger",
+                        title: "$ imgi ['title']"
+                      }
+                    }),
+                    _vm._v(" "),
+                    _c(
+                      "p",
+                      [
+                        _c(
+                          "font",
+                          { staticStyle: { "vertical-align": "inherit" } },
+                          [
+                            _c(
+                              "font",
+                              { staticStyle: { "vertical-align": "inherit" } },
+                              [_vm._v("1. Wrap the string around the finger")]
+                            )
+                          ],
+                          1
+                        )
+                      ],
+                      1
+                    )
+                  ])
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "row" }, [
+                _c("div", { staticClass: "col-12" }, [
+                  _c("div", { staticClass: "section-title text-left" }, [
+                    _c(
+                      "h2",
+                      [
+                        _c(
+                          "font",
+                          { staticStyle: { "vertical-align": "inherit" } },
+                          [
+                            _c(
+                              "font",
+                              { staticStyle: { "vertical-align": "inherit" } },
+                              [_vm._v("The size chart")]
+                            )
+                          ],
+                          1
+                        )
+                      ],
+                      1
+                    )
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "col-12 col-md-8" }, [
+                  _c("div", { staticClass: "collectie-con" }, [
+                    _c("p"),
+                    _vm._v(" "),
+                    _c("p", [
+                      _c(
+                        "span",
+                        { staticStyle: { "font-size": "110%" } },
+                        [
+                          _c(
+                            "font",
+                            { staticStyle: { "vertical-align": "inherit" } },
+                            [
+                              _c(
+                                "font",
+                                {
+                                  staticStyle: { "vertical-align": "inherit" }
+                                },
+                                [
+                                  _vm._v(
+                                    "With the Size table you can convert the measured size to your ring size. "
+                                  )
+                                ]
+                              )
+                            ],
+                            1
+                          )
+                        ],
+                        1
+                      )
+                    ]),
+                    _vm._v(" "),
+                    _c("p"),
+                    _vm._v(" "),
+                    _c(
+                      "table",
+                      {
+                        staticStyle: { height: "168px", width: "297px" },
+                        attrs: { width: "307" }
+                      },
+                      [
+                        _c("tbody", [
+                          _c("tr", [
+                            _c(
+                              "td",
+                              {
+                                staticStyle: {
+                                  width: "87px",
+                                  "text-align": "center"
+                                }
+                              },
+                              [
+                                _c("p", [
+                                  _c(
+                                    "strong",
+                                    [
+                                      _c(
+                                        "font",
+                                        {
+                                          staticStyle: {
+                                            "vertical-align": "inherit"
+                                          }
+                                        },
+                                        [
+                                          _c(
+                                            "font",
+                                            {
+                                              staticStyle: {
+                                                "vertical-align": "inherit"
+                                              }
+                                            },
+                                            [_vm._v("RING SIZE ")]
+                                          )
+                                        ],
+                                        1
+                                      ),
+                                      _c("br"),
+                                      _vm._v(" "),
+                                      _c(
+                                        "font",
+                                        {
+                                          staticStyle: {
+                                            "vertical-align": "inherit"
+                                          }
+                                        },
+                                        [
+                                          _c(
+                                            "font",
+                                            {
+                                              staticStyle: {
+                                                "vertical-align": "inherit"
+                                              }
+                                            },
+                                            [_vm._v("CASA")]
+                                          )
+                                        ],
+                                        1
+                                      )
+                                    ],
+                                    1
+                                  )
+                                ])
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "td",
+                              {
+                                staticStyle: {
+                                  width: "60px",
+                                  "text-align": "center"
+                                }
+                              },
+                              [
+                                _c(
+                                  "p",
+                                  [
+                                    _c(
+                                      "font",
+                                      {
+                                        staticStyle: {
+                                          "vertical-align": "inherit"
+                                        }
+                                      },
+                                      [
+                                        _c(
+                                          "font",
+                                          {
+                                            staticStyle: {
+                                              "vertical-align": "inherit"
+                                            }
+                                          },
+                                          [_vm._v("CIRCUMFERENCE ")]
+                                        )
+                                      ],
+                                      1
+                                    ),
+                                    _c("br"),
+                                    _vm._v(" "),
+                                    _c(
+                                      "font",
+                                      {
+                                        staticStyle: {
+                                          "vertical-align": "inherit"
+                                        }
+                                      },
+                                      [
+                                        _c(
+                                          "font",
+                                          {
+                                            staticStyle: {
+                                              "vertical-align": "inherit"
+                                            }
+                                          },
+                                          [_vm._v("Ring")]
+                                        )
+                                      ],
+                                      1
+                                    )
+                                  ],
+                                  1
+                                )
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "td",
+                              {
+                                staticStyle: {
+                                  width: "130px",
+                                  "text-align": "center"
+                                }
+                              },
+                              [
+                                _c(
+                                  "font",
+                                  {
+                                    staticStyle: { "vertical-align": "inherit" }
+                                  },
+                                  [
+                                    _c(
+                                      "font",
+                                      {
+                                        staticStyle: {
+                                          "vertical-align": "inherit"
+                                        }
+                                      },
+                                      [_vm._v("INNER DIAMETER ")]
+                                    )
+                                  ],
+                                  1
+                                ),
+                                _c("br"),
+                                _vm._v(" "),
+                                _c(
+                                  "font",
+                                  {
+                                    staticStyle: { "vertical-align": "inherit" }
+                                  },
+                                  [
+                                    _c(
+                                      "font",
+                                      {
+                                        staticStyle: {
+                                          "vertical-align": "inherit"
+                                        }
+                                      },
+                                      [_vm._v("Ring")]
+                                    )
+                                  ],
+                                  1
+                                )
+                              ],
+                              1
+                            )
+                          ]),
+                          _vm._v(" "),
+                          _c("tr", [
+                            _c(
+                              "td",
+                              {
+                                staticStyle: {
+                                  width: "87px",
+                                  "text-align": "center"
+                                }
+                              },
+                              [
+                                _c(
+                                  "strong",
+                                  [
+                                    _c(
+                                      "font",
+                                      {
+                                        staticStyle: {
+                                          "vertical-align": "inherit"
+                                        }
+                                      },
+                                      [
+                                        _c(
+                                          "font",
+                                          {
+                                            staticStyle: {
+                                              "vertical-align": "inherit"
+                                            }
+                                          },
+                                          [_vm._v("52")]
+                                        )
+                                      ],
+                                      1
+                                    )
+                                  ],
+                                  1
+                                )
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "td",
+                              {
+                                staticStyle: {
+                                  width: "60px",
+                                  "text-align": "center"
+                                }
+                              },
+                              [
+                                _c(
+                                  "font",
+                                  {
+                                    staticStyle: { "vertical-align": "inherit" }
+                                  },
+                                  [
+                                    _c(
+                                      "font",
+                                      {
+                                        staticStyle: {
+                                          "vertical-align": "inherit"
+                                        }
+                                      },
+                                      [_vm._v("52")]
+                                    )
+                                  ],
+                                  1
+                                )
+                              ],
+                              1
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "td",
+                              {
+                                staticStyle: {
+                                  width: "130px",
+                                  "text-align": "center"
+                                }
+                              },
+                              [
+                                _c(
+                                  "font",
+                                  {
+                                    staticStyle: { "vertical-align": "inherit" }
+                                  },
+                                  [
+                                    _c(
+                                      "font",
+                                      {
+                                        staticStyle: {
+                                          "vertical-align": "inherit"
+                                        }
+                                      },
+                                      [_vm._v("16.5 mm")]
+                                    )
+                                  ],
+                                  1
+                                )
+                              ],
+                              1
+                            )
+                          ]),
+                          _vm._v(" "),
+                          _c("tr", [
+                            _c(
+                              "td",
+                              {
+                                staticStyle: {
+                                  width: "87px",
+                                  "text-align": "center"
+                                }
+                              },
+                              [
+                                _c(
+                                  "strong",
+                                  [
+                                    _c(
+                                      "font",
+                                      {
+                                        staticStyle: {
+                                          "vertical-align": "inherit"
+                                        }
+                                      },
+                                      [
+                                        _c(
+                                          "font",
+                                          {
+                                            staticStyle: {
+                                              "vertical-align": "inherit"
+                                            }
+                                          },
+                                          [_vm._v("54")]
+                                        )
+                                      ],
+                                      1
+                                    )
+                                  ],
+                                  1
+                                )
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "td",
+                              {
+                                staticStyle: {
+                                  width: "60px",
+                                  "text-align": "center"
+                                }
+                              },
+                              [
+                                _c(
+                                  "font",
+                                  {
+                                    staticStyle: { "vertical-align": "inherit" }
+                                  },
+                                  [
+                                    _c(
+                                      "font",
+                                      {
+                                        staticStyle: {
+                                          "vertical-align": "inherit"
+                                        }
+                                      },
+                                      [_vm._v("54")]
+                                    )
+                                  ],
+                                  1
+                                )
+                              ],
+                              1
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "td",
+                              {
+                                staticStyle: {
+                                  width: "130px",
+                                  "text-align": "center"
+                                }
+                              },
+                              [
+                                _c(
+                                  "font",
+                                  {
+                                    staticStyle: { "vertical-align": "inherit" }
+                                  },
+                                  [
+                                    _c(
+                                      "font",
+                                      {
+                                        staticStyle: {
+                                          "vertical-align": "inherit"
+                                        }
+                                      },
+                                      [_vm._v("17.25 mm")]
+                                    )
+                                  ],
+                                  1
+                                )
+                              ],
+                              1
+                            )
+                          ]),
+                          _vm._v(" "),
+                          _c("tr", [
+                            _c(
+                              "td",
+                              {
+                                staticStyle: {
+                                  width: "87px",
+                                  "text-align": "center"
+                                }
+                              },
+                              [
+                                _c(
+                                  "strong",
+                                  [
+                                    _c(
+                                      "font",
+                                      {
+                                        staticStyle: {
+                                          "vertical-align": "inherit"
+                                        }
+                                      },
+                                      [
+                                        _c(
+                                          "font",
+                                          {
+                                            staticStyle: {
+                                              "vertical-align": "inherit"
+                                            }
+                                          },
+                                          [_vm._v("56")]
+                                        )
+                                      ],
+                                      1
+                                    )
+                                  ],
+                                  1
+                                )
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "td",
+                              {
+                                staticStyle: {
+                                  width: "60px",
+                                  "text-align": "center"
+                                }
+                              },
+                              [
+                                _c(
+                                  "font",
+                                  {
+                                    staticStyle: { "vertical-align": "inherit" }
+                                  },
+                                  [
+                                    _c(
+                                      "font",
+                                      {
+                                        staticStyle: {
+                                          "vertical-align": "inherit"
+                                        }
+                                      },
+                                      [_vm._v("56")]
+                                    )
+                                  ],
+                                  1
+                                )
+                              ],
+                              1
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "td",
+                              {
+                                staticStyle: {
+                                  width: "130px",
+                                  "text-align": "center"
+                                }
+                              },
+                              [
+                                _c(
+                                  "font",
+                                  {
+                                    staticStyle: { "vertical-align": "inherit" }
+                                  },
+                                  [
+                                    _c(
+                                      "font",
+                                      {
+                                        staticStyle: {
+                                          "vertical-align": "inherit"
+                                        }
+                                      },
+                                      [_vm._v("17.75 mm")]
+                                    )
+                                  ],
+                                  1
+                                )
+                              ],
+                              1
+                            )
+                          ]),
+                          _vm._v(" "),
+                          _c("tr", [
+                            _c(
+                              "td",
+                              {
+                                staticStyle: {
+                                  width: "87px",
+                                  "text-align": "center"
+                                }
+                              },
+                              [
+                                _c(
+                                  "strong",
+                                  [
+                                    _c(
+                                      "font",
+                                      {
+                                        staticStyle: {
+                                          "vertical-align": "inherit"
+                                        }
+                                      },
+                                      [
+                                        _c(
+                                          "font",
+                                          {
+                                            staticStyle: {
+                                              "vertical-align": "inherit"
+                                            }
+                                          },
+                                          [_vm._v("58")]
+                                        )
+                                      ],
+                                      1
+                                    )
+                                  ],
+                                  1
+                                )
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "td",
+                              {
+                                staticStyle: {
+                                  width: "60px",
+                                  "text-align": "center"
+                                }
+                              },
+                              [
+                                _c(
+                                  "font",
+                                  {
+                                    staticStyle: { "vertical-align": "inherit" }
+                                  },
+                                  [
+                                    _c(
+                                      "font",
+                                      {
+                                        staticStyle: {
+                                          "vertical-align": "inherit"
+                                        }
+                                      },
+                                      [_vm._v("58")]
+                                    )
+                                  ],
+                                  1
+                                )
+                              ],
+                              1
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "td",
+                              {
+                                staticStyle: {
+                                  width: "130px",
+                                  "text-align": "center"
+                                }
+                              },
+                              [
+                                _c(
+                                  "font",
+                                  {
+                                    staticStyle: { "vertical-align": "inherit" }
+                                  },
+                                  [
+                                    _c(
+                                      "font",
+                                      {
+                                        staticStyle: {
+                                          "vertical-align": "inherit"
+                                        }
+                                      },
+                                      [_vm._v("18.5 mm")]
+                                    )
+                                  ],
+                                  1
+                                )
+                              ],
+                              1
+                            )
+                          ])
+                        ])
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _c("p", [
+                      _c(
+                        "span",
+                        { staticStyle: { "font-size": "110%" } },
+                        [
+                          _c(
+                            "font",
+                            { staticStyle: { "vertical-align": "inherit" } },
+                            [
+                              _c(
+                                "font",
+                                {
+                                  staticStyle: { "vertical-align": "inherit" }
+                                },
+                                [
+                                  _vm._v(
+                                    "Have you measured the size of the ring? "
+                                  )
+                                ]
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "font",
+                                {
+                                  staticStyle: { "vertical-align": "inherit" }
+                                },
+                                [_vm._v("Casa Jewelry has the most beautiful ")]
+                              )
+                            ],
+                            1
+                          ),
+                          _c(
+                            "a",
+                            {
+                              attrs: {
+                                title: "collection of rings",
+                                href:
+                                  "https://www.leffix.casa-jewelry.eu/ringen"
+                              }
+                            },
+                            [
+                              _c(
+                                "span",
+                                {
+                                  staticStyle: {
+                                    "text-decoration": "underline"
+                                  }
+                                },
+                                [
+                                  _c(
+                                    "font",
+                                    {
+                                      staticStyle: {
+                                        "vertical-align": "inherit"
+                                      }
+                                    },
+                                    [
+                                      _c(
+                                        "font",
+                                        {
+                                          staticStyle: {
+                                            "vertical-align": "inherit"
+                                          }
+                                        },
+                                        [_vm._v("collection of rings")]
+                                      )
+                                    ],
+                                    1
+                                  )
+                                ],
+                                1
+                              )
+                            ]
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "font",
+                            { staticStyle: { "vertical-align": "inherit" } },
+                            [
+                              _c(
+                                "font",
+                                {
+                                  staticStyle: { "vertical-align": "inherit" }
+                                },
+                                [_vm._v(" in its range ")]
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "font",
+                                {
+                                  staticStyle: { "vertical-align": "inherit" }
+                                },
+                                [_vm._v("for every occasion and style ")]
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "font",
+                                {
+                                  staticStyle: { "vertical-align": "inherit" }
+                                },
+                                [_vm._v(". ")]
+                              )
+                            ],
+                            1
+                          )
+                        ],
+                        1
+                      )
+                    ]),
+                    _vm._v(" "),
+                    _c("p")
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "col-12 col-md-4" }, [
+                  _c("div", { staticClass: "collectie-con text-center" }, [
+                    _c("img", {
+                      staticClass: "img-fluid",
+                      attrs: {
+                        src: "/storage/images/87_5dc295f8cfbcb.jpg",
+                        alt: "2. Measure the length of the string",
+                        title: "$ imgi ['title']"
+                      }
+                    }),
+                    _vm._v(" "),
+                    _c(
+                      "p",
+                      [
+                        _c(
+                          "font",
+                          { staticStyle: { "vertical-align": "inherit" } },
+                          [
+                            _c(
+                              "font",
+                              { staticStyle: { "vertical-align": "inherit" } },
+                              [_vm._v("2. Measure the length of the string")]
+                            )
+                          ],
+                          1
+                        )
+                      ],
+                      1
+                    )
+                  ])
+                ])
+              ])
+            ])
+          ])
+        ])
+      ])
+    ]
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/shop/megamenu.vue?vue&type=template&id=61e7fae2&":
+/*!****************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/shop/megamenu.vue?vue&type=template&id=61e7fae2& ***!
+  \****************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("div", [
+    _c("section", { staticClass: "mega-menu fixed-top margin-top" }, [
+      _c("div", { staticClass: "container-fluid" }, [
+        _c("nav", { staticClass: "navbar navbar-expand-lg" }, [
+          _c(
+            "button",
+            {
+              staticClass: "navbar-toggler",
+              attrs: {
+                type: "button",
+                "data-toggle": "collapse",
+                "data-target": "#navbarNavDropdown",
+                "aria-controls": "navbarNavDropdown",
+                "aria-expanded": "true",
+                "aria-label": "Toggle navigation"
+              }
+            },
+            [
+              _c(
+                "span",
+                { staticClass: "navbar-toggler-icon" },
+                [
+                  _c(
+                    "font",
+                    { staticStyle: { "vertical-align": "inherit" } },
+                    [
+                      _c(
+                        "font",
+                        { staticStyle: { "vertical-align": "inherit" } },
+                        [_vm._v("Filter")]
+                      )
+                    ],
+                    1
+                  )
+                ],
+                1
+              )
+            ]
+          ),
+          _vm._v(" "),
+          _c(
+            "div",
+            {
+              staticClass: "navbar-collapse collapse show",
+              attrs: { id: "navbarNavDropdown" }
+            },
+            [
+              _c("ul", { staticClass: "navbar-nav shop-1" }, [
+                _c(
+                  "li",
+                  {
+                    staticClass: "nav-item dropdown has-mega-menu",
+                    staticStyle: { position: "static" },
+                    attrs: { id: "filterMenu" }
+                  },
+                  [
+                    _c(
+                      "a",
+                      {
+                        staticClass: "nav-link dropdown-toggle",
+                        attrs: {
+                          "data-toggle": "dropdown",
+                          href: "#",
+                          role: "button",
+                          "aria-haspopup": "true",
+                          "aria-expanded": "false"
+                        }
+                      },
+                      [
+                        _c(
+                          "span",
+                          { staticClass: "asd" },
+                          [
+                            _c(
+                              "font",
+                              { staticStyle: { "vertical-align": "inherit" } },
+                              [
+                                _c(
+                                  "font",
+                                  {
+                                    staticStyle: { "vertical-align": "inherit" }
+                                  },
+                                  [_vm._v("Filter")]
+                                )
+                              ],
+                              1
+                            ),
+                            _vm._v(" "),
+                            _c("div", {
+                              staticClass: "fa fa-chevron-right rotate down"
+                            })
+                          ],
+                          1
+                        )
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "div",
+                      {
+                        staticClass: "dropdown-menu shadow",
+                        staticStyle: { width: "100%" },
+                        attrs: { id: "filterDropdown" }
+                      },
+                      [
+                        _c("div", { staticClass: "px-15" }, [
+                          _c(
+                            "a",
+                            {
+                              staticClass: "btn-cus filter",
+                              attrs: { href: "#", id: "filterProducts" }
+                            },
+                            [
+                              _c(
+                                "font",
+                                {
+                                  staticStyle: { "vertical-align": "inherit" }
+                                },
+                                [
+                                  _c(
+                                    "font",
+                                    {
+                                      staticStyle: {
+                                        "vertical-align": "inherit"
+                                      }
+                                    },
+                                    [_vm._v("Filter products ")]
+                                  )
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "a",
+                            {
+                              staticClass: "btn-cus filter",
+                              attrs: { href: "#", id: "filterReset" }
+                            },
+                            [
+                              _c(
+                                "font",
+                                {
+                                  staticStyle: { "vertical-align": "inherit" }
+                                },
+                                [
+                                  _c(
+                                    "font",
+                                    {
+                                      staticStyle: {
+                                        "vertical-align": "inherit"
+                                      }
+                                    },
+                                    [_vm._v("Reset filter ")]
+                                  )
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "a",
+                            {
+                              staticClass: "btn-cus filter fright",
+                              attrs: {
+                                href: "#",
+                                "data-toggle": "collapse",
+                                "data-target": "#navbarNavDropdown",
+                                "aria-controls": "navbarNavDropdown",
+                                "aria-expanded": "true",
+                                "aria-label": "Toggle navigation"
+                              }
+                            },
+                            [
+                              _c(
+                                "font",
+                                {
+                                  staticStyle: { "vertical-align": "inherit" }
+                                },
+                                [
+                                  _c(
+                                    "font",
+                                    {
+                                      staticStyle: {
+                                        "vertical-align": "inherit"
+                                      }
+                                    },
+                                    [_vm._v("Close")]
+                                  )
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          )
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "px-15" }, [
+                          _c("div", { staticClass: "row col-12" }, [
+                            _c(
+                              "div",
+                              { staticClass: "mega-grid border-left-0" },
+                              [
+                                _c("div", { staticClass: "mega-item" }, [
+                                  _c(
+                                    "h6",
+                                    [
+                                      _c(
+                                        "font",
+                                        {
+                                          staticStyle: {
+                                            "vertical-align": "inherit"
+                                          }
+                                        },
+                                        [
+                                          _c(
+                                            "font",
+                                            {
+                                              staticStyle: {
+                                                "vertical-align": "inherit"
+                                              }
+                                            },
+                                            [_vm._v("Performance")]
+                                          )
+                                        ],
+                                        1
+                                      )
+                                    ],
+                                    1
+                                  ),
+                                  _vm._v(" "),
+                                  _c("ul", { staticClass: "alada" }, [
+                                    _c("div", { staticClass: "form-check " }, [
+                                      _c("input", {
+                                        staticClass: "form-check-input filter",
+                                        attrs: {
+                                          type: "checkbox",
+                                          value: "26",
+                                          id: "checkbox_26"
+                                        }
+                                      }),
+                                      _vm._v(" "),
+                                      _c(
+                                        "label",
+                                        {
+                                          staticClass: "form-check-label",
+                                          attrs: { for: "checkbox_26" }
+                                        },
+                                        [
+                                          _c(
+                                            "font",
+                                            {
+                                              staticStyle: {
+                                                "vertical-align": "inherit"
+                                              }
+                                            },
+                                            [
+                                              _c(
+                                                "font",
+                                                {
+                                                  staticStyle: {
+                                                    "vertical-align": "inherit"
+                                                  }
+                                                },
+                                                [_vm._v("Silver")]
+                                              )
+                                            ],
+                                            1
+                                          )
+                                        ],
+                                        1
+                                      )
+                                    ]),
+                                    _vm._v(" "),
+                                    _c("div", { staticClass: "form-check " }, [
+                                      _c("input", {
+                                        staticClass: "form-check-input filter",
+                                        attrs: {
+                                          type: "checkbox",
+                                          value: "28",
+                                          id: "checkbox_28"
+                                        }
+                                      }),
+                                      _vm._v(" "),
+                                      _c(
+                                        "label",
+                                        {
+                                          staticClass: "form-check-label",
+                                          attrs: { for: "checkbox_28" }
+                                        },
+                                        [
+                                          _c(
+                                            "font",
+                                            {
+                                              staticStyle: {
+                                                "vertical-align": "inherit"
+                                              }
+                                            },
+                                            [
+                                              _c(
+                                                "font",
+                                                {
+                                                  staticStyle: {
+                                                    "vertical-align": "inherit"
+                                                  }
+                                                },
+                                                [_vm._v("gold")]
+                                              )
+                                            ],
+                                            1
+                                          )
+                                        ],
+                                        1
+                                      )
+                                    ]),
+                                    _vm._v(" "),
+                                    _c("div", { staticClass: "form-check " }, [
+                                      _c("input", {
+                                        staticClass: "form-check-input filter",
+                                        attrs: {
+                                          type: "checkbox",
+                                          value: "27",
+                                          id: "checkbox_27"
+                                        }
+                                      }),
+                                      _vm._v(" "),
+                                      _c(
+                                        "label",
+                                        {
+                                          staticClass: "form-check-label",
+                                          attrs: { for: "checkbox_27" }
+                                        },
+                                        [
+                                          _c(
+                                            "font",
+                                            {
+                                              staticStyle: {
+                                                "vertical-align": "inherit"
+                                              }
+                                            },
+                                            [
+                                              _c(
+                                                "font",
+                                                {
+                                                  staticStyle: {
+                                                    "vertical-align": "inherit"
+                                                  }
+                                                },
+                                                [_vm._v("Rose")]
+                                              )
+                                            ],
+                                            1
+                                          )
+                                        ],
+                                        1
+                                      )
+                                    ]),
+                                    _vm._v(" "),
+                                    _c("div", { staticClass: "form-check " }, [
+                                      _c("input", {
+                                        staticClass: "form-check-input filter",
+                                        attrs: {
+                                          type: "checkbox",
+                                          value: "59",
+                                          id: "checkbox_59"
+                                        }
+                                      }),
+                                      _vm._v(" "),
+                                      _c(
+                                        "label",
+                                        {
+                                          staticClass: "form-check-label",
+                                          attrs: { for: "checkbox_59" }
+                                        },
+                                        [
+                                          _c(
+                                            "font",
+                                            {
+                                              staticStyle: {
+                                                "vertical-align": "inherit"
+                                              }
+                                            },
+                                            [
+                                              _c(
+                                                "font",
+                                                {
+                                                  staticStyle: {
+                                                    "vertical-align": "inherit"
+                                                  }
+                                                },
+                                                [_vm._v("Leather")]
+                                              )
+                                            ],
+                                            1
+                                          )
+                                        ],
+                                        1
+                                      )
+                                    ])
+                                  ])
+                                ])
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c("div", { staticClass: "mega-grid" }, [
+                              _c("div", { staticClass: "mega-item" }, [
+                                _c(
+                                  "h6",
+                                  [
+                                    _c(
+                                      "font",
+                                      {
+                                        staticStyle: {
+                                          "vertical-align": "inherit"
+                                        }
+                                      },
+                                      [
+                                        _c(
+                                          "font",
+                                          {
+                                            staticStyle: {
+                                              "vertical-align": "inherit"
+                                            }
+                                          },
+                                          [_vm._v("Color")]
+                                        )
+                                      ],
+                                      1
+                                    )
+                                  ],
+                                  1
+                                ),
+                                _vm._v(" "),
+                                _c("ul", [
+                                  _c("div", { staticClass: "form-check " }, [
+                                    _c("input", {
+                                      staticClass: "form-check-input filter",
+                                      attrs: {
+                                        type: "checkbox",
+                                        value: "60",
+                                        id: "checkbox_60"
+                                      }
+                                    }),
+                                    _vm._v(" "),
+                                    _c(
+                                      "label",
+                                      {
+                                        staticClass: "form-check-label",
+                                        attrs: { for: "checkbox_60" }
+                                      },
+                                      [
+                                        _c(
+                                          "font",
+                                          {
+                                            staticStyle: {
+                                              "vertical-align": "inherit"
+                                            }
+                                          },
+                                          [
+                                            _c(
+                                              "font",
+                                              {
+                                                staticStyle: {
+                                                  "vertical-align": "inherit"
+                                                }
+                                              },
+                                              [_vm._v("Black")]
+                                            )
+                                          ],
+                                          1
+                                        )
+                                      ],
+                                      1
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "form-check " }, [
+                                    _c("input", {
+                                      staticClass: "form-check-input filter",
+                                      attrs: {
+                                        type: "checkbox",
+                                        value: "61",
+                                        id: "checkbox_61"
+                                      }
+                                    }),
+                                    _vm._v(" "),
+                                    _c(
+                                      "label",
+                                      {
+                                        staticClass: "form-check-label",
+                                        attrs: { for: "checkbox_61" }
+                                      },
+                                      [
+                                        _c(
+                                          "font",
+                                          {
+                                            staticStyle: {
+                                              "vertical-align": "inherit"
+                                            }
+                                          },
+                                          [
+                                            _c(
+                                              "font",
+                                              {
+                                                staticStyle: {
+                                                  "vertical-align": "inherit"
+                                                }
+                                              },
+                                              [_vm._v("Brown")]
+                                            )
+                                          ],
+                                          1
+                                        )
+                                      ],
+                                      1
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "form-check " }, [
+                                    _c("input", {
+                                      staticClass: "form-check-input filter",
+                                      attrs: {
+                                        type: "checkbox",
+                                        value: "62",
+                                        id: "checkbox_62"
+                                      }
+                                    }),
+                                    _vm._v(" "),
+                                    _c(
+                                      "label",
+                                      {
+                                        staticClass: "form-check-label",
+                                        attrs: { for: "checkbox_62" }
+                                      },
+                                      [
+                                        _c(
+                                          "font",
+                                          {
+                                            staticStyle: {
+                                              "vertical-align": "inherit"
+                                            }
+                                          },
+                                          [
+                                            _c(
+                                              "font",
+                                              {
+                                                staticStyle: {
+                                                  "vertical-align": "inherit"
+                                                }
+                                              },
+                                              [_vm._v("White")]
+                                            )
+                                          ],
+                                          1
+                                        )
+                                      ],
+                                      1
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "form-check " }, [
+                                    _c("input", {
+                                      staticClass: "form-check-input filter",
+                                      attrs: {
+                                        type: "checkbox",
+                                        value: "63",
+                                        id: "checkbox_63"
+                                      }
+                                    }),
+                                    _vm._v(" "),
+                                    _c(
+                                      "label",
+                                      {
+                                        staticClass: "form-check-label",
+                                        attrs: { for: "checkbox_63" }
+                                      },
+                                      [
+                                        _c(
+                                          "font",
+                                          {
+                                            staticStyle: {
+                                              "vertical-align": "inherit"
+                                            }
+                                          },
+                                          [
+                                            _c(
+                                              "font",
+                                              {
+                                                staticStyle: {
+                                                  "vertical-align": "inherit"
+                                                }
+                                              },
+                                              [_vm._v("Beige")]
+                                            )
+                                          ],
+                                          1
+                                        )
+                                      ],
+                                      1
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "form-check " }, [
+                                    _c("input", {
+                                      staticClass: "form-check-input filter",
+                                      attrs: {
+                                        type: "checkbox",
+                                        value: "64",
+                                        id: "checkbox_64"
+                                      }
+                                    }),
+                                    _vm._v(" "),
+                                    _c(
+                                      "label",
+                                      {
+                                        staticClass: "form-check-label",
+                                        attrs: { for: "checkbox_64" }
+                                      },
+                                      [
+                                        _c(
+                                          "font",
+                                          {
+                                            staticStyle: {
+                                              "vertical-align": "inherit"
+                                            }
+                                          },
+                                          [
+                                            _c(
+                                              "font",
+                                              {
+                                                staticStyle: {
+                                                  "vertical-align": "inherit"
+                                                }
+                                              },
+                                              [_vm._v("Gray")]
+                                            )
+                                          ],
+                                          1
+                                        )
+                                      ],
+                                      1
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "form-check " }, [
+                                    _c("input", {
+                                      staticClass: "form-check-input filter",
+                                      attrs: {
+                                        type: "checkbox",
+                                        value: "65",
+                                        id: "checkbox_65"
+                                      }
+                                    }),
+                                    _vm._v(" "),
+                                    _c(
+                                      "label",
+                                      {
+                                        staticClass: "form-check-label",
+                                        attrs: { for: "checkbox_65" }
+                                      },
+                                      [
+                                        _c(
+                                          "font",
+                                          {
+                                            staticStyle: {
+                                              "vertical-align": "inherit"
+                                            }
+                                          },
+                                          [
+                                            _c(
+                                              "font",
+                                              {
+                                                staticStyle: {
+                                                  "vertical-align": "inherit"
+                                                }
+                                              },
+                                              [_vm._v("Lilac")]
+                                            )
+                                          ],
+                                          1
+                                        )
+                                      ],
+                                      1
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "form-check " }, [
+                                    _c("input", {
+                                      staticClass: "form-check-input filter",
+                                      attrs: {
+                                        type: "checkbox",
+                                        value: "66",
+                                        id: "checkbox_66"
+                                      }
+                                    }),
+                                    _vm._v(" "),
+                                    _c(
+                                      "label",
+                                      {
+                                        staticClass: "form-check-label",
+                                        attrs: { for: "checkbox_66" }
+                                      },
+                                      [
+                                        _c(
+                                          "font",
+                                          {
+                                            staticStyle: {
+                                              "vertical-align": "inherit"
+                                            }
+                                          },
+                                          [
+                                            _c(
+                                              "font",
+                                              {
+                                                staticStyle: {
+                                                  "vertical-align": "inherit"
+                                                }
+                                              },
+                                              [_vm._v("Orange")]
+                                            )
+                                          ],
+                                          1
+                                        )
+                                      ],
+                                      1
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "form-check " }, [
+                                    _c("input", {
+                                      staticClass: "form-check-input filter",
+                                      attrs: {
+                                        type: "checkbox",
+                                        value: "67",
+                                        id: "checkbox_67"
+                                      }
+                                    }),
+                                    _vm._v(" "),
+                                    _c(
+                                      "label",
+                                      {
+                                        staticClass: "form-check-label",
+                                        attrs: { for: "checkbox_67" }
+                                      },
+                                      [
+                                        _c(
+                                          "font",
+                                          {
+                                            staticStyle: {
+                                              "vertical-align": "inherit"
+                                            }
+                                          },
+                                          [
+                                            _c(
+                                              "font",
+                                              {
+                                                staticStyle: {
+                                                  "vertical-align": "inherit"
+                                                }
+                                              },
+                                              [_vm._v("Pink")]
+                                            )
+                                          ],
+                                          1
+                                        )
+                                      ],
+                                      1
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "form-check " }, [
+                                    _c("input", {
+                                      staticClass: "form-check-input filter",
+                                      attrs: {
+                                        type: "checkbox",
+                                        value: "68",
+                                        id: "checkbox_68"
+                                      }
+                                    }),
+                                    _vm._v(" "),
+                                    _c(
+                                      "label",
+                                      {
+                                        staticClass: "form-check-label",
+                                        attrs: { for: "checkbox_68" }
+                                      },
+                                      [
+                                        _c(
+                                          "font",
+                                          {
+                                            staticStyle: {
+                                              "vertical-align": "inherit"
+                                            }
+                                          },
+                                          [
+                                            _c(
+                                              "font",
+                                              {
+                                                staticStyle: {
+                                                  "vertical-align": "inherit"
+                                                }
+                                              },
+                                              [_vm._v("Turquoise")]
+                                            )
+                                          ],
+                                          1
+                                        )
+                                      ],
+                                      1
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "form-check " }, [
+                                    _c("input", {
+                                      staticClass: "form-check-input filter",
+                                      attrs: {
+                                        type: "checkbox",
+                                        value: "69",
+                                        id: "checkbox_69"
+                                      }
+                                    }),
+                                    _vm._v(" "),
+                                    _c(
+                                      "label",
+                                      {
+                                        staticClass: "form-check-label",
+                                        attrs: { for: "checkbox_69" }
+                                      },
+                                      [
+                                        _c(
+                                          "font",
+                                          {
+                                            staticStyle: {
+                                              "vertical-align": "inherit"
+                                            }
+                                          },
+                                          [
+                                            _c(
+                                              "font",
+                                              {
+                                                staticStyle: {
+                                                  "vertical-align": "inherit"
+                                                }
+                                              },
+                                              [_vm._v("Green")]
+                                            )
+                                          ],
+                                          1
+                                        )
+                                      ],
+                                      1
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "form-check " }, [
+                                    _c("input", {
+                                      staticClass: "form-check-input filter",
+                                      attrs: {
+                                        type: "checkbox",
+                                        value: "70",
+                                        id: "checkbox_70"
+                                      }
+                                    }),
+                                    _vm._v(" "),
+                                    _c(
+                                      "label",
+                                      {
+                                        staticClass: "form-check-label",
+                                        attrs: { for: "checkbox_70" }
+                                      },
+                                      [
+                                        _c(
+                                          "font",
+                                          {
+                                            staticStyle: {
+                                              "vertical-align": "inherit"
+                                            }
+                                          },
+                                          [
+                                            _c(
+                                              "font",
+                                              {
+                                                staticStyle: {
+                                                  "vertical-align": "inherit"
+                                                }
+                                              },
+                                              [_vm._v("Blue")]
+                                            )
+                                          ],
+                                          1
+                                        )
+                                      ],
+                                      1
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "form-check " }, [
+                                    _c("input", {
+                                      staticClass: "form-check-input filter",
+                                      attrs: {
+                                        type: "checkbox",
+                                        value: "71",
+                                        id: "checkbox_71"
+                                      }
+                                    }),
+                                    _vm._v(" "),
+                                    _c(
+                                      "label",
+                                      {
+                                        staticClass: "form-check-label",
+                                        attrs: { for: "checkbox_71" }
+                                      },
+                                      [
+                                        _c(
+                                          "font",
+                                          {
+                                            staticStyle: {
+                                              "vertical-align": "inherit"
+                                            }
+                                          },
+                                          [
+                                            _c(
+                                              "font",
+                                              {
+                                                staticStyle: {
+                                                  "vertical-align": "inherit"
+                                                }
+                                              },
+                                              [_vm._v("Red")]
+                                            )
+                                          ],
+                                          1
+                                        )
+                                      ],
+                                      1
+                                    )
+                                  ])
+                                ])
+                              ])
+                            ]),
+                            _vm._v(" "),
+                            _c("div", { staticClass: "mega-grid" }, [
+                              _c("div", { staticClass: "mega-item" }, [
+                                _c(
+                                  "h6",
+                                  [
+                                    _c(
+                                      "font",
+                                      {
+                                        staticStyle: {
+                                          "vertical-align": "inherit"
+                                        }
+                                      },
+                                      [
+                                        _c(
+                                          "font",
+                                          {
+                                            staticStyle: {
+                                              "vertical-align": "inherit"
+                                            }
+                                          },
+                                          [_vm._v("Stone type")]
+                                        )
+                                      ],
+                                      1
+                                    )
+                                  ],
+                                  1
+                                ),
+                                _vm._v(" "),
+                                _c("form", { attrs: { action: "" } }, [
+                                  _c("div", { staticClass: "form-check" }, [
+                                    _c("input", {
+                                      staticClass: "form-check-input filter",
+                                      attrs: {
+                                        type: "checkbox",
+                                        value: "72",
+                                        id: "checkbox_72"
+                                      }
+                                    }),
+                                    _vm._v(" "),
+                                    _c(
+                                      "label",
+                                      {
+                                        staticClass: "form-check-label",
+                                        attrs: { for: "checkbox_72" }
+                                      },
+                                      [
+                                        _c(
+                                          "font",
+                                          {
+                                            staticStyle: {
+                                              "vertical-align": "inherit"
+                                            }
+                                          },
+                                          [
+                                            _c(
+                                              "font",
+                                              {
+                                                staticStyle: {
+                                                  "vertical-align": "inherit"
+                                                }
+                                              },
+                                              [_vm._v("Pearl")]
+                                            )
+                                          ],
+                                          1
+                                        )
+                                      ],
+                                      1
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "form-check" }, [
+                                    _c("input", {
+                                      staticClass: "form-check-input filter",
+                                      attrs: {
+                                        type: "checkbox",
+                                        value: "73",
+                                        id: "checkbox_73"
+                                      }
+                                    }),
+                                    _vm._v(" "),
+                                    _c(
+                                      "label",
+                                      {
+                                        staticClass: "form-check-label",
+                                        attrs: { for: "checkbox_73" }
+                                      },
+                                      [
+                                        _c(
+                                          "font",
+                                          {
+                                            staticStyle: {
+                                              "vertical-align": "inherit"
+                                            }
+                                          },
+                                          [
+                                            _c(
+                                              "font",
+                                              {
+                                                staticStyle: {
+                                                  "vertical-align": "inherit"
+                                                }
+                                              },
+                                              [_vm._v("Freshwater pearl")]
+                                            )
+                                          ],
+                                          1
+                                        )
+                                      ],
+                                      1
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "form-check" }, [
+                                    _c("input", {
+                                      staticClass: "form-check-input filter",
+                                      attrs: {
+                                        type: "checkbox",
+                                        value: "74",
+                                        id: "checkbox_74"
+                                      }
+                                    }),
+                                    _vm._v(" "),
+                                    _c(
+                                      "label",
+                                      {
+                                        staticClass: "form-check-label",
+                                        attrs: { for: "checkbox_74" }
+                                      },
+                                      [
+                                        _c(
+                                          "font",
+                                          {
+                                            staticStyle: {
+                                              "vertical-align": "inherit"
+                                            }
+                                          },
+                                          [
+                                            _c(
+                                              "font",
+                                              {
+                                                staticStyle: {
+                                                  "vertical-align": "inherit"
+                                                }
+                                              },
+                                              [_vm._v("Zirconia")]
+                                            )
+                                          ],
+                                          1
+                                        )
+                                      ],
+                                      1
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "form-check" }, [
+                                    _c("input", {
+                                      staticClass: "form-check-input filter",
+                                      attrs: {
+                                        type: "checkbox",
+                                        value: "75",
+                                        id: "checkbox_75"
+                                      }
+                                    }),
+                                    _vm._v(" "),
+                                    _c(
+                                      "label",
+                                      {
+                                        staticClass: "form-check-label",
+                                        attrs: { for: "checkbox_75" }
+                                      },
+                                      [
+                                        _c(
+                                          "font",
+                                          {
+                                            staticStyle: {
+                                              "vertical-align": "inherit"
+                                            }
+                                          },
+                                          [
+                                            _c(
+                                              "font",
+                                              {
+                                                staticStyle: {
+                                                  "vertical-align": "inherit"
+                                                }
+                                              },
+                                              [_vm._v("Labradorite")]
+                                            )
+                                          ],
+                                          1
+                                        )
+                                      ],
+                                      1
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "form-check" }, [
+                                    _c("input", {
+                                      staticClass: "form-check-input filter",
+                                      attrs: {
+                                        type: "checkbox",
+                                        value: "76",
+                                        id: "checkbox_76"
+                                      }
+                                    }),
+                                    _vm._v(" "),
+                                    _c(
+                                      "label",
+                                      {
+                                        staticClass: "form-check-label",
+                                        attrs: { for: "checkbox_76" }
+                                      },
+                                      [
+                                        _c(
+                                          "font",
+                                          {
+                                            staticStyle: {
+                                              "vertical-align": "inherit"
+                                            }
+                                          },
+                                          [
+                                            _c(
+                                              "font",
+                                              {
+                                                staticStyle: {
+                                                  "vertical-align": "inherit"
+                                                }
+                                              },
+                                              [_vm._v("Jade")]
+                                            )
+                                          ],
+                                          1
+                                        )
+                                      ],
+                                      1
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "form-check" }, [
+                                    _c("input", {
+                                      staticClass: "form-check-input filter",
+                                      attrs: {
+                                        type: "checkbox",
+                                        value: "77",
+                                        id: "checkbox_77"
+                                      }
+                                    }),
+                                    _vm._v(" "),
+                                    _c(
+                                      "label",
+                                      {
+                                        staticClass: "form-check-label",
+                                        attrs: { for: "checkbox_77" }
+                                      },
+                                      [
+                                        _c(
+                                          "font",
+                                          {
+                                            staticStyle: {
+                                              "vertical-align": "inherit"
+                                            }
+                                          },
+                                          [
+                                            _c(
+                                              "font",
+                                              {
+                                                staticStyle: {
+                                                  "vertical-align": "inherit"
+                                                }
+                                              },
+                                              [_vm._v("Quartz")]
+                                            )
+                                          ],
+                                          1
+                                        )
+                                      ],
+                                      1
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "form-check" }, [
+                                    _c("input", {
+                                      staticClass: "form-check-input filter",
+                                      attrs: {
+                                        type: "checkbox",
+                                        value: "78",
+                                        id: "checkbox_78"
+                                      }
+                                    }),
+                                    _vm._v(" "),
+                                    _c(
+                                      "label",
+                                      {
+                                        staticClass: "form-check-label",
+                                        attrs: { for: "checkbox_78" }
+                                      },
+                                      [
+                                        _c(
+                                          "font",
+                                          {
+                                            staticStyle: {
+                                              "vertical-align": "inherit"
+                                            }
+                                          },
+                                          [
+                                            _c(
+                                              "font",
+                                              {
+                                                staticStyle: {
+                                                  "vertical-align": "inherit"
+                                                }
+                                              },
+                                              [_vm._v("Cat's eye")]
+                                            )
+                                          ],
+                                          1
+                                        )
+                                      ],
+                                      1
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "form-check" }, [
+                                    _c("input", {
+                                      staticClass: "form-check-input filter",
+                                      attrs: {
+                                        type: "checkbox",
+                                        value: "79",
+                                        id: "checkbox_79"
+                                      }
+                                    }),
+                                    _vm._v(" "),
+                                    _c(
+                                      "label",
+                                      {
+                                        staticClass: "form-check-label",
+                                        attrs: { for: "checkbox_79" }
+                                      },
+                                      [
+                                        _c(
+                                          "font",
+                                          {
+                                            staticStyle: {
+                                              "vertical-align": "inherit"
+                                            }
+                                          },
+                                          [
+                                            _c(
+                                              "font",
+                                              {
+                                                staticStyle: {
+                                                  "vertical-align": "inherit"
+                                                }
+                                              },
+                                              [_vm._v("Murano")]
+                                            )
+                                          ],
+                                          1
+                                        )
+                                      ],
+                                      1
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "form-check" }, [
+                                    _c("input", {
+                                      staticClass: "form-check-input filter",
+                                      attrs: {
+                                        type: "checkbox",
+                                        value: "80",
+                                        id: "checkbox_80"
+                                      }
+                                    }),
+                                    _vm._v(" "),
+                                    _c(
+                                      "label",
+                                      {
+                                        staticClass: "form-check-label",
+                                        attrs: { for: "checkbox_80" }
+                                      },
+                                      [
+                                        _c(
+                                          "font",
+                                          {
+                                            staticStyle: {
+                                              "vertical-align": "inherit"
+                                            }
+                                          },
+                                          [
+                                            _c(
+                                              "font",
+                                              {
+                                                staticStyle: {
+                                                  "vertical-align": "inherit"
+                                                }
+                                              },
+                                              [_vm._v("Onyx")]
+                                            )
+                                          ],
+                                          1
+                                        )
+                                      ],
+                                      1
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "form-check" }, [
+                                    _c("input", {
+                                      staticClass: "form-check-input filter",
+                                      attrs: {
+                                        type: "checkbox",
+                                        value: "81",
+                                        id: "checkbox_81"
+                                      }
+                                    }),
+                                    _vm._v(" "),
+                                    _c(
+                                      "label",
+                                      {
+                                        staticClass: "form-check-label",
+                                        attrs: { for: "checkbox_81" }
+                                      },
+                                      [
+                                        _c(
+                                          "font",
+                                          {
+                                            staticStyle: {
+                                              "vertical-align": "inherit"
+                                            }
+                                          },
+                                          [
+                                            _c(
+                                              "font",
+                                              {
+                                                staticStyle: {
+                                                  "vertical-align": "inherit"
+                                                }
+                                              },
+                                              [_vm._v("Agate")]
+                                            )
+                                          ],
+                                          1
+                                        )
+                                      ],
+                                      1
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "form-check" }, [
+                                    _c("input", {
+                                      staticClass: "form-check-input filter",
+                                      attrs: {
+                                        type: "checkbox",
+                                        value: "82",
+                                        id: "checkbox_82"
+                                      }
+                                    }),
+                                    _vm._v(" "),
+                                    _c(
+                                      "label",
+                                      {
+                                        staticClass: "form-check-label",
+                                        attrs: { for: "checkbox_82" }
+                                      },
+                                      [
+                                        _c(
+                                          "font",
+                                          {
+                                            staticStyle: {
+                                              "vertical-align": "inherit"
+                                            }
+                                          },
+                                          [
+                                            _c(
+                                              "font",
+                                              {
+                                                staticStyle: {
+                                                  "vertical-align": "inherit"
+                                                }
+                                              },
+                                              [_vm._v("Moonstone")]
+                                            )
+                                          ],
+                                          1
+                                        )
+                                      ],
+                                      1
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "form-check" }, [
+                                    _c("input", {
+                                      staticClass: "form-check-input filter",
+                                      attrs: {
+                                        type: "checkbox",
+                                        value: "83",
+                                        id: "checkbox_83"
+                                      }
+                                    }),
+                                    _vm._v(" "),
+                                    _c(
+                                      "label",
+                                      {
+                                        staticClass: "form-check-label",
+                                        attrs: { for: "checkbox_83" }
+                                      },
+                                      [
+                                        _c(
+                                          "font",
+                                          {
+                                            staticStyle: {
+                                              "vertical-align": "inherit"
+                                            }
+                                          },
+                                          [
+                                            _c(
+                                              "font",
+                                              {
+                                                staticStyle: {
+                                                  "vertical-align": "inherit"
+                                                }
+                                              },
+                                              [_vm._v("Carnelian")]
+                                            )
+                                          ],
+                                          1
+                                        )
+                                      ],
+                                      1
+                                    )
+                                  ])
+                                ])
+                              ])
+                            ]),
+                            _vm._v(" "),
+                            _c("div", { staticClass: "mega-grid" }, [
+                              _c("div", { staticClass: "mega-item" }, [
+                                _c(
+                                  "h6",
+                                  [
+                                    _c(
+                                      "font",
+                                      {
+                                        staticStyle: {
+                                          "vertical-align": "inherit"
+                                        }
+                                      },
+                                      [
+                                        _c(
+                                          "font",
+                                          {
+                                            staticStyle: {
+                                              "vertical-align": "inherit"
+                                            }
+                                          },
+                                          [_vm._v("price")]
+                                        )
+                                      ],
+                                      1
+                                    )
+                                  ],
+                                  1
+                                ),
+                                _vm._v(" "),
+                                _c("form", { attrs: { action: "" } }, [
+                                  _c("div", { staticClass: "form-check " }, [
+                                    _c("input", {
+                                      staticClass:
+                                        "form-check-input filterprijs",
+                                      attrs: {
+                                        type: "checkbox",
+                                        value: "0_25",
+                                        id: "checkbox_0_25"
+                                      }
+                                    }),
+                                    _vm._v(" "),
+                                    _c(
+                                      "label",
+                                      {
+                                        staticClass: "form-check-label",
+                                        attrs: { for: "checkbox_0_25" }
+                                      },
+                                      [
+                                        _c(
+                                          "font",
+                                          {
+                                            staticStyle: {
+                                              "vertical-align": "inherit"
+                                            }
+                                          },
+                                          [
+                                            _c(
+                                              "font",
+                                              {
+                                                staticStyle: {
+                                                  "vertical-align": "inherit"
+                                                }
+                                              },
+                                              [_vm._v("Under € 25")]
+                                            )
+                                          ],
+                                          1
+                                        )
+                                      ],
+                                      1
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "form-check " }, [
+                                    _c("input", {
+                                      staticClass:
+                                        "form-check-input filterprijs",
+                                      attrs: {
+                                        type: "checkbox",
+                                        value: "25_50",
+                                        id: "checkbox_25_50"
+                                      }
+                                    }),
+                                    _vm._v(" "),
+                                    _c(
+                                      "label",
+                                      {
+                                        staticClass: "form-check-label",
+                                        attrs: { for: "checkbox_25_50" }
+                                      },
+                                      [
+                                        _c(
+                                          "font",
+                                          {
+                                            staticStyle: {
+                                              "vertical-align": "inherit"
+                                            }
+                                          },
+                                          [
+                                            _c(
+                                              "font",
+                                              {
+                                                staticStyle: {
+                                                  "vertical-align": "inherit"
+                                                }
+                                              },
+                                              [_vm._v("Between € 25 and € 50")]
+                                            )
+                                          ],
+                                          1
+                                        )
+                                      ],
+                                      1
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "form-check " }, [
+                                    _c("input", {
+                                      staticClass:
+                                        "form-check-input filterprijs",
+                                      attrs: {
+                                        type: "checkbox",
+                                        value: "50_100",
+                                        id: "checkbox_50_100"
+                                      }
+                                    }),
+                                    _vm._v(" "),
+                                    _c(
+                                      "label",
+                                      {
+                                        staticClass: "form-check-label",
+                                        attrs: { for: "checkbox_50_100" }
+                                      },
+                                      [
+                                        _c(
+                                          "font",
+                                          {
+                                            staticStyle: {
+                                              "vertical-align": "inherit"
+                                            }
+                                          },
+                                          [
+                                            _c(
+                                              "font",
+                                              {
+                                                staticStyle: {
+                                                  "vertical-align": "inherit"
+                                                }
+                                              },
+                                              [_vm._v("Between € 50 and € 100")]
+                                            )
+                                          ],
+                                          1
+                                        )
+                                      ],
+                                      1
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "form-check " }, [
+                                    _c("input", {
+                                      staticClass:
+                                        "form-check-input filterprijs",
+                                      attrs: {
+                                        type: "checkbox",
+                                        value: "100_0",
+                                        id: "checkbox_100_0"
+                                      }
+                                    }),
+                                    _vm._v(" "),
+                                    _c(
+                                      "label",
+                                      {
+                                        staticClass: "form-check-label",
+                                        attrs: { for: "checkbox_100_0" }
+                                      },
+                                      [
+                                        _c(
+                                          "font",
+                                          {
+                                            staticStyle: {
+                                              "vertical-align": "inherit"
+                                            }
+                                          },
+                                          [
+                                            _c(
+                                              "font",
+                                              {
+                                                staticStyle: {
+                                                  "vertical-align": "inherit"
+                                                }
+                                              },
+                                              [_vm._v("Above € 100, -")]
+                                            )
+                                          ],
+                                          1
+                                        )
+                                      ],
+                                      1
+                                    )
+                                  ])
+                                ])
+                              ])
+                            ]),
+                            _vm._v(" "),
+                            _c("div", { staticClass: "mega-grid " }, [
+                              _c("div", { staticClass: "mega-item" }, [
+                                _c(
+                                  "h6",
+                                  [
+                                    _c(
+                                      "font",
+                                      {
+                                        staticStyle: {
+                                          "vertical-align": "inherit"
+                                        }
+                                      },
+                                      [
+                                        _c(
+                                          "font",
+                                          {
+                                            staticStyle: {
+                                              "vertical-align": "inherit"
+                                            }
+                                          },
+                                          [_vm._v("Category")]
+                                        )
+                                      ],
+                                      1
+                                    )
+                                  ],
+                                  1
+                                ),
+                                _vm._v(" "),
+                                _c("form", { attrs: { action: "" } }, [
+                                  _c("div", { staticClass: "form-check " }, [
+                                    _c("input", {
+                                      staticClass: "form-check-input filter",
+                                      attrs: {
+                                        type: "checkbox",
+                                        value: "34",
+                                        id: "checkbox_34"
+                                      }
+                                    }),
+                                    _vm._v(" "),
+                                    _c(
+                                      "label",
+                                      {
+                                        staticClass: "form-check-label",
+                                        attrs: { for: "checkbox_34" }
+                                      },
+                                      [
+                                        _c(
+                                          "font",
+                                          {
+                                            staticStyle: {
+                                              "vertical-align": "inherit"
+                                            }
+                                          },
+                                          [
+                                            _c(
+                                              "font",
+                                              {
+                                                staticStyle: {
+                                                  "vertical-align": "inherit"
+                                                }
+                                              },
+                                              [_vm._v("Bracelets")]
+                                            )
+                                          ],
+                                          1
+                                        )
+                                      ],
+                                      1
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "form-check " }, [
+                                    _c("input", {
+                                      staticClass: "form-check-input filter",
+                                      attrs: {
+                                        type: "checkbox",
+                                        value: "35",
+                                        id: "checkbox_35"
+                                      }
+                                    }),
+                                    _vm._v(" "),
+                                    _c(
+                                      "label",
+                                      {
+                                        staticClass: "form-check-label",
+                                        attrs: { for: "checkbox_35" }
+                                      },
+                                      [
+                                        _c(
+                                          "font",
+                                          {
+                                            staticStyle: {
+                                              "vertical-align": "inherit"
+                                            }
+                                          },
+                                          [
+                                            _c(
+                                              "font",
+                                              {
+                                                staticStyle: {
+                                                  "vertical-align": "inherit"
+                                                }
+                                              },
+                                              [_vm._v("Bangles")]
+                                            )
+                                          ],
+                                          1
+                                        )
+                                      ],
+                                      1
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "form-check " }, [
+                                    _c("input", {
+                                      staticClass: "form-check-input filter",
+                                      attrs: {
+                                        type: "checkbox",
+                                        value: "36",
+                                        id: "checkbox_36"
+                                      }
+                                    }),
+                                    _vm._v(" "),
+                                    _c(
+                                      "label",
+                                      {
+                                        staticClass: "form-check-label",
+                                        attrs: { for: "checkbox_36" }
+                                      },
+                                      [
+                                        _c(
+                                          "font",
+                                          {
+                                            staticStyle: {
+                                              "vertical-align": "inherit"
+                                            }
+                                          },
+                                          [
+                                            _c(
+                                              "font",
+                                              {
+                                                staticStyle: {
+                                                  "vertical-align": "inherit"
+                                                }
+                                              },
+                                              [_vm._v("Colliers")]
+                                            )
+                                          ],
+                                          1
+                                        )
+                                      ],
+                                      1
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "form-check " }, [
+                                    _c("input", {
+                                      staticClass: "form-check-input filter",
+                                      attrs: {
+                                        type: "checkbox",
+                                        value: "37",
+                                        id: "checkbox_37"
+                                      }
+                                    }),
+                                    _vm._v(" "),
+                                    _c(
+                                      "label",
+                                      {
+                                        staticClass: "form-check-label",
+                                        attrs: { for: "checkbox_37" }
+                                      },
+                                      [
+                                        _c(
+                                          "font",
+                                          {
+                                            staticStyle: {
+                                              "vertical-align": "inherit"
+                                            }
+                                          },
+                                          [
+                                            _c(
+                                              "font",
+                                              {
+                                                staticStyle: {
+                                                  "vertical-align": "inherit"
+                                                }
+                                              },
+                                              [_vm._v("Pendants")]
+                                            )
+                                          ],
+                                          1
+                                        )
+                                      ],
+                                      1
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "form-check " }, [
+                                    _c("input", {
+                                      staticClass: "form-check-input filter",
+                                      attrs: {
+                                        type: "checkbox",
+                                        value: "38",
+                                        id: "checkbox_38"
+                                      }
+                                    }),
+                                    _vm._v(" "),
+                                    _c(
+                                      "label",
+                                      {
+                                        staticClass: "form-check-label",
+                                        attrs: { for: "checkbox_38" }
+                                      },
+                                      [
+                                        _c(
+                                          "font",
+                                          {
+                                            staticStyle: {
+                                              "vertical-align": "inherit"
+                                            }
+                                          },
+                                          [
+                                            _c(
+                                              "font",
+                                              {
+                                                staticStyle: {
+                                                  "vertical-align": "inherit"
+                                                }
+                                              },
+                                              [_vm._v("Earrings")]
+                                            )
+                                          ],
+                                          1
+                                        )
+                                      ],
+                                      1
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "form-check " }, [
+                                    _c("input", {
+                                      staticClass: "form-check-input filter",
+                                      attrs: {
+                                        type: "checkbox",
+                                        value: "39",
+                                        id: "checkbox_39"
+                                      }
+                                    }),
+                                    _vm._v(" "),
+                                    _c(
+                                      "label",
+                                      {
+                                        staticClass: "form-check-label",
+                                        attrs: { for: "checkbox_39" }
+                                      },
+                                      [
+                                        _c(
+                                          "font",
+                                          {
+                                            staticStyle: {
+                                              "vertical-align": "inherit"
+                                            }
+                                          },
+                                          [
+                                            _c(
+                                              "font",
+                                              {
+                                                staticStyle: {
+                                                  "vertical-align": "inherit"
+                                                }
+                                              },
+                                              [_vm._v("Dangling earrings")]
+                                            )
+                                          ],
+                                          1
+                                        )
+                                      ],
+                                      1
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "form-check " }, [
+                                    _c("input", {
+                                      staticClass: "form-check-input filter",
+                                      attrs: {
+                                        type: "checkbox",
+                                        value: "40",
+                                        id: "checkbox_40"
+                                      }
+                                    }),
+                                    _vm._v(" "),
+                                    _c(
+                                      "label",
+                                      {
+                                        staticClass: "form-check-label",
+                                        attrs: { for: "checkbox_40" }
+                                      },
+                                      [
+                                        _c(
+                                          "font",
+                                          {
+                                            staticStyle: {
+                                              "vertical-align": "inherit"
+                                            }
+                                          },
+                                          [
+                                            _c(
+                                              "font",
+                                              {
+                                                staticStyle: {
+                                                  "vertical-align": "inherit"
+                                                }
+                                              },
+                                              [_vm._v("Ear buds")]
+                                            )
+                                          ],
+                                          1
+                                        )
+                                      ],
+                                      1
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "form-check " }, [
+                                    _c("input", {
+                                      staticClass: "form-check-input filter",
+                                      attrs: {
+                                        type: "checkbox",
+                                        value: "42",
+                                        id: "checkbox_42"
+                                      }
+                                    }),
+                                    _vm._v(" "),
+                                    _c(
+                                      "label",
+                                      {
+                                        staticClass: "form-check-label",
+                                        attrs: { for: "checkbox_42" }
+                                      },
+                                      [
+                                        _c(
+                                          "font",
+                                          {
+                                            staticStyle: {
+                                              "vertical-align": "inherit"
+                                            }
+                                          },
+                                          [
+                                            _c(
+                                              "font",
+                                              {
+                                                staticStyle: {
+                                                  "vertical-align": "inherit"
+                                                }
+                                              },
+                                              [_vm._v("Rings")]
+                                            )
+                                          ],
+                                          1
+                                        )
+                                      ],
+                                      1
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "form-check " }, [
+                                    _c("input", {
+                                      staticClass: "form-check-input filter",
+                                      attrs: {
+                                        type: "checkbox",
+                                        value: "54",
+                                        id: "checkbox_54"
+                                      }
+                                    }),
+                                    _vm._v(" "),
+                                    _c(
+                                      "label",
+                                      {
+                                        staticClass: "form-check-label",
+                                        attrs: { for: "checkbox_54" }
+                                      },
+                                      [
+                                        _c(
+                                          "font",
+                                          {
+                                            staticStyle: {
+                                              "vertical-align": "inherit"
+                                            }
+                                          },
+                                          [
+                                            _c(
+                                              "font",
+                                              {
+                                                staticStyle: {
+                                                  "vertical-align": "inherit"
+                                                }
+                                              },
+                                              [_vm._v("Clips")]
+                                            )
+                                          ],
+                                          1
+                                        )
+                                      ],
+                                      1
+                                    )
+                                  ])
+                                ])
+                              ])
+                            ]),
+                            _vm._v(" "),
+                            _c("div", { staticClass: "mega-grid" }, [
+                              _c("div", { staticClass: "mega-item" }, [
+                                _c(
+                                  "h6",
+                                  [
+                                    _c(
+                                      "font",
+                                      {
+                                        staticStyle: {
+                                          "vertical-align": "inherit"
+                                        }
+                                      },
+                                      [
+                                        _c(
+                                          "font",
+                                          {
+                                            staticStyle: {
+                                              "vertical-align": "inherit"
+                                            }
+                                          },
+                                          [_vm._v("Collections")]
+                                        )
+                                      ],
+                                      1
+                                    )
+                                  ],
+                                  1
+                                ),
+                                _vm._v(" "),
+                                _c("form", { attrs: { action: "" } }, [
+                                  _c("div", { staticClass: "form-check " }, [
+                                    _c("input", {
+                                      staticClass: "form-check-input filter",
+                                      attrs: {
+                                        type: "checkbox",
+                                        value: "55",
+                                        id: "checkbox_55"
+                                      }
+                                    }),
+                                    _vm._v(" "),
+                                    _c(
+                                      "label",
+                                      {
+                                        staticClass: "form-check-label",
+                                        attrs: { for: "checkbox_55" }
+                                      },
+                                      [
+                                        _c(
+                                          "font",
+                                          {
+                                            staticStyle: {
+                                              "vertical-align": "inherit"
+                                            }
+                                          },
+                                          [
+                                            _c(
+                                              "font",
+                                              {
+                                                staticStyle: {
+                                                  "vertical-align": "inherit"
+                                                }
+                                              },
+                                              [_vm._v("Hoops")]
+                                            )
+                                          ],
+                                          1
+                                        )
+                                      ],
+                                      1
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "form-check " }, [
+                                    _c("input", {
+                                      staticClass: "form-check-input filter",
+                                      attrs: {
+                                        type: "checkbox",
+                                        value: "56",
+                                        id: "checkbox_56"
+                                      }
+                                    }),
+                                    _vm._v(" "),
+                                    _c(
+                                      "label",
+                                      {
+                                        staticClass: "form-check-label",
+                                        attrs: { for: "checkbox_56" }
+                                      },
+                                      [
+                                        _c(
+                                          "font",
+                                          {
+                                            staticStyle: {
+                                              "vertical-align": "inherit"
+                                            }
+                                          },
+                                          [
+                                            _c(
+                                              "font",
+                                              {
+                                                staticStyle: {
+                                                  "vertical-align": "inherit"
+                                                }
+                                              },
+                                              [_vm._v("TriColori")]
+                                            )
+                                          ],
+                                          1
+                                        )
+                                      ],
+                                      1
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "form-check " }, [
+                                    _c("input", {
+                                      staticClass: "form-check-input filter",
+                                      attrs: {
+                                        type: "checkbox",
+                                        value: "58",
+                                        id: "checkbox_58"
+                                      }
+                                    }),
+                                    _vm._v(" "),
+                                    _c(
+                                      "label",
+                                      {
+                                        staticClass: "form-check-label",
+                                        attrs: { for: "checkbox_58" }
+                                      },
+                                      [
+                                        _c(
+                                          "font",
+                                          {
+                                            staticStyle: {
+                                              "vertical-align": "inherit"
+                                            }
+                                          },
+                                          [
+                                            _c(
+                                              "font",
+                                              {
+                                                staticStyle: {
+                                                  "vertical-align": "inherit"
+                                                }
+                                              },
+                                              [_vm._v("Icons")]
+                                            )
+                                          ],
+                                          1
+                                        )
+                                      ],
+                                      1
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "form-check " }, [
+                                    _c("input", {
+                                      staticClass: "form-check-input filter",
+                                      attrs: {
+                                        type: "checkbox",
+                                        value: "45",
+                                        id: "checkbox_45"
+                                      }
+                                    }),
+                                    _vm._v(" "),
+                                    _c(
+                                      "label",
+                                      {
+                                        staticClass: "form-check-label",
+                                        attrs: { for: "checkbox_45" }
+                                      },
+                                      [
+                                        _c(
+                                          "font",
+                                          {
+                                            staticStyle: {
+                                              "vertical-align": "inherit"
+                                            }
+                                          },
+                                          [
+                                            _c(
+                                              "font",
+                                              {
+                                                staticStyle: {
+                                                  "vertical-align": "inherit"
+                                                }
+                                              },
+                                              [_vm._v("Pearls")]
+                                            )
+                                          ],
+                                          1
+                                        )
+                                      ],
+                                      1
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "form-check " }, [
+                                    _c("input", {
+                                      staticClass: "form-check-input filter",
+                                      attrs: {
+                                        type: "checkbox",
+                                        value: "44",
+                                        id: "checkbox_44"
+                                      }
+                                    }),
+                                    _vm._v(" "),
+                                    _c(
+                                      "label",
+                                      {
+                                        staticClass: "form-check-label",
+                                        attrs: { for: "checkbox_44" }
+                                      },
+                                      [
+                                        _c(
+                                          "font",
+                                          {
+                                            staticStyle: {
+                                              "vertical-align": "inherit"
+                                            }
+                                          },
+                                          [
+                                            _c(
+                                              "font",
+                                              {
+                                                staticStyle: {
+                                                  "vertical-align": "inherit"
+                                                }
+                                              },
+                                              [_vm._v("Tuscany")]
+                                            )
+                                          ],
+                                          1
+                                        )
+                                      ],
+                                      1
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "form-check " }, [
+                                    _c("input", {
+                                      staticClass: "form-check-input filter",
+                                      attrs: {
+                                        type: "checkbox",
+                                        value: "32",
+                                        id: "checkbox_32"
+                                      }
+                                    }),
+                                    _vm._v(" "),
+                                    _c(
+                                      "label",
+                                      {
+                                        staticClass: "form-check-label",
+                                        attrs: { for: "checkbox_32" }
+                                      },
+                                      [
+                                        _c(
+                                          "font",
+                                          {
+                                            staticStyle: {
+                                              "vertical-align": "inherit"
+                                            }
+                                          },
+                                          [
+                                            _c(
+                                              "font",
+                                              {
+                                                staticStyle: {
+                                                  "vertical-align": "inherit"
+                                                }
+                                              },
+                                              [_vm._v("Bubbles")]
+                                            )
+                                          ],
+                                          1
+                                        )
+                                      ],
+                                      1
+                                    )
+                                  ])
+                                ])
+                              ])
+                            ])
+                          ])
+                        ])
+                      ]
+                    )
+                  ]
+                ),
+                _vm._v(" "),
+                _vm._m(0),
+                _vm._v(" "),
+                _c("li", { staticClass: "nav-item dropdown search" }, [
+                  _c(
+                    "a",
+                    {
+                      staticClass: "nav-link dropdown-toggle",
+                      attrs: {
+                        href: "#",
+                        id: "navbarDropdown",
+                        role: "button",
+                        "data-toggle": "dropdown",
+                        "aria-haspopup": "true",
+                        "aria-expanded": "false"
+                      }
+                    },
+                    [
+                      _c("i", {
+                        staticClass: "fa fa-search",
+                        attrs: { "aria-hidden": "true" }
+                      }),
+                      _vm._v(" "),
+                      _c(
+                        "font",
+                        { staticStyle: { "vertical-align": "inherit" } },
+                        [
+                          _c(
+                            "font",
+                            { staticStyle: { "vertical-align": "inherit" } },
+                            [_vm._v(" Search")]
+                          )
+                        ],
+                        1
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "div",
+                    {
+                      staticClass: "dropdown-menu shadow",
+                      attrs: { "aria-labelledby": "navbarDropdown" }
+                    },
+                    [
+                      _c(
+                        "form",
+                        {
+                          staticClass: "form-group row",
+                          attrs: { action: "/template/zoeken", method: "get" }
+                        },
+                        [
+                          _c("input", {
+                            staticClass: "col-sm-10 form-control",
+                            attrs: {
+                              type: "text",
+                              placeholder: "Search...",
+                              name: "s"
+                            }
+                          }),
+                          _vm._v(" "),
+                          _c(
+                            "button",
+                            {
+                              staticClass: "submit col-sm-2",
+                              attrs: { type: "submit" }
+                            },
+                            [
+                              _c(
+                                "font",
+                                {
+                                  staticStyle: { "vertical-align": "inherit" }
+                                },
+                                [
+                                  _c(
+                                    "font",
+                                    {
+                                      staticStyle: {
+                                        "vertical-align": "inherit"
+                                      }
+                                    },
+                                    [_vm._v("Search")]
+                                  )
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          )
+                        ]
+                      )
+                    ]
+                  )
+                ]),
+                _vm._v(" "),
+                _c("li", { staticClass: "nav-item space" }),
+                _vm._v(" "),
+                _c("li", { staticClass: "nav-item dropdown Sorteer" }, [
+                  _c(
+                    "a",
+                    {
+                      staticClass: "nav-link dropdown-toggle",
+                      attrs: {
+                        href: "#",
+                        id: "navbarDropdown",
+                        role: "button",
+                        "data-toggle": "dropdown",
+                        "aria-haspopup": "true",
+                        "aria-expanded": "false"
+                      }
+                    },
+                    [
+                      _c(
+                        "span",
+                        { staticClass: "ass" },
+                        [
+                          _c(
+                            "font",
+                            { staticStyle: { "vertical-align": "inherit" } },
+                            [
+                              _c(
+                                "font",
+                                {
+                                  staticStyle: { "vertical-align": "inherit" }
+                                },
+                                [_vm._v("Sort")]
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c("div", {
+                            staticClass: "fa fa-chevron-right rotates"
+                          })
+                        ],
+                        1
+                      )
+                    ]
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "div",
+                    {
+                      staticClass: "dropdown-menu shadow",
+                      attrs: { "aria-labelledby": "navbarDropdown" }
+                    },
+                    [
+                      _c(
+                        "a",
+                        {
+                          staticClass: "dropdown-item sort",
+                          attrs: { "data-sort": "", href: "#" }
+                        },
+                        [
+                          _c(
+                            "font",
+                            { staticStyle: { "vertical-align": "inherit" } },
+                            [
+                              _c(
+                                "font",
+                                {
+                                  staticStyle: { "vertical-align": "inherit" }
+                                },
+                                [_vm._v("List ")]
+                              )
+                            ],
+                            1
+                          )
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "a",
+                        {
+                          staticClass: "dropdown-item sort",
+                          attrs: { "data-sort": "a_z", href: "#" }
+                        },
+                        [
+                          _c(
+                            "font",
+                            { staticStyle: { "vertical-align": "inherit" } },
+                            [
+                              _c(
+                                "font",
+                                {
+                                  staticStyle: { "vertical-align": "inherit" }
+                                },
+                                [_vm._v("Alphabetically, AZ ")]
+                              )
+                            ],
+                            1
+                          )
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "a",
+                        {
+                          staticClass: "dropdown-item sort",
+                          attrs: { "data-sort": "z_a", href: "#" }
+                        },
+                        [
+                          _c(
+                            "font",
+                            { staticStyle: { "vertical-align": "inherit" } },
+                            [
+                              _c(
+                                "font",
+                                {
+                                  staticStyle: { "vertical-align": "inherit" }
+                                },
+                                [_vm._v("Alphabetically, ZA ")]
+                              )
+                            ],
+                            1
+                          )
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "a",
+                        {
+                          staticClass: "dropdown-item sort",
+                          attrs: { "data-sort": "price_high_low", href: "#" }
+                        },
+                        [
+                          _c(
+                            "font",
+                            { staticStyle: { "vertical-align": "inherit" } },
+                            [
+                              _c(
+                                "font",
+                                {
+                                  staticStyle: { "vertical-align": "inherit" }
+                                },
+                                [_vm._v("Price, descending ")]
+                              )
+                            ],
+                            1
+                          )
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "a",
+                        {
+                          staticClass: "dropdown-item sort",
+                          attrs: { "data-sort": "price_low_high", href: "#" }
+                        },
+                        [
+                          _c(
+                            "font",
+                            { staticStyle: { "vertical-align": "inherit" } },
+                            [
+                              _c(
+                                "font",
+                                {
+                                  staticStyle: { "vertical-align": "inherit" }
+                                },
+                                [_vm._v("Price, ascending ")]
+                              )
+                            ],
+                            1
+                          )
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "a",
+                        {
+                          staticClass: "dropdown-item sort",
+                          attrs: { "data-sort": "date_new_old", href: "#" }
+                        },
+                        [
+                          _c(
+                            "font",
+                            { staticStyle: { "vertical-align": "inherit" } },
+                            [
+                              _c(
+                                "font",
+                                {
+                                  staticStyle: { "vertical-align": "inherit" }
+                                },
+                                [_vm._v("Date, descending ")]
+                              )
+                            ],
+                            1
+                          )
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "a",
+                        {
+                          staticClass: "dropdown-item sort",
+                          attrs: { "data-sort": "date_old_new", href: "#" }
+                        },
+                        [
+                          _c(
+                            "font",
+                            { staticStyle: { "vertical-align": "inherit" } },
+                            [
+                              _c(
+                                "font",
+                                {
+                                  staticStyle: { "vertical-align": "inherit" }
+                                },
+                                [_vm._v("Date, ascending")]
+                              )
+                            ],
+                            1
+                          )
+                        ],
+                        1
+                      )
+                    ]
+                  )
+                ])
+              ])
+            ]
+          )
+        ]),
+        _vm._v(" "),
+        _c("input", { attrs: { type: "hidden", id: "sort", value: "" } })
+      ])
+    ]),
+    _vm._v(" "),
+    _c("div", { attrs: { id: "header-spacer-filter" } })
+  ])
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("li", { staticClass: "nav-item shop" }, [
+      _c("a", { staticClass: "nav-link", attrs: { href: "#" } })
     ])
   }
 ]
@@ -50914,6 +57604,12 @@ module.exports = function(module) {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_home_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./components/home.vue */ "./resources/js/components/home.vue");
 /* harmony import */ var _components_inc_footer_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./components/inc/footer.vue */ "./resources/js/components/inc/footer.vue");
+/* harmony import */ var _components_shop_megamenu_vue__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/shop/megamenu.vue */ "./resources/js/components/shop/megamenu.vue");
+/* harmony import */ var _components_collections_collection_vue__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./components/collections/collection.vue */ "./resources/js/components/collections/collection.vue");
+/* harmony import */ var _components_jewerly_tips_jewerlytips_vue__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./components/jewerly_tips/jewerlytips.vue */ "./resources/js/components/jewerly_tips/jewerlytips.vue");
+/* harmony import */ var _components_about_about_vue__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./components/about/about.vue */ "./resources/js/components/about/about.vue");
+/* harmony import */ var _components_durability_durability_vue__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./components/durability/durability.vue */ "./resources/js/components/durability/durability.vue");
+/* harmony import */ var _components_contact_contact_vue__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./components/contact/contact.vue */ "./resources/js/components/contact/contact.vue");
 /**
  * First we will load all of this project's JavaScript dependencies which
  * includes Vue and other libraries. It is a great starting point when
@@ -50934,6 +57630,12 @@ window.Vue = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.common.
 
 
 
+
+
+
+
+
+
 /**
  * Next, we will create a fresh Vue application instance and attach it to
  * the page. Then, you may begin adding components to this application
@@ -50944,7 +57646,13 @@ var app = new Vue({
   el: '#app',
   components: {
     'homePage': _components_home_vue__WEBPACK_IMPORTED_MODULE_0__["default"],
-    'footer-area': _components_inc_footer_vue__WEBPACK_IMPORTED_MODULE_1__["default"]
+    'footer-area': _components_inc_footer_vue__WEBPACK_IMPORTED_MODULE_1__["default"],
+    'shop-page': _components_shop_megamenu_vue__WEBPACK_IMPORTED_MODULE_2__["default"],
+    'collection-page': _components_collections_collection_vue__WEBPACK_IMPORTED_MODULE_3__["default"],
+    'jewerly-tips': _components_jewerly_tips_jewerlytips_vue__WEBPACK_IMPORTED_MODULE_4__["default"],
+    'about-page': _components_about_about_vue__WEBPACK_IMPORTED_MODULE_5__["default"],
+    'durability-page': _components_durability_durability_vue__WEBPACK_IMPORTED_MODULE_6__["default"],
+    'contact-page': _components_contact_contact_vue__WEBPACK_IMPORTED_MODULE_7__["default"]
   },
   created: function created() {
     var is_loading = document.getElementById("is_loading");
@@ -50999,6 +57707,547 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 //     cluster: process.env.MIX_PUSHER_APP_CLUSTER,
 //     encrypted: true
 // });
+
+/***/ }),
+
+/***/ "./resources/js/components/about/about.vue":
+/*!*************************************************!*\
+  !*** ./resources/js/components/about/about.vue ***!
+  \*************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _about_vue_vue_type_template_id_cd5317e0___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./about.vue?vue&type=template&id=cd5317e0& */ "./resources/js/components/about/about.vue?vue&type=template&id=cd5317e0&");
+/* harmony import */ var _about_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./about.vue?vue&type=script&lang=js& */ "./resources/js/components/about/about.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _about_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _about_vue_vue_type_template_id_cd5317e0___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _about_vue_vue_type_template_id_cd5317e0___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/about/about.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/about/about.vue?vue&type=script&lang=js&":
+/*!**************************************************************************!*\
+  !*** ./resources/js/components/about/about.vue?vue&type=script&lang=js& ***!
+  \**************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_about_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib??ref--4-0!../../../../node_modules/vue-loader/lib??vue-loader-options!./about.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/about/about.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_about_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/components/about/about.vue?vue&type=template&id=cd5317e0&":
+/*!********************************************************************************!*\
+  !*** ./resources/js/components/about/about.vue?vue&type=template&id=cd5317e0& ***!
+  \********************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_about_vue_vue_type_template_id_cd5317e0___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./about.vue?vue&type=template&id=cd5317e0& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/about/about.vue?vue&type=template&id=cd5317e0&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_about_vue_vue_type_template_id_cd5317e0___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_about_vue_vue_type_template_id_cd5317e0___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/components/about/aboutarea.vue":
+/*!*****************************************************!*\
+  !*** ./resources/js/components/about/aboutarea.vue ***!
+  \*****************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _aboutarea_vue_vue_type_template_id_24b1ba1d___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./aboutarea.vue?vue&type=template&id=24b1ba1d& */ "./resources/js/components/about/aboutarea.vue?vue&type=template&id=24b1ba1d&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+var script = {}
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__["default"])(
+  script,
+  _aboutarea_vue_vue_type_template_id_24b1ba1d___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _aboutarea_vue_vue_type_template_id_24b1ba1d___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/about/aboutarea.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/about/aboutarea.vue?vue&type=template&id=24b1ba1d&":
+/*!************************************************************************************!*\
+  !*** ./resources/js/components/about/aboutarea.vue?vue&type=template&id=24b1ba1d& ***!
+  \************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_aboutarea_vue_vue_type_template_id_24b1ba1d___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./aboutarea.vue?vue&type=template&id=24b1ba1d& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/about/aboutarea.vue?vue&type=template&id=24b1ba1d&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_aboutarea_vue_vue_type_template_id_24b1ba1d___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_aboutarea_vue_vue_type_template_id_24b1ba1d___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/components/collections/collection.vue":
+/*!************************************************************!*\
+  !*** ./resources/js/components/collections/collection.vue ***!
+  \************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _collection_vue_vue_type_template_id_26279b63___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./collection.vue?vue&type=template&id=26279b63& */ "./resources/js/components/collections/collection.vue?vue&type=template&id=26279b63&");
+/* harmony import */ var _collection_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./collection.vue?vue&type=script&lang=js& */ "./resources/js/components/collections/collection.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _collection_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _collection_vue_vue_type_template_id_26279b63___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _collection_vue_vue_type_template_id_26279b63___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/collections/collection.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/collections/collection.vue?vue&type=script&lang=js&":
+/*!*************************************************************************************!*\
+  !*** ./resources/js/components/collections/collection.vue?vue&type=script&lang=js& ***!
+  \*************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_collection_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib??ref--4-0!../../../../node_modules/vue-loader/lib??vue-loader-options!./collection.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/collections/collection.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_collection_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/components/collections/collection.vue?vue&type=template&id=26279b63&":
+/*!*******************************************************************************************!*\
+  !*** ./resources/js/components/collections/collection.vue?vue&type=template&id=26279b63& ***!
+  \*******************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_collection_vue_vue_type_template_id_26279b63___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./collection.vue?vue&type=template&id=26279b63& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/collections/collection.vue?vue&type=template&id=26279b63&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_collection_vue_vue_type_template_id_26279b63___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_collection_vue_vue_type_template_id_26279b63___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/components/collections/jewerlyCollections.vue":
+/*!********************************************************************!*\
+  !*** ./resources/js/components/collections/jewerlyCollections.vue ***!
+  \********************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _jewerlyCollections_vue_vue_type_template_id_286e8b64___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./jewerlyCollections.vue?vue&type=template&id=286e8b64& */ "./resources/js/components/collections/jewerlyCollections.vue?vue&type=template&id=286e8b64&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+var script = {}
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__["default"])(
+  script,
+  _jewerlyCollections_vue_vue_type_template_id_286e8b64___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _jewerlyCollections_vue_vue_type_template_id_286e8b64___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/collections/jewerlyCollections.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/collections/jewerlyCollections.vue?vue&type=template&id=286e8b64&":
+/*!***************************************************************************************************!*\
+  !*** ./resources/js/components/collections/jewerlyCollections.vue?vue&type=template&id=286e8b64& ***!
+  \***************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_jewerlyCollections_vue_vue_type_template_id_286e8b64___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./jewerlyCollections.vue?vue&type=template&id=286e8b64& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/collections/jewerlyCollections.vue?vue&type=template&id=286e8b64&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_jewerlyCollections_vue_vue_type_template_id_286e8b64___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_jewerlyCollections_vue_vue_type_template_id_286e8b64___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/components/collections/slider.vue":
+/*!********************************************************!*\
+  !*** ./resources/js/components/collections/slider.vue ***!
+  \********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _slider_vue_vue_type_template_id_bee9aab4___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./slider.vue?vue&type=template&id=bee9aab4& */ "./resources/js/components/collections/slider.vue?vue&type=template&id=bee9aab4&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+var script = {}
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__["default"])(
+  script,
+  _slider_vue_vue_type_template_id_bee9aab4___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _slider_vue_vue_type_template_id_bee9aab4___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/collections/slider.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/collections/slider.vue?vue&type=template&id=bee9aab4&":
+/*!***************************************************************************************!*\
+  !*** ./resources/js/components/collections/slider.vue?vue&type=template&id=bee9aab4& ***!
+  \***************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_slider_vue_vue_type_template_id_bee9aab4___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./slider.vue?vue&type=template&id=bee9aab4& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/collections/slider.vue?vue&type=template&id=bee9aab4&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_slider_vue_vue_type_template_id_bee9aab4___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_slider_vue_vue_type_template_id_bee9aab4___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/components/contact/contact.vue":
+/*!*****************************************************!*\
+  !*** ./resources/js/components/contact/contact.vue ***!
+  \*****************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _contact_vue_vue_type_template_id_2760ad94___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./contact.vue?vue&type=template&id=2760ad94& */ "./resources/js/components/contact/contact.vue?vue&type=template&id=2760ad94&");
+/* harmony import */ var _contact_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./contact.vue?vue&type=script&lang=js& */ "./resources/js/components/contact/contact.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _contact_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _contact_vue_vue_type_template_id_2760ad94___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _contact_vue_vue_type_template_id_2760ad94___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/contact/contact.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/contact/contact.vue?vue&type=script&lang=js&":
+/*!******************************************************************************!*\
+  !*** ./resources/js/components/contact/contact.vue?vue&type=script&lang=js& ***!
+  \******************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_contact_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib??ref--4-0!../../../../node_modules/vue-loader/lib??vue-loader-options!./contact.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/contact/contact.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_contact_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/components/contact/contact.vue?vue&type=template&id=2760ad94&":
+/*!************************************************************************************!*\
+  !*** ./resources/js/components/contact/contact.vue?vue&type=template&id=2760ad94& ***!
+  \************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_contact_vue_vue_type_template_id_2760ad94___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./contact.vue?vue&type=template&id=2760ad94& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/contact/contact.vue?vue&type=template&id=2760ad94&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_contact_vue_vue_type_template_id_2760ad94___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_contact_vue_vue_type_template_id_2760ad94___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/components/contact/contactarea.vue":
+/*!*********************************************************!*\
+  !*** ./resources/js/components/contact/contactarea.vue ***!
+  \*********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _contactarea_vue_vue_type_template_id_401fec43___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./contactarea.vue?vue&type=template&id=401fec43& */ "./resources/js/components/contact/contactarea.vue?vue&type=template&id=401fec43&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+var script = {}
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__["default"])(
+  script,
+  _contactarea_vue_vue_type_template_id_401fec43___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _contactarea_vue_vue_type_template_id_401fec43___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/contact/contactarea.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/contact/contactarea.vue?vue&type=template&id=401fec43&":
+/*!****************************************************************************************!*\
+  !*** ./resources/js/components/contact/contactarea.vue?vue&type=template&id=401fec43& ***!
+  \****************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_contactarea_vue_vue_type_template_id_401fec43___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./contactarea.vue?vue&type=template&id=401fec43& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/contact/contactarea.vue?vue&type=template&id=401fec43&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_contactarea_vue_vue_type_template_id_401fec43___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_contactarea_vue_vue_type_template_id_401fec43___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/components/durability/durability.vue":
+/*!***********************************************************!*\
+  !*** ./resources/js/components/durability/durability.vue ***!
+  \***********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _durability_vue_vue_type_template_id_d8e9fdd8___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./durability.vue?vue&type=template&id=d8e9fdd8& */ "./resources/js/components/durability/durability.vue?vue&type=template&id=d8e9fdd8&");
+/* harmony import */ var _durability_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./durability.vue?vue&type=script&lang=js& */ "./resources/js/components/durability/durability.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _durability_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _durability_vue_vue_type_template_id_d8e9fdd8___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _durability_vue_vue_type_template_id_d8e9fdd8___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/durability/durability.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/durability/durability.vue?vue&type=script&lang=js&":
+/*!************************************************************************************!*\
+  !*** ./resources/js/components/durability/durability.vue?vue&type=script&lang=js& ***!
+  \************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_durability_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib??ref--4-0!../../../../node_modules/vue-loader/lib??vue-loader-options!./durability.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/durability/durability.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_durability_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/components/durability/durability.vue?vue&type=template&id=d8e9fdd8&":
+/*!******************************************************************************************!*\
+  !*** ./resources/js/components/durability/durability.vue?vue&type=template&id=d8e9fdd8& ***!
+  \******************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_durability_vue_vue_type_template_id_d8e9fdd8___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./durability.vue?vue&type=template&id=d8e9fdd8& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/durability/durability.vue?vue&type=template&id=d8e9fdd8&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_durability_vue_vue_type_template_id_d8e9fdd8___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_durability_vue_vue_type_template_id_d8e9fdd8___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/components/durability/sustainabilityarea.vue":
+/*!*******************************************************************!*\
+  !*** ./resources/js/components/durability/sustainabilityarea.vue ***!
+  \*******************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _sustainabilityarea_vue_vue_type_template_id_9f156182___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./sustainabilityarea.vue?vue&type=template&id=9f156182& */ "./resources/js/components/durability/sustainabilityarea.vue?vue&type=template&id=9f156182&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+var script = {}
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__["default"])(
+  script,
+  _sustainabilityarea_vue_vue_type_template_id_9f156182___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _sustainabilityarea_vue_vue_type_template_id_9f156182___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/durability/sustainabilityarea.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/durability/sustainabilityarea.vue?vue&type=template&id=9f156182&":
+/*!**************************************************************************************************!*\
+  !*** ./resources/js/components/durability/sustainabilityarea.vue?vue&type=template&id=9f156182& ***!
+  \**************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_sustainabilityarea_vue_vue_type_template_id_9f156182___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./sustainabilityarea.vue?vue&type=template&id=9f156182& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/durability/sustainabilityarea.vue?vue&type=template&id=9f156182&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_sustainabilityarea_vue_vue_type_template_id_9f156182___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_sustainabilityarea_vue_vue_type_template_id_9f156182___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
 
 /***/ }),
 
@@ -51244,6 +58493,287 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_subscribe_vue_vue_type_template_id_c4f4f8c4___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_subscribe_vue_vue_type_template_id_c4f4f8c4___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/components/jewerly_tips/conctact.vue":
+/*!***********************************************************!*\
+  !*** ./resources/js/components/jewerly_tips/conctact.vue ***!
+  \***********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _conctact_vue_vue_type_template_id_c1652adc___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./conctact.vue?vue&type=template&id=c1652adc& */ "./resources/js/components/jewerly_tips/conctact.vue?vue&type=template&id=c1652adc&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+var script = {}
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__["default"])(
+  script,
+  _conctact_vue_vue_type_template_id_c1652adc___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _conctact_vue_vue_type_template_id_c1652adc___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/jewerly_tips/conctact.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/jewerly_tips/conctact.vue?vue&type=template&id=c1652adc&":
+/*!******************************************************************************************!*\
+  !*** ./resources/js/components/jewerly_tips/conctact.vue?vue&type=template&id=c1652adc& ***!
+  \******************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_conctact_vue_vue_type_template_id_c1652adc___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./conctact.vue?vue&type=template&id=c1652adc& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/jewerly_tips/conctact.vue?vue&type=template&id=c1652adc&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_conctact_vue_vue_type_template_id_c1652adc___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_conctact_vue_vue_type_template_id_c1652adc___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/components/jewerly_tips/jewerlytips.vue":
+/*!**************************************************************!*\
+  !*** ./resources/js/components/jewerly_tips/jewerlytips.vue ***!
+  \**************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _jewerlytips_vue_vue_type_template_id_ff8f1f6a___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./jewerlytips.vue?vue&type=template&id=ff8f1f6a& */ "./resources/js/components/jewerly_tips/jewerlytips.vue?vue&type=template&id=ff8f1f6a&");
+/* harmony import */ var _jewerlytips_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./jewerlytips.vue?vue&type=script&lang=js& */ "./resources/js/components/jewerly_tips/jewerlytips.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _jewerlytips_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _jewerlytips_vue_vue_type_template_id_ff8f1f6a___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _jewerlytips_vue_vue_type_template_id_ff8f1f6a___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/jewerly_tips/jewerlytips.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/jewerly_tips/jewerlytips.vue?vue&type=script&lang=js&":
+/*!***************************************************************************************!*\
+  !*** ./resources/js/components/jewerly_tips/jewerlytips.vue?vue&type=script&lang=js& ***!
+  \***************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_jewerlytips_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib??ref--4-0!../../../../node_modules/vue-loader/lib??vue-loader-options!./jewerlytips.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/jewerly_tips/jewerlytips.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_jewerlytips_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/components/jewerly_tips/jewerlytips.vue?vue&type=template&id=ff8f1f6a&":
+/*!*********************************************************************************************!*\
+  !*** ./resources/js/components/jewerly_tips/jewerlytips.vue?vue&type=template&id=ff8f1f6a& ***!
+  \*********************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_jewerlytips_vue_vue_type_template_id_ff8f1f6a___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./jewerlytips.vue?vue&type=template&id=ff8f1f6a& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/jewerly_tips/jewerlytips.vue?vue&type=template&id=ff8f1f6a&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_jewerlytips_vue_vue_type_template_id_ff8f1f6a___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_jewerlytips_vue_vue_type_template_id_ff8f1f6a___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/components/jewerly_tips/mantainence.vue":
+/*!**************************************************************!*\
+  !*** ./resources/js/components/jewerly_tips/mantainence.vue ***!
+  \**************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _mantainence_vue_vue_type_template_id_59057518___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./mantainence.vue?vue&type=template&id=59057518& */ "./resources/js/components/jewerly_tips/mantainence.vue?vue&type=template&id=59057518&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+var script = {}
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__["default"])(
+  script,
+  _mantainence_vue_vue_type_template_id_59057518___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _mantainence_vue_vue_type_template_id_59057518___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/jewerly_tips/mantainence.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/jewerly_tips/mantainence.vue?vue&type=template&id=59057518&":
+/*!*********************************************************************************************!*\
+  !*** ./resources/js/components/jewerly_tips/mantainence.vue?vue&type=template&id=59057518& ***!
+  \*********************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_mantainence_vue_vue_type_template_id_59057518___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./mantainence.vue?vue&type=template&id=59057518& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/jewerly_tips/mantainence.vue?vue&type=template&id=59057518&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_mantainence_vue_vue_type_template_id_59057518___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_mantainence_vue_vue_type_template_id_59057518___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/components/jewerly_tips/tipslist.vue":
+/*!***********************************************************!*\
+  !*** ./resources/js/components/jewerly_tips/tipslist.vue ***!
+  \***********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _tipslist_vue_vue_type_template_id_550d04a9___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./tipslist.vue?vue&type=template&id=550d04a9& */ "./resources/js/components/jewerly_tips/tipslist.vue?vue&type=template&id=550d04a9&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+var script = {}
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__["default"])(
+  script,
+  _tipslist_vue_vue_type_template_id_550d04a9___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _tipslist_vue_vue_type_template_id_550d04a9___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/jewerly_tips/tipslist.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/jewerly_tips/tipslist.vue?vue&type=template&id=550d04a9&":
+/*!******************************************************************************************!*\
+  !*** ./resources/js/components/jewerly_tips/tipslist.vue?vue&type=template&id=550d04a9& ***!
+  \******************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_tipslist_vue_vue_type_template_id_550d04a9___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./tipslist.vue?vue&type=template&id=550d04a9& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/jewerly_tips/tipslist.vue?vue&type=template&id=550d04a9&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_tipslist_vue_vue_type_template_id_550d04a9___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_tipslist_vue_vue_type_template_id_550d04a9___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/components/shop/megamenu.vue":
+/*!***************************************************!*\
+  !*** ./resources/js/components/shop/megamenu.vue ***!
+  \***************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _megamenu_vue_vue_type_template_id_61e7fae2___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./megamenu.vue?vue&type=template&id=61e7fae2& */ "./resources/js/components/shop/megamenu.vue?vue&type=template&id=61e7fae2&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+var script = {}
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__["default"])(
+  script,
+  _megamenu_vue_vue_type_template_id_61e7fae2___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _megamenu_vue_vue_type_template_id_61e7fae2___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/shop/megamenu.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/shop/megamenu.vue?vue&type=template&id=61e7fae2&":
+/*!**********************************************************************************!*\
+  !*** ./resources/js/components/shop/megamenu.vue?vue&type=template&id=61e7fae2& ***!
+  \**********************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_megamenu_vue_vue_type_template_id_61e7fae2___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./megamenu.vue?vue&type=template&id=61e7fae2& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/shop/megamenu.vue?vue&type=template&id=61e7fae2&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_megamenu_vue_vue_type_template_id_61e7fae2___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_megamenu_vue_vue_type_template_id_61e7fae2___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 

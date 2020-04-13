@@ -18,3 +18,9 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/shop', 'PagesController@shop')->name('shop');
+Route::get('/collections', 'PagesController@collections')->name('collections');
+Route::get('/jewerlytips', 'PagesController@jewerlytips')->name('jewerly-tips');
+Route::get('/about', 'PagesController@about')->name('about-casa');
+Route::get('/durability', 'PagesController@durability')->name('durability');
+Route::get('/contact', 'PagesController@contact')->name('contact');

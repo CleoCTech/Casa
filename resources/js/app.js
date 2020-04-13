@@ -21,6 +21,12 @@ window.Vue = require('vue');
 
 import homePage from './components/home.vue';
 import FooterArea from './components/inc/footer.vue';
+import shopPage from './components/shop/megamenu.vue';
+import collectionPage from './components/collections/collection.vue';
+import jewerlyTipsPage from './components/jewerly_tips/jewerlytips.vue';
+import aboutPage from './components/about/about.vue';
+import durabilityPage from './components/durability/durability.vue';
+import contactPage from './components/contact/contact.vue';
 /**
  * Next, we will create a fresh Vue application instance and attach it to
  * the page. Then, you may begin adding components to this application
@@ -32,6 +38,12 @@ const app = new Vue({
     components: {
         'homePage': homePage,
         'footer-area': FooterArea,
+        'shop-page': shopPage,
+        'collection-page': collectionPage,
+        'jewerly-tips': jewerlyTipsPage,
+        'about-page': aboutPage,
+        'durability-page': durabilityPage,
+        'contact-page': contactPage,
     },
     created() {
         var is_loading = document.getElementById("is_loading");

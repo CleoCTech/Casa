@@ -3,7 +3,7 @@
         <div class="mt-5">
             &nbsp;
         </div>
-        <footer class="footer-area" id="footer">
+        <footer class="footer-area py-4S" id="footer" style="fixed-bottom;">
             <div class="container">
                 <div class="row">
                     <div class="col-6 col-md-2 col-xl-2">

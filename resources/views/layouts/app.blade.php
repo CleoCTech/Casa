@@ -22,7 +22,6 @@
     <!-- Styles -->
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <link href="{{ asset('css/style.css') }}" rel="stylesheet">
 </head>
@@ -35,6 +34,7 @@
             top: 40%;
             transform: translate(-50%, -50%);
         }
+        
     </style>
     @yield('styles')
     <div id="app">
@@ -111,21 +111,22 @@
                 <a href="/"><img class="img-fluid" src="/storage/images/logo2.png" alt="logo"></a><div class="fright"><div class="social des-social"><ul><li><a class="catt" href="/template/cart"><i class="fa fa-shopping-bag" aria-hidden="true"></i><span>0</span></a></li></ul></div></div></div></div></div><div class="row"><div class="col-12"><nav class="navbar navbar-expand-lg navbar-light ">
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
-                </button><div class="mobi-social social"><ul><li><a class="catt" href="/template/cart"><i class="fa fa-shopping-bag" aria-hidden="true"></i><span>0</span></a></li></ul></div><div class="collapse navbar-collapse" id="navbarTogglerDemo03"><ul class="navbar-nav mr-auto"><li class="nav-item active"><a class="nav-link" href="/">HOME <span class="sr-only">(current)</span></a></li><li class="nav-item"><a class="nav-link " href="/shop">SHOP</a></li><li class="nav-item"><a class="nav-link " href="/collecties">COLLECTIES</a></li><li class="nav-item"><a class="nav-link " href="/sieraden-tips">SIERADEN TIPS</a></li><li class="nav-item"><a class="nav-link " href="/over-casa">OVER CASA</a></li><li class="nav-item"><a class="nav-link " href="/duurzaamheid">DUURZAAMHEID</a></li><li class="nav-item"><a class="nav-link " href="/contact">CONTACT</a></li></ul></div></nav></div></div></div></header>
+                </button><div class="mobi-social social"><ul><li><a class="catt" href="/template/cart"><i class="fa fa-shopping-bag" aria-hidden="true"></i><span>0</span></a></li></ul></div><div class="collapse navbar-collapse" id="navbarTogglerDemo03"><ul class="navbar-nav mr-auto"><li class="nav-item active"><a class="nav-link" href="/">HOME <span class="sr-only">(current)</span></a></li><li class="nav-item"><a class="nav-link " href="/shop">SHOP</a></li><li class="nav-item"><a class="nav-link " href="/collections">COLLECTIONS</a></li><li class="nav-item"><a class="nav-link " href="/jewerlytips">JEWERLY TIPS</a></li><li class="nav-item"><a class="nav-link " href="/about">ABOUT CASA</a></li><li class="nav-item"><a class="nav-link " href="/durability">DURABILITY</a></li><li class="nav-item"><a class="nav-link " href="/contact">CONTACT</a></li></ul></div></nav></div></div></div></header>
         <div id="header-spacer"></div>
-        <main class="py-4">
+        <main class="py-4" id="main-content">
             @yield('content')
             <div class="loading-div" id="is_loading"><img src="/storage/images/loading.gif"></div>
         </main>
        
-        <div>
-            <footer-area></footer-area>
-        </div>
+    
+        <footer-area></footer-area>
 
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/esm/popper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    
+
 </body>
 </html>
