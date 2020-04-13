@@ -24,3 +24,4 @@ Route::get('/jewerlytips', 'PagesController@jewerlytips')->name('jewerly-tips');
 Route::get('/about', 'PagesController@about')->name('about-casa');
 Route::get('/durability', 'PagesController@durability')->name('durability');
 Route::get('/contact', 'PagesController@contact')->name('contact');
+Route::get('/product', 'PagesController@product')->name('product-details');

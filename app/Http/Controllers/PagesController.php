@@ -31,4 +31,8 @@ class PagesController extends Controller
     {
         return view("contact");
     }
+    public function product()
+    {
+        return view("inc.product_details");
+    }
 }
