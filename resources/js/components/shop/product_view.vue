@@ -10,7 +10,6 @@ export default {
     name: 'app',
         components:{
             'product-details':ProductDetails,
-            'product-area':ProductArea,
             }
 }
 </script>

@@ -11,9 +11,9 @@
                 <div id="productCarousel" class="carousel slide" data-ride="carousel" data-interval="false" data-swipe="true">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img class="d-block w-100" src="/images/94/CASA-JEWELRY-ZILVER-OORRINGEN-FRANKFURTER-CR_320.jpg" alt="Discover the jewelry trends of this season's Casa Jewelry and be inspired!  Silver earrings." title="FRANKFURTER CR"></div>
-                        <div class="carousel-item"><img class="d-block w-100" src="/images/94/CASA-JEWELRY-ROSÉ-OORRINGEN-FRANKFURTER-ROSÉ-CR_320.jpg" alt="" title=""></div>
-                        <div class="carousel-item"><img class="d-block w-100" src="/images/94/CASA-JEWELRY-GOUD-OORRINGEN-FRANKFURTER-GOUD-CR_320.jpg" alt="" title=""></div>
+                            <img class="d-block w-100" src="https://www.shop.casa-jewelry.eu/images/94/CASA-JEWELRY-ZILVER-OORRINGEN-FRANKFURTER-CR_320.jpg" alt="Discover the jewelry trends of this season's Casa Jewelry and be inspired!  Silver earrings." title="FRANKFURTER CR"></div>
+                        <div class="carousel-item"><img class="d-block w-100" src="https://www.shop.casa-jewelry.eu/images/94/CASA-JEWELRY-ROS%C3%89-OORRINGEN-FRANKFURTER-ROS%C3%89-CR_320.jpg" alt="" title=""></div>
+                        <div class="carousel-item"><img class="d-block w-100" src="https://www.shop.casa-jewelry.eu/images/94/CASA-JEWELRY-ROS%C3%89-OORRINGEN-FRANKFURTER-ROS%C3%89-CR_320.jpg" alt="" title=""></div>
                     </div>
                     <a class="carousel-control-prev" href="#productCarousel" role="button" data-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -44,7 +44,7 @@
                                 <div class="col-md-12">
                                     <div class="productimage-small">
                                         <a href="/sieraden/rose-oorringen-frankfurter-rose-cr">
-                                            <img src="/images/94/CASA-JEWELRY-ROSÉ-OORRINGEN-FRANKFURTER-ROSÉ-CR_320.jpg" alt="" title=""><br>
+                                            <img src="https://www.shop.casa-jewelry.eu/images/94/CASA-JEWELRY-ROS%C3%89-OORRINGEN-FRANKFURTER-ROS%C3%89-CR_320.jpg" alt="" title=""><br>
                                             <div class="title">
                                                 <font style="vertical-align: inherit;">
                                                     <font style="vertical-align: inherit;">FRANKFURTER ROSÉ CR</font>
@@ -53,7 +53,7 @@
                                         </a></div>
                                     <div class="productimage-small">
                                         <a href="/sieraden/goud-oorringen-frankfurter-goud-cr">
-                                            <img src="/images/94/CASA-JEWELRY-GOUD-OORRINGEN-FRANKFURTER-GOUD-CR_320.jpg" alt="" title=""><br>
+                                            <img src="https://www.shop.casa-jewelry.eu/images/94/CASA-JEWELRY-ROS%C3%89-OORRINGEN-FRANKFURTER-ROS%C3%89-CR_320.jpg" alt="" title=""><br>
                                             <div class="title">
                                                 <font style="vertical-align: inherit;">
                                                     <font style="vertical-align: inherit;">FRANKFURTER GOLD CR</font>

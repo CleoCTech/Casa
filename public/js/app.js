@@ -2408,8 +2408,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: 'app',
   components: {
-    'product-details': _product_details_vue__WEBPACK_IMPORTED_MODULE_0__["default"],
-    'product-area': ProductArea
+    'product-details': _product_details_vue__WEBPACK_IMPORTED_MODULE_0__["default"]
   }
 });
 
@@ -46022,7 +46021,7 @@ var render = function() {
                           _c("img", {
                             attrs: {
                               src:
-                                "/images/94/CASA-JEWELRY-ROSÉ-OORRINGEN-FRANKFURTER-ROSÉ-CR_320.jpg",
+                                "https://www.shop.casa-jewelry.eu/images/94/CASA-JEWELRY-ROS%C3%89-OORRINGEN-FRANKFURTER-ROS%C3%89-CR_320.jpg",
                               alt: "",
                               title: ""
                             }
@@ -46070,7 +46069,7 @@ var render = function() {
                           _c("img", {
                             attrs: {
                               src:
-                                "/images/94/CASA-JEWELRY-GOUD-OORRINGEN-FRANKFURTER-GOUD-CR_320.jpg",
+                                "https://www.shop.casa-jewelry.eu/images/94/CASA-JEWELRY-ROS%C3%89-OORRINGEN-FRANKFURTER-ROS%C3%89-CR_320.jpg",
                               alt: "",
                               title: ""
                             }
@@ -46354,7 +46353,7 @@ var staticRenderFns = [
           staticClass: "d-block w-100",
           attrs: {
             src:
-              "/images/94/CASA-JEWELRY-ZILVER-OORRINGEN-FRANKFURTER-CR_320.jpg",
+              "https://www.shop.casa-jewelry.eu/images/94/CASA-JEWELRY-ZILVER-OORRINGEN-FRANKFURTER-CR_320.jpg",
             alt:
               "Discover the jewelry trends of this season's Casa Jewelry and be inspired!  Silver earrings.",
             title: "FRANKFURTER CR"
@@ -46367,7 +46366,7 @@ var staticRenderFns = [
           staticClass: "d-block w-100",
           attrs: {
             src:
-              "/images/94/CASA-JEWELRY-ROSÉ-OORRINGEN-FRANKFURTER-ROSÉ-CR_320.jpg",
+              "https://www.shop.casa-jewelry.eu/images/94/CASA-JEWELRY-ROS%C3%89-OORRINGEN-FRANKFURTER-ROS%C3%89-CR_320.jpg",
             alt: "",
             title: ""
           }
@@ -46379,7 +46378,7 @@ var staticRenderFns = [
           staticClass: "d-block w-100",
           attrs: {
             src:
-              "/images/94/CASA-JEWELRY-GOUD-OORRINGEN-FRANKFURTER-GOUD-CR_320.jpg",
+              "https://www.shop.casa-jewelry.eu/images/94/CASA-JEWELRY-ROS%C3%89-OORRINGEN-FRANKFURTER-ROS%C3%89-CR_320.jpg",
             alt: "",
             title: ""
           }

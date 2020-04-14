@@ -19,7 +19,7 @@
                             <p>{{product.price}}</p>
                             <div class="product-btn">
                                 <a class="btn-pro" href="#">View</a>
-                                <!-- <a class="btn-pro" href="{{route('/product')}}">Bekijken</a> -->
+                                <!-- <a class="btn-pro" href="{{route('/product')}}">View</a> -->
                                 <a class="btn-pro addToCart shop" href="#">Checkout</a>
                             </div>
                         </div>
