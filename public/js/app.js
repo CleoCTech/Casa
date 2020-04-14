@@ -2071,6 +2071,9 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
 
 
 /* harmony default export */ __webpack_exports__["default"] = ({
@@ -2098,7 +2101,12 @@ __webpack_require__.r(__webpack_exports__);
       })["catch"](function (error) {
         self.$parent.is_loading = false;
       });
-    }
+    } // checkVisibility(num){
+    //     if (num %1 ==0) {
+    //         return 
+    //     }
+    // }
+
   }
 });
 
@@ -2383,6 +2391,62 @@ __webpack_require__.r(__webpack_exports__);
     'contact-area': _conctact_vue__WEBPACK_IMPORTED_MODULE_0__["default"],
     'mantainence-area': _mantainence_vue__WEBPACK_IMPORTED_MODULE_1__["default"],
     'tips-area': _tipslist_vue__WEBPACK_IMPORTED_MODULE_2__["default"]
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/shop/cart.vue?vue&type=script&lang=js&":
+/*!********************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/shop/cart.vue?vue&type=script&lang=js& ***!
+  \********************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _cart_view__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./cart_view */ "./resources/js/components/shop/cart_view.vue");
+//
+//
+//
+//
+//
+//
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+  name: 'app',
+  components: {
+    'cart-view': _cart_view__WEBPACK_IMPORTED_MODULE_0__["default"]
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/shop/checkout.vue?vue&type=script&lang=js&":
+/*!************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/shop/checkout.vue?vue&type=script&lang=js& ***!
+  \************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _cart_view__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./cart_view */ "./resources/js/components/shop/cart_view.vue");
+/* harmony import */ var _checkout_view__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./checkout_view */ "./resources/js/components/shop/checkout_view.vue");
+//
+//
+//
+//
+//
+//
+//
+
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+  name: 'app',
+  components: {
+    'cart-view': _cart_view__WEBPACK_IMPORTED_MODULE_0__["default"],
+    'checkout-view': _checkout_view__WEBPACK_IMPORTED_MODULE_1__["default"]
   }
 });
 
@@ -41250,7 +41314,7 @@ var staticRenderFns = [
           {
             attrs: { href: "https://twitter.com/cleo_hacker", target: "_blank" }
           },
-          [_c("i", { staticClass: "fab fa-twitter" })]
+          [_c("i", { staticClass: "fa fa-twitter" })]
         )
       ]),
       _vm._v(" "),
@@ -41263,7 +41327,7 @@ var staticRenderFns = [
               target: "_blank"
             }
           },
-          [_c("i", { staticClass: "fab fa-instagram" })]
+          [_c("i", { staticClass: "fa fa-instagram" })]
         )
       ])
     ])
@@ -43090,6 +43154,5613 @@ var render = function() {
   )
 }
 var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/shop/cart.vue?vue&type=template&id=293c3f44&":
+/*!************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/shop/cart.vue?vue&type=template&id=293c3f44& ***!
+  \************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("div", [_c("cart-view")], 1)
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/shop/cart_view.vue?vue&type=template&id=57b87bd4&":
+/*!*****************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/shop/cart_view.vue?vue&type=template&id=57b87bd4& ***!
+  \*****************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("div", [
+    _c("section", { staticClass: "cart-area" }, [
+      _c("div", { staticClass: "container" }, [
+        _c("div", { staticClass: "row" }, [
+          _c("div", { staticClass: "col-12" }, [
+            _c("div", { staticClass: "cart-table" }, [
+              _c(
+                "h4",
+                [
+                  _c(
+                    "font",
+                    { staticStyle: { "vertical-align": "inherit" } },
+                    [
+                      _c(
+                        "font",
+                        { staticStyle: { "vertical-align": "inherit" } },
+                        [_vm._v("Contents Shopping bag")]
+                      )
+                    ],
+                    1
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c("table", { staticClass: "table" }, [
+                _c("thead", [
+                  _c("tr", [
+                    _c("th", { attrs: { scope: "col" } }),
+                    _vm._v(" "),
+                    _c(
+                      "th",
+                      { attrs: { scope: "col" } },
+                      [
+                        _c(
+                          "font",
+                          { staticStyle: { "vertical-align": "inherit" } },
+                          [
+                            _c(
+                              "font",
+                              { staticStyle: { "vertical-align": "inherit" } },
+                              [_vm._v("Product")]
+                            )
+                          ],
+                          1
+                        )
+                      ],
+                      1
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "th",
+                      { attrs: { scope: "col" } },
+                      [
+                        _c(
+                          "font",
+                          { staticStyle: { "vertical-align": "inherit" } },
+                          [
+                            _c(
+                              "font",
+                              { staticStyle: { "vertical-align": "inherit" } },
+                              [_vm._v("Price per piece")]
+                            )
+                          ],
+                          1
+                        )
+                      ],
+                      1
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "th",
+                      { attrs: { scope: "col" } },
+                      [
+                        _c(
+                          "font",
+                          { staticStyle: { "vertical-align": "inherit" } },
+                          [
+                            _c(
+                              "font",
+                              { staticStyle: { "vertical-align": "inherit" } },
+                              [_vm._v("Number")]
+                            )
+                          ],
+                          1
+                        )
+                      ],
+                      1
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "th",
+                      { attrs: { scope: "col" } },
+                      [
+                        _c(
+                          "font",
+                          { staticStyle: { "vertical-align": "inherit" } },
+                          [
+                            _c(
+                              "font",
+                              { staticStyle: { "vertical-align": "inherit" } },
+                              [_vm._v("Measure")]
+                            )
+                          ],
+                          1
+                        )
+                      ],
+                      1
+                    ),
+                    _vm._v(" "),
+                    _c("th", { attrs: { scope: "col" } }),
+                    _vm._v(" "),
+                    _c(
+                      "th",
+                      { attrs: { scope: "col" } },
+                      [
+                        _c(
+                          "font",
+                          { staticStyle: { "vertical-align": "inherit" } },
+                          [
+                            _c(
+                              "font",
+                              { staticStyle: { "vertical-align": "inherit" } },
+                              [_vm._v("Total")]
+                            )
+                          ],
+                          1
+                        )
+                      ],
+                      1
+                    )
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("tbody", [
+                  _c("tr", { attrs: { "data-productid": "94" } }, [
+                    _vm._m(0),
+                    _vm._v(" "),
+                    _c("td", [
+                      _c(
+                        "a",
+                        {
+                          attrs: {
+                            href: "/sieraden/zilver-oorringen-frankfurter-cr"
+                          }
+                        },
+                        [
+                          _c(
+                            "font",
+                            { staticStyle: { "vertical-align": "inherit" } },
+                            [
+                              _c(
+                                "font",
+                                {
+                                  staticStyle: { "vertical-align": "inherit" }
+                                },
+                                [_vm._v("FRANKFURTER CR")]
+                              )
+                            ],
+                            1
+                          )
+                        ],
+                        1
+                      )
+                    ]),
+                    _vm._v(" "),
+                    _c(
+                      "td",
+                      [
+                        _c(
+                          "font",
+                          { staticStyle: { "vertical-align": "inherit" } },
+                          [
+                            _c(
+                              "font",
+                              { staticStyle: { "vertical-align": "inherit" } },
+                              [_vm._v("€ 38.95")]
+                            )
+                          ],
+                          1
+                        )
+                      ],
+                      1
+                    ),
+                    _vm._v(" "),
+                    _c("td", [
+                      _c("input", {
+                        staticClass: "updateCart",
+                        staticStyle: { display: "none" },
+                        attrs: {
+                          type: "number",
+                          value: "1",
+                          min: "0",
+                          step: "1"
+                        }
+                      }),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "input-group  " }, [
+                        _c("div", { staticClass: "input-group-prepend" }, [
+                          _c(
+                            "button",
+                            {
+                              staticClass:
+                                "btn btn-decrement btn-outline-secondary",
+                              staticStyle: { "min-width": "2.5rem" },
+                              attrs: { type: "button" }
+                            },
+                            [
+                              _c(
+                                "strong",
+                                [
+                                  _c(
+                                    "font",
+                                    {
+                                      staticStyle: {
+                                        "vertical-align": "inherit"
+                                      }
+                                    },
+                                    [
+                                      _c(
+                                        "font",
+                                        {
+                                          staticStyle: {
+                                            "vertical-align": "inherit"
+                                          }
+                                        },
+                                        [_vm._v("-")]
+                                      )
+                                    ],
+                                    1
+                                  )
+                                ],
+                                1
+                              )
+                            ]
+                          )
+                        ]),
+                        _c("input", {
+                          staticClass: "form-control updateCart",
+                          staticStyle: { "text-align": "center" },
+                          attrs: { type: "text", placeholder: "" }
+                        }),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "input-group-append" }, [
+                          _c(
+                            "button",
+                            {
+                              staticClass:
+                                "btn btn-increment btn-outline-secondary",
+                              staticStyle: { "min-width": "2.5rem" },
+                              attrs: { type: "button" }
+                            },
+                            [
+                              _c(
+                                "strong",
+                                [
+                                  _c(
+                                    "font",
+                                    {
+                                      staticStyle: {
+                                        "vertical-align": "inherit"
+                                      }
+                                    },
+                                    [
+                                      _c(
+                                        "font",
+                                        {
+                                          staticStyle: {
+                                            "vertical-align": "inherit"
+                                          }
+                                        },
+                                        [_vm._v("+")]
+                                      )
+                                    ],
+                                    1
+                                  )
+                                ],
+                                1
+                              )
+                            ]
+                          )
+                        ])
+                      ])
+                    ]),
+                    _vm._v(" "),
+                    _c("td"),
+                    _vm._v(" "),
+                    _vm._m(1),
+                    _vm._v(" "),
+                    _c(
+                      "td",
+                      [
+                        _c(
+                          "font",
+                          { staticStyle: { "vertical-align": "inherit" } },
+                          [
+                            _c(
+                              "font",
+                              { staticStyle: { "vertical-align": "inherit" } },
+                              [_vm._v("€ 38.95")]
+                            )
+                          ],
+                          1
+                        )
+                      ],
+                      1
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("tr", { attrs: { "data-productid": "94" } }, [
+                    _c("th", { attrs: { scope: "row" } }),
+                    _vm._v(" "),
+                    _c(
+                      "td",
+                      [
+                        _c(
+                          "font",
+                          { staticStyle: { "vertical-align": "inherit" } },
+                          [
+                            _c(
+                              "font",
+                              { staticStyle: { "vertical-align": "inherit" } },
+                              [_vm._v("Shipping costs")]
+                            )
+                          ],
+                          1
+                        )
+                      ],
+                      1
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "td",
+                      [
+                        _c(
+                          "font",
+                          { staticStyle: { "vertical-align": "inherit" } },
+                          [
+                            _c(
+                              "font",
+                              { staticStyle: { "vertical-align": "inherit" } },
+                              [_vm._v("€ 7.57")]
+                            )
+                          ],
+                          1
+                        )
+                      ],
+                      1
+                    ),
+                    _vm._v(" "),
+                    _c("td"),
+                    _vm._v(" "),
+                    _c("td"),
+                    _vm._v(" "),
+                    _c("td"),
+                    _vm._v(" "),
+                    _c(
+                      "td",
+                      [
+                        _c(
+                          "font",
+                          { staticStyle: { "vertical-align": "inherit" } },
+                          [
+                            _c(
+                              "font",
+                              { staticStyle: { "vertical-align": "inherit" } },
+                              [_vm._v("€ 7.57")]
+                            )
+                          ],
+                          1
+                        )
+                      ],
+                      1
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("tr", { staticClass: "border_total" }, [
+                    _c("td", { attrs: { colspan: "3" } }, [
+                      _c("input", {
+                        staticClass: "form-check-input giftwrap",
+                        attrs: { type: "checkbox", value: "", id: "3" }
+                      }),
+                      _vm._v(" "),
+                      _c(
+                        "label",
+                        {
+                          staticClass: "form-check-label",
+                          attrs: { for: "3" }
+                        },
+                        [
+                          _c(
+                            "font",
+                            { staticStyle: { "vertical-align": "inherit" } },
+                            [
+                              _c(
+                                "font",
+                                {
+                                  staticStyle: { "vertical-align": "inherit" }
+                                },
+                                [_vm._v("Pack as a gift")]
+                              )
+                            ],
+                            1
+                          )
+                        ],
+                        1
+                      )
+                    ]),
+                    _vm._v(" "),
+                    _c(
+                      "td",
+                      { attrs: { colspan: "3" } },
+                      [
+                        _c(
+                          "font",
+                          { staticStyle: { "vertical-align": "inherit" } },
+                          [
+                            _c(
+                              "font",
+                              { staticStyle: { "vertical-align": "inherit" } },
+                              [_vm._v("Amount to be paid ")]
+                            )
+                          ],
+                          1
+                        ),
+                        _c("br"),
+                        _vm._v(" "),
+                        _c(
+                          "span",
+                          { staticStyle: { "font-size": "75%" } },
+                          [
+                            _c(
+                              "font",
+                              { staticStyle: { "vertical-align": "inherit" } },
+                              [
+                                _c(
+                                  "font",
+                                  {
+                                    staticStyle: { "vertical-align": "inherit" }
+                                  },
+                                  [
+                                    _vm._v(
+                                      "(shipping costs and 21% VAT included)"
+                                    )
+                                  ]
+                                )
+                              ],
+                              1
+                            )
+                          ],
+                          1
+                        )
+                      ],
+                      1
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "td",
+                      { attrs: { id: "cartTotal" } },
+                      [
+                        _c(
+                          "font",
+                          { staticStyle: { "vertical-align": "inherit" } },
+                          [
+                            _c(
+                              "font",
+                              { staticStyle: { "vertical-align": "inherit" } },
+                              [_vm._v("€ 46.52 ")]
+                            )
+                          ],
+                          1
+                        )
+                      ],
+                      1
+                    )
+                  ])
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "cheak-out" }, [
+                _c("div", { staticClass: "total" }, [
+                  _c(
+                    "div",
+                    {
+                      staticClass: "product-btn details-btn text-right",
+                      attrs: { id: "checkout_cart" }
+                    },
+                    [
+                      _c(
+                        "a",
+                        { staticClass: "btn-pro", attrs: { href: "/shop" } },
+                        [
+                          _c(
+                            "font",
+                            { staticStyle: { "vertical-align": "inherit" } },
+                            [
+                              _c(
+                                "font",
+                                {
+                                  staticStyle: { "vertical-align": "inherit" }
+                                },
+                                [_vm._v("Continue shopping ")]
+                              )
+                            ],
+                            1
+                          )
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "a",
+                        {
+                          staticClass: "btn-pro",
+                          attrs: { href: "/checkout" }
+                        },
+                        [
+                          _c(
+                            "font",
+                            { staticStyle: { "vertical-align": "inherit" } },
+                            [
+                              _c(
+                                "font",
+                                {
+                                  staticStyle: { "vertical-align": "inherit" }
+                                },
+                                [_vm._v("Checkout")]
+                              )
+                            ],
+                            1
+                          )
+                        ],
+                        1
+                      )
+                    ]
+                  ),
+                  _vm._v(" "),
+                  _vm._m(2)
+                ])
+              ])
+            ])
+          ])
+        ])
+      ])
+    ])
+  ])
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("th", { attrs: { scope: "row" } }, [
+      _c(
+        "a",
+        { attrs: { href: "/sieraden/zilver-oorringen-frankfurter-cr" } },
+        [
+          _c("img", {
+            attrs: {
+              src:
+                "https://www.shop.casa-jewelry.eu/images/0/CASA-JEWELRY-ZILVER-OORRINGEN-FRANKFURTER-CR_100.jpg",
+              alt:
+                "Discover the jewelry trends of this season's Casa Jewelry and be inspired!  Silver earrings.",
+              title: "FRANKFURTER CR"
+            }
+          })
+        ]
+      )
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("td", { staticClass: "removeCart" }, [
+      _c("img", {
+        staticClass: "img-fluid",
+        attrs: {
+          src: "https://www.shop.casa-jewelry.eu/themes/theme/assets/img/i.png",
+          alt: ""
+        }
+      })
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "text-center pt-2" }, [
+      _c("div", { staticClass: "mt-2" }, [
+        _c("img", {
+          attrs: {
+            src:
+              "https://www.mollie.com/external/icons/payment-methods/ideal.svg",
+            height: "50"
+          }
+        }),
+        _vm._v(" "),
+        _c("img", {
+          attrs: {
+            src:
+              "https://www.mollie.com/external/icons/payment-methods/bancontact.svg",
+            height: "50"
+          }
+        })
+      ])
+    ])
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/shop/checkout.vue?vue&type=template&id=644126f8&":
+/*!****************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/shop/checkout.vue?vue&type=template&id=644126f8& ***!
+  \****************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("div", [_c("cart-view"), _vm._v(" "), _c("checkout-view")], 1)
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/shop/checkout_view.vue?vue&type=template&id=1f15ddb0&":
+/*!*********************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/shop/checkout_view.vue?vue&type=template&id=1f15ddb0& ***!
+  \*********************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("div", [
+    _c("section", { staticClass: "checkout-form" }, [
+      _c("div", { staticClass: "container" }, [
+        _c("div", { staticClass: "row" }, [
+          _c("div", { staticClass: "col-12" }, [
+            _c("div", { staticClass: "from-checkout" }, [
+              _c(
+                "h4",
+                [
+                  _c(
+                    "font",
+                    { staticStyle: { "vertical-align": "inherit" } },
+                    [
+                      _c(
+                        "font",
+                        { staticStyle: { "vertical-align": "inherit" } },
+                        [_vm._v("Your data")]
+                      )
+                    ],
+                    1
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "form",
+                {
+                  attrs: {
+                    action: "/themes/functions/order.php",
+                    method: "post",
+                    id: "checkout-form"
+                  }
+                },
+                [
+                  _c("input", {
+                    attrs: { type: "hidden", name: "case", value: "checkout" }
+                  }),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "form-row" }, [
+                    _c("div", { staticClass: "form-group col-md-12" }, [
+                      _c(
+                        "label",
+                        { attrs: { for: "companyname" } },
+                        [
+                          _c(
+                            "font",
+                            { staticStyle: { "vertical-align": "inherit" } },
+                            [
+                              _c(
+                                "font",
+                                {
+                                  staticStyle: { "vertical-align": "inherit" }
+                                },
+                                [_vm._v("Company name (optional)")]
+                              )
+                            ],
+                            1
+                          )
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c("input", {
+                        staticClass: "form-control",
+                        attrs: {
+                          type: "text",
+                          id: "companyname",
+                          name: "companyname",
+                          value: ""
+                        }
+                      })
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "form-row" }, [
+                    _c("div", { staticClass: "form-group col-md-4" }, [
+                      _c(
+                        "label",
+                        { attrs: { for: "firstname" } },
+                        [
+                          _c(
+                            "font",
+                            { staticStyle: { "vertical-align": "inherit" } },
+                            [
+                              _c(
+                                "font",
+                                {
+                                  staticStyle: { "vertical-align": "inherit" }
+                                },
+                                [_vm._v("First name or initial (s")]
+                              )
+                            ],
+                            1
+                          )
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c("input", {
+                        staticClass: "form-control",
+                        attrs: {
+                          required: "",
+                          type: "text",
+                          id: "firstname",
+                          name: "firstname",
+                          value: ""
+                        }
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "form-group col-md-4" }, [
+                      _c(
+                        "label",
+                        { attrs: { for: "lastname" } },
+                        [
+                          _c(
+                            "font",
+                            { staticStyle: { "vertical-align": "inherit" } },
+                            [
+                              _c(
+                                "font",
+                                {
+                                  staticStyle: { "vertical-align": "inherit" }
+                                },
+                                [_vm._v("Last name")]
+                              )
+                            ],
+                            1
+                          )
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c("input", {
+                        staticClass: "form-control",
+                        attrs: {
+                          required: "",
+                          type: "text",
+                          id: "lastname",
+                          name: "lastname",
+                          value: ""
+                        }
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "form-group col-md-4" }, [
+                      _c(
+                        "label",
+                        { attrs: { for: "date_of_birth" } },
+                        [
+                          _c(
+                            "font",
+                            { staticStyle: { "vertical-align": "inherit" } },
+                            [
+                              _c(
+                                "font",
+                                {
+                                  staticStyle: { "vertical-align": "inherit" }
+                                },
+                                [_vm._v("Date of birth (optional)")]
+                              )
+                            ],
+                            1
+                          )
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c("input", {
+                        staticClass: "form-control",
+                        attrs: {
+                          type: "date",
+                          id: "date_of_birth",
+                          name: "date_of_birth",
+                          value: ""
+                        }
+                      })
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "form-row" }, [
+                    _c("div", { staticClass: "form-group col-md-8" }, [
+                      _c(
+                        "label",
+                        { attrs: { for: "street" } },
+                        [
+                          _c(
+                            "font",
+                            { staticStyle: { "vertical-align": "inherit" } },
+                            [
+                              _c(
+                                "font",
+                                {
+                                  staticStyle: { "vertical-align": "inherit" }
+                                },
+                                [_vm._v("Street")]
+                              )
+                            ],
+                            1
+                          )
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c("input", {
+                        staticClass: "form-control",
+                        attrs: {
+                          required: "",
+                          type: "text",
+                          id: "street",
+                          name: "street",
+                          value: ""
+                        }
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "form-group col-md-4" }, [
+                      _c(
+                        "label",
+                        { attrs: { for: "housenumber" } },
+                        [
+                          _c(
+                            "font",
+                            { staticStyle: { "vertical-align": "inherit" } },
+                            [
+                              _c(
+                                "font",
+                                {
+                                  staticStyle: { "vertical-align": "inherit" }
+                                },
+                                [_vm._v("House number")]
+                              )
+                            ],
+                            1
+                          )
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c("input", {
+                        staticClass: "form-control",
+                        attrs: {
+                          required: "",
+                          type: "text",
+                          id: "housenumber",
+                          name: "housenumber",
+                          value: ""
+                        }
+                      })
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "form-row" }, [
+                    _c("div", { staticClass: "form-group col-md-2" }, [
+                      _c(
+                        "label",
+                        { attrs: { for: "zipcode" } },
+                        [
+                          _c(
+                            "font",
+                            { staticStyle: { "vertical-align": "inherit" } },
+                            [
+                              _c(
+                                "font",
+                                {
+                                  staticStyle: { "vertical-align": "inherit" }
+                                },
+                                [_vm._v("Postal Code")]
+                              )
+                            ],
+                            1
+                          )
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c("input", {
+                        staticClass: "form-control",
+                        attrs: {
+                          required: "",
+                          type: "text",
+                          id: "zipcode",
+                          name: "zipcode",
+                          value: ""
+                        }
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "form-group col-md-5" }, [
+                      _c(
+                        "label",
+                        { attrs: { for: "city" } },
+                        [
+                          _c(
+                            "font",
+                            { staticStyle: { "vertical-align": "inherit" } },
+                            [
+                              _c(
+                                "font",
+                                {
+                                  staticStyle: { "vertical-align": "inherit" }
+                                },
+                                [_vm._v("Place")]
+                              )
+                            ],
+                            1
+                          )
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c("input", {
+                        staticClass: "form-control",
+                        attrs: {
+                          required: "",
+                          type: "text",
+                          id: "city",
+                          name: "city",
+                          value: ""
+                        }
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "form-group col-md-5" }, [
+                      _c(
+                        "label",
+                        { attrs: { for: "country" } },
+                        [
+                          _c(
+                            "font",
+                            { staticStyle: { "vertical-align": "inherit" } },
+                            [
+                              _c(
+                                "font",
+                                {
+                                  staticStyle: { "vertical-align": "inherit" }
+                                },
+                                [_vm._v("Country")]
+                              )
+                            ],
+                            1
+                          )
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "select",
+                        {
+                          staticClass: "form-control",
+                          attrs: {
+                            id: "country",
+                            name: "country",
+                            required: ""
+                          }
+                        },
+                        [
+                          _c(
+                            "option",
+                            { attrs: { value: "AF" } },
+                            [
+                              _c(
+                                "font",
+                                {
+                                  staticStyle: { "vertical-align": "inherit" }
+                                },
+                                [
+                                  _c(
+                                    "font",
+                                    {
+                                      staticStyle: {
+                                        "vertical-align": "inherit"
+                                      }
+                                    },
+                                    [_vm._v("Afghanistan, Islamic State of")]
+                                  )
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "option",
+                            { attrs: { value: "AL" } },
+                            [
+                              _c(
+                                "font",
+                                {
+                                  staticStyle: { "vertical-align": "inherit" }
+                                },
+                                [
+                                  _c(
+                                    "font",
+                                    {
+                                      staticStyle: {
+                                        "vertical-align": "inherit"
+                                      }
+                                    },
+                                    [_vm._v("Albania")]
+                                  )
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "option",
+                            { attrs: { value: "DZ" } },
+                            [
+                              _c(
+                                "font",
+                                {
+                                  staticStyle: { "vertical-align": "inherit" }
+                                },
+                                [
+                                  _c(
+                                    "font",
+                                    {
+                                      staticStyle: {
+                                        "vertical-align": "inherit"
+                                      }
+                                    },
+                                    [_vm._v("Algeria")]
+                                  )
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "option",
+                            { attrs: { value: "ALL" } },
+                            [
+                              _c(
+                                "font",
+                                {
+                                  staticStyle: { "vertical-align": "inherit" }
+                                },
+                                [
+                                  _c(
+                                    "font",
+                                    {
+                                      staticStyle: {
+                                        "vertical-align": "inherit"
+                                      }
+                                    },
+                                    [_vm._v("All countries")]
+                                  )
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "option",
+                            { attrs: { value: "AS" } },
+                            [
+                              _c(
+                                "font",
+                                {
+                                  staticStyle: { "vertical-align": "inherit" }
+                                },
+                                [
+                                  _c(
+                                    "font",
+                                    {
+                                      staticStyle: {
+                                        "vertical-align": "inherit"
+                                      }
+                                    },
+                                    [_vm._v("American Samoa")]
+                                  )
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "option",
+                            { attrs: { value: "AD" } },
+                            [
+                              _c(
+                                "font",
+                                {
+                                  staticStyle: { "vertical-align": "inherit" }
+                                },
+                                [
+                                  _c(
+                                    "font",
+                                    {
+                                      staticStyle: {
+                                        "vertical-align": "inherit"
+                                      }
+                                    },
+                                    [_vm._v("Andorra")]
+                                  )
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "option",
+                            { attrs: { value: "AO" } },
+                            [
+                              _c(
+                                "font",
+                                {
+                                  staticStyle: { "vertical-align": "inherit" }
+                                },
+                                [
+                                  _c(
+                                    "font",
+                                    {
+                                      staticStyle: {
+                                        "vertical-align": "inherit"
+                                      }
+                                    },
+                                    [_vm._v("Angola")]
+                                  )
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "option",
+                            { attrs: { value: "AI" } },
+                            [
+                              _c(
+                                "font",
+                                {
+                                  staticStyle: { "vertical-align": "inherit" }
+                                },
+                                [
+                                  _c(
+                                    "font",
+                                    {
+                                      staticStyle: {
+                                        "vertical-align": "inherit"
+                                      }
+                                    },
+                                    [_vm._v("Anguilla")]
+                                  )
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "option",
+                            { attrs: { value: "AQ" } },
+                            [
+                              _c(
+                                "font",
+                                {
+                                  staticStyle: { "vertical-align": "inherit" }
+                                },
+                                [
+                                  _c(
+                                    "font",
+                                    {
+                                      staticStyle: {
+                                        "vertical-align": "inherit"
+                                      }
+                                    },
+                                    [_vm._v("Antarctica")]
+                                  )
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "option",
+                            { attrs: { value: "AG" } },
+                            [
+                              _c(
+                                "font",
+                                {
+                                  staticStyle: { "vertical-align": "inherit" }
+                                },
+                                [
+                                  _c(
+                                    "font",
+                                    {
+                                      staticStyle: {
+                                        "vertical-align": "inherit"
+                                      }
+                                    },
+                                    [_vm._v("Antigua and Barbuda")]
+                                  )
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "option",
+                            { attrs: { value: "AR" } },
+                            [
+                              _c(
+                                "font",
+                                {
+                                  staticStyle: { "vertical-align": "inherit" }
+                                },
+                                [
+                                  _c(
+                                    "font",
+                                    {
+                                      staticStyle: {
+                                        "vertical-align": "inherit"
+                                      }
+                                    },
+                                    [_vm._v("Argentina")]
+                                  )
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "option",
+                            { attrs: { value: "AM" } },
+                            [
+                              _c(
+                                "font",
+                                {
+                                  staticStyle: { "vertical-align": "inherit" }
+                                },
+                                [
+                                  _c(
+                                    "font",
+                                    {
+                                      staticStyle: {
+                                        "vertical-align": "inherit"
+                                      }
+                                    },
+                                    [_vm._v("Armenia")]
+                                  )
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "option",
+                            { attrs: { value: "AW" } },
+                            [
+                              _c(
+                                "font",
+                                {
+                                  staticStyle: { "vertical-align": "inherit" }
+                                },
+                                [
+                                  _c(
+                                    "font",
+                                    {
+                                      staticStyle: {
+                                        "vertical-align": "inherit"
+                                      }
+                                    },
+                                    [_vm._v("Aruba")]
+                                  )
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "option",
+                            { attrs: { value: "AU" } },
+                            [
+                              _c(
+                                "font",
+                                {
+                                  staticStyle: { "vertical-align": "inherit" }
+                                },
+                                [
+                                  _c(
+                                    "font",
+                                    {
+                                      staticStyle: {
+                                        "vertical-align": "inherit"
+                                      }
+                                    },
+                                    [_vm._v("Australia")]
+                                  )
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "option",
+                            { attrs: { value: "AT" } },
+                            [
+                              _c(
+                                "font",
+                                {
+                                  staticStyle: { "vertical-align": "inherit" }
+                                },
+                                [
+                                  _c(
+                                    "font",
+                                    {
+                                      staticStyle: {
+                                        "vertical-align": "inherit"
+                                      }
+                                    },
+                                    [_vm._v("Austria")]
+                                  )
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "option",
+                            { attrs: { value: "AZ" } },
+                            [
+                              _c(
+                                "font",
+                                {
+                                  staticStyle: { "vertical-align": "inherit" }
+                                },
+                                [
+                                  _c(
+                                    "font",
+                                    {
+                                      staticStyle: {
+                                        "vertical-align": "inherit"
+                                      }
+                                    },
+                                    [_vm._v("Azerbaidjan")]
+                                  )
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "option",
+                            { attrs: { value: "BS" } },
+                            [
+                              _c(
+                                "font",
+                                {
+                                  staticStyle: { "vertical-align": "inherit" }
+                                },
+                                [
+                                  _c(
+                                    "font",
+                                    {
+                                      staticStyle: {
+                                        "vertical-align": "inherit"
+                                      }
+                                    },
+                                    [_vm._v("Bahamas")]
+                                  )
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "option",
+                            { attrs: { value: "BH" } },
+                            [
+                              _c(
+                                "font",
+                                {
+                                  staticStyle: { "vertical-align": "inherit" }
+                                },
+                                [
+                                  _c(
+                                    "font",
+                                    {
+                                      staticStyle: {
+                                        "vertical-align": "inherit"
+                                      }
+                                    },
+                                    [_vm._v("Bahrain")]
+                                  )
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "option",
+                            { attrs: { value: "BD" } },
+                            [
+                              _c(
+                                "font",
+                                {
+                                  staticStyle: { "vertical-align": "inherit" }
+                                },
+                                [
+                                  _c(
+                                    "font",
+                                    {
+                                      staticStyle: {
+                                        "vertical-align": "inherit"
+                                      }
+                                    },
+                                    [_vm._v("Bangladesh")]
+                                  )
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "option",
+                            { attrs: { value: "BB" } },
+                            [
+                              _c(
+                                "font",
+                                {
+                                  staticStyle: { "vertical-align": "inherit" }
+                                },
+                                [
+                                  _c(
+                                    "font",
+                                    {
+                                      staticStyle: {
+                                        "vertical-align": "inherit"
+                                      }
+                                    },
+                                    [_vm._v("Barbados")]
+                                  )
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "option",
+                            { attrs: { value: "BY" } },
+                            [
+                              _c(
+                                "font",
+                                {
+                                  staticStyle: { "vertical-align": "inherit" }
+                                },
+                                [
+                                  _c(
+                                    "font",
+                                    {
+                                      staticStyle: {
+                                        "vertical-align": "inherit"
+                                      }
+                                    },
+                                    [_vm._v("Belarus")]
+                                  )
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "option",
+                            { attrs: { value: "BE" } },
+                            [
+                              _c(
+                                "font",
+                                {
+                                  staticStyle: { "vertical-align": "inherit" }
+                                },
+                                [
+                                  _c(
+                                    "font",
+                                    {
+                                      staticStyle: {
+                                        "vertical-align": "inherit"
+                                      }
+                                    },
+                                    [_vm._v("Belgium")]
+                                  )
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "option",
+                            { attrs: { value: "BZ" } },
+                            [
+                              _c(
+                                "font",
+                                {
+                                  staticStyle: { "vertical-align": "inherit" }
+                                },
+                                [
+                                  _c(
+                                    "font",
+                                    {
+                                      staticStyle: {
+                                        "vertical-align": "inherit"
+                                      }
+                                    },
+                                    [_vm._v("Belize")]
+                                  )
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "option",
+                            { attrs: { value: "BJ" } },
+                            [
+                              _c(
+                                "font",
+                                {
+                                  staticStyle: { "vertical-align": "inherit" }
+                                },
+                                [
+                                  _c(
+                                    "font",
+                                    {
+                                      staticStyle: {
+                                        "vertical-align": "inherit"
+                                      }
+                                    },
+                                    [_vm._v("Benin")]
+                                  )
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "option",
+                            { attrs: { value: "BM" } },
+                            [
+                              _c(
+                                "font",
+                                {
+                                  staticStyle: { "vertical-align": "inherit" }
+                                },
+                                [
+                                  _c(
+                                    "font",
+                                    {
+                                      staticStyle: {
+                                        "vertical-align": "inherit"
+                                      }
+                                    },
+                                    [_vm._v("Bermuda")]
+                                  )
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "option",
+                            { attrs: { value: "BT" } },
+                            [
+                              _c(
+                                "font",
+                                {
+                                  staticStyle: { "vertical-align": "inherit" }
+                                },
+                                [
+                                  _c(
+                                    "font",
+                                    {
+                                      staticStyle: {
+                                        "vertical-align": "inherit"
+                                      }
+                                    },
+                                    [_vm._v("Bhutan")]
+                                  )
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "option",
+                            { attrs: { value: "BO" } },
+                            [
+                              _c(
+                                "font",
+                                {
+                                  staticStyle: { "vertical-align": "inherit" }
+                                },
+                                [
+                                  _c(
+                                    "font",
+                                    {
+                                      staticStyle: {
+                                        "vertical-align": "inherit"
+                                      }
+                                    },
+                                    [_vm._v("Bolivia")]
+                                  )
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "option",
+                            { attrs: { value: "BQ" } },
+                            [
+                              _c(
+                                "font",
+                                {
+                                  staticStyle: { "vertical-align": "inherit" }
+                                },
+                                [
+                                  _c(
+                                    "font",
+                                    {
+                                      staticStyle: {
+                                        "vertical-align": "inherit"
+                                      }
+                                    },
+                                    [_vm._v("Bonaire")]
+                                  )
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "option",
+                            { attrs: { value: "BA" } },
+                            [
+                              _c(
+                                "font",
+                                {
+                                  staticStyle: { "vertical-align": "inherit" }
+                                },
+                                [
+                                  _c(
+                                    "font",
+                                    {
+                                      staticStyle: {
+                                        "vertical-align": "inherit"
+                                      }
+                                    },
+                                    [_vm._v("Bosnia and Herzegovina")]
+                                  )
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "option",
+                            { attrs: { value: "BW" } },
+                            [
+                              _c(
+                                "font",
+                                {
+                                  staticStyle: { "vertical-align": "inherit" }
+                                },
+                                [
+                                  _c(
+                                    "font",
+                                    {
+                                      staticStyle: {
+                                        "vertical-align": "inherit"
+                                      }
+                                    },
+                                    [_vm._v("Botswana")]
+                                  )
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "option",
+                            { attrs: { value: "BV" } },
+                            [
+                              _c(
+                                "font",
+                                {
+                                  staticStyle: { "vertical-align": "inherit" }
+                                },
+                                [
+                                  _c(
+                                    "font",
+                                    {
+                                      staticStyle: {
+                                        "vertical-align": "inherit"
+                                      }
+                                    },
+                                    [_vm._v("Bouvet Island")]
+                                  )
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "option",
+                            { attrs: { value: "BR" } },
+                            [
+                              _c(
+                                "font",
+                                {
+                                  staticStyle: { "vertical-align": "inherit" }
+                                },
+                                [
+                                  _c(
+                                    "font",
+                                    {
+                                      staticStyle: {
+                                        "vertical-align": "inherit"
+                                      }
+                                    },
+                                    [_vm._v("Brazil")]
+                                  )
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "option",
+                            { attrs: { value: "BN" } },
+                            [
+                              _c(
+                                "font",
+                                {
+                                  staticStyle: { "vertical-align": "inherit" }
+                                },
+                                [
+                                  _c(
+                                    "font",
+                                    {
+                                      staticStyle: {
+                                        "vertical-align": "inherit"
+                                      }
+                                    },
+                                    [_vm._v("Brunei Darussalam")]
+                                  )
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "option",
+                            { attrs: { value: "BG" } },
+                            [
+                              _c(
+                                "font",
+                                {
+                                  staticStyle: { "vertical-align": "inherit" }
+                                },
+                                [
+                                  _c(
+                                    "font",
+                                    {
+                                      staticStyle: {
+                                        "vertical-align": "inherit"
+                                      }
+                                    },
+                                    [_vm._v("Bulgaria")]
+                                  )
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "option",
+                            { attrs: { value: "BF" } },
+                            [
+                              _c(
+                                "font",
+                                {
+                                  staticStyle: { "vertical-align": "inherit" }
+                                },
+                                [
+                                  _c(
+                                    "font",
+                                    {
+                                      staticStyle: {
+                                        "vertical-align": "inherit"
+                                      }
+                                    },
+                                    [_vm._v("Burkina Faso")]
+                                  )
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "option",
+                            { attrs: { value: "BI" } },
+                            [
+                              _c(
+                                "font",
+                                {
+                                  staticStyle: { "vertical-align": "inherit" }
+                                },
+                                [
+                                  _c(
+                                    "font",
+                                    {
+                                      staticStyle: {
+                                        "vertical-align": "inherit"
+                                      }
+                                    },
+                                    [_vm._v("Burundi")]
+                                  )
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "option",
+                            { attrs: { value: "KH" } },
+                            [
+                              _c(
+                                "font",
+                                {
+                                  staticStyle: { "vertical-align": "inherit" }
+                                },
+                                [
+                                  _c(
+                                    "font",
+                                    {
+                                      staticStyle: {
+                                        "vertical-align": "inherit"
+                                      }
+                                    },
+                                    [_vm._v("Cambodia, Kingdom of")]
+                                  )
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "option",
+                            { attrs: { value: "CM" } },
+                            [
+                              _c(
+                                "font",
+                                {
+                                  staticStyle: { "vertical-align": "inherit" }
+                                },
+                                [
+                                  _c(
+                                    "font",
+                                    {
+                                      staticStyle: {
+                                        "vertical-align": "inherit"
+                                      }
+                                    },
+                                    [_vm._v("Cameroon")]
+                                  )
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "option",
+                            { attrs: { value: "CA" } },
+                            [
+                              _c(
+                                "font",
+                                {
+                                  staticStyle: { "vertical-align": "inherit" }
+                                },
+                                [
+                                  _c(
+                                    "font",
+                                    {
+                                      staticStyle: {
+                                        "vertical-align": "inherit"
+                                      }
+                                    },
+                                    [_vm._v("Canada")]
+                                  )
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "option",
+                            { attrs: { value: "CV" } },
+                            [
+                              _c(
+                                "font",
+                                {
+                                  staticStyle: { "vertical-align": "inherit" }
+                                },
+                                [
+                                  _c(
+                                    "font",
+                                    {
+                                      staticStyle: {
+                                        "vertical-align": "inherit"
+                                      }
+                                    },
+                                    [_vm._v("Cape Verde")]
+                                  )
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "option",
+                            { attrs: { value: "KY" } },
+                            [
+                              _c(
+                                "font",
+                                {
+                                  staticStyle: { "vertical-align": "inherit" }
+                                },
+                                [
+                                  _c(
+                                    "font",
+                                    {
+                                      staticStyle: {
+                                        "vertical-align": "inherit"
+                                      }
+                                    },
+                                    [_vm._v("Cayman Islands")]
+                                  )
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "CF" } }, [
+                            _vm._v("Central African Republic")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "TD" } }, [
+                            _vm._v("Chad")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "CL" } }, [
+                            _vm._v("Chile")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "CN" } }, [
+                            _vm._v("China")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "CX" } }, [
+                            _vm._v("Christmas Island")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "CC" } }, [
+                            _vm._v("Cocos (Keeling) Islands")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "CO" } }, [
+                            _vm._v("Colombia")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "KM" } }, [
+                            _vm._v("Comoros")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "CG" } }, [
+                            _vm._v("Congo")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "CD" } }, [
+                            _vm._v("Congo, The Democratic Republic of the")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "CK" } }, [
+                            _vm._v("Cook Islands")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "CR" } }, [
+                            _vm._v("Costa Rica")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "HR" } }, [
+                            _vm._v("Croatia")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "CU" } }, [
+                            _vm._v("Cuba")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "CW" } }, [
+                            _vm._v("Curaçao")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "CY" } }, [
+                            _vm._v("Cyprus")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "CZ" } }, [
+                            _vm._v("Tjechië")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "DK" } }, [
+                            _vm._v("Denmark")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "DJ" } }, [
+                            _vm._v("Djibouti")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "DM" } }, [
+                            _vm._v("Dominica")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "DO" } }, [
+                            _vm._v("Dominican Republic")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "TP" } }, [
+                            _vm._v("East Timor")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "EC" } }, [
+                            _vm._v("Ecuador")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "EG" } }, [
+                            _vm._v("Egypt")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "SV" } }, [
+                            _vm._v("El Salvador")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "GQ" } }, [
+                            _vm._v("Equatorial Guinea")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "ER" } }, [
+                            _vm._v("Eritrea")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "EE" } }, [
+                            _vm._v("Estonia")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "ET" } }, [
+                            _vm._v("Ethiopia")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "FK" } }, [
+                            _vm._v("Falkland Islands")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "FO" } }, [
+                            _vm._v("Faroe Islands")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "FJ" } }, [
+                            _vm._v("Fiji")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "FI" } }, [
+                            _vm._v("Finland")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "CS" } }, [
+                            _vm._v("Former Czechoslovakia")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "FR" } }, [
+                            _vm._v("Frankrijk")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "GF" } }, [
+                            _vm._v("French Guyana")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "TF" } }, [
+                            _vm._v("French Southern Territories")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "GA" } }, [
+                            _vm._v("Gabon")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "GM" } }, [
+                            _vm._v("Gambia")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "GE" } }, [
+                            _vm._v("Georgia")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "DE" } }, [
+                            _vm._v("Duitsland")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "GH" } }, [
+                            _vm._v("Ghana")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "GI" } }, [
+                            _vm._v("Gibraltar")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "GR" } }, [
+                            _vm._v("Griekenland")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "GL" } }, [
+                            _vm._v("Greenland")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "GD" } }, [
+                            _vm._v("Grenada")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "GP" } }, [
+                            _vm._v("Guadeloupe (French)")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "GU" } }, [
+                            _vm._v("Guam (USA)")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "GT" } }, [
+                            _vm._v("Guatemala")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "GG" } }, [
+                            _vm._v("Guernsey")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "GN" } }, [
+                            _vm._v("Guinea")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "GW" } }, [
+                            _vm._v("Guinea Bissau")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "GY" } }, [
+                            _vm._v("Guyana")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "HT" } }, [
+                            _vm._v("Haiti")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "HM" } }, [
+                            _vm._v("Heard and McDonald Islands")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "VA" } }, [
+                            _vm._v("Holy See (Vatican City State)")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "HN" } }, [
+                            _vm._v("Honduras")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "HK" } }, [
+                            _vm._v("Hong-kong")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "HU" } }, [
+                            _vm._v("Hongarijë")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "IS" } }, [
+                            _vm._v("Iceland")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "IN" } }, [
+                            _vm._v("India")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "ID" } }, [
+                            _vm._v("Indonesia")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "IR" } }, [
+                            _vm._v("Iran")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "IQ" } }, [
+                            _vm._v("Iraq")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "IE" } }, [
+                            _vm._v("Ierland")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "IM" } }, [
+                            _vm._v("Isle of Man")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "IL" } }, [
+                            _vm._v("Israel")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "IT" } }, [
+                            _vm._v("Italië")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "CI" } }, [
+                            _vm._v("Ivory Coast (Cote D'Ivoire)")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "JM" } }, [
+                            _vm._v("Jamaica")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "JP" } }, [
+                            _vm._v("Japan")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "JO" } }, [
+                            _vm._v("Jordan")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "KZ" } }, [
+                            _vm._v("Kazakhstan")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "KE" } }, [
+                            _vm._v("Kenya")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "KI" } }, [
+                            _vm._v("Kiribati")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "XK" } }, [
+                            _vm._v("Kosovo")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "KW" } }, [
+                            _vm._v("Kuwait")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "KG" } }, [
+                            _vm._v("Kyrgyz Republic (Kyrgyzstan)")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "LA" } }, [
+                            _vm._v("Laos")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "LV" } }, [
+                            _vm._v("Latvia")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "LB" } }, [
+                            _vm._v("Lebanon")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "LS" } }, [
+                            _vm._v("Lesotho")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "LR" } }, [
+                            _vm._v("Liberia")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "LY" } }, [
+                            _vm._v("Libya")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "LI" } }, [
+                            _vm._v("Liechtenstein")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "LT" } }, [
+                            _vm._v("Lithuania")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "LU" } }, [
+                            _vm._v("Luxemburg")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "MO" } }, [
+                            _vm._v("Macau")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "MK" } }, [
+                            _vm._v("Macedonia")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "MG" } }, [
+                            _vm._v("Madagascar")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "MW" } }, [
+                            _vm._v("Malawi")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "MY" } }, [
+                            _vm._v("Malaysia")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "MV" } }, [
+                            _vm._v("Maldives")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "ML" } }, [
+                            _vm._v("Mali")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "MT" } }, [
+                            _vm._v("Malta")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "MH" } }, [
+                            _vm._v("Marshall Islands")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "MQ" } }, [
+                            _vm._v("Martinique (French)")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "MR" } }, [
+                            _vm._v("Mauritania")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "MU" } }, [
+                            _vm._v("Mauritius")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "YT" } }, [
+                            _vm._v("Mayotte")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "MX" } }, [
+                            _vm._v("Mexico")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "FM" } }, [
+                            _vm._v("Micronesia")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "MD" } }, [
+                            _vm._v("Moldova")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "MC" } }, [
+                            _vm._v("Monaco")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "MN" } }, [
+                            _vm._v("Mongolia")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "ME" } }, [
+                            _vm._v("Montenegro")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "MS" } }, [
+                            _vm._v("Montserrat")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "MA" } }, [
+                            _vm._v("Morocco")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "MZ" } }, [
+                            _vm._v("Mozambique")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "MM" } }, [
+                            _vm._v("Myanmar")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "NA" } }, [
+                            _vm._v("Namibia")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "NR" } }, [
+                            _vm._v("Nauru")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "NP" } }, [
+                            _vm._v("Nepal")
+                          ]),
+                          _vm._v(" "),
+                          _c(
+                            "option",
+                            { attrs: { value: "NL", selected: "" } },
+                            [_vm._v("Nederland")]
+                          ),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "AN" } }, [
+                            _vm._v("Netherlands Antilles")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "NC" } }, [
+                            _vm._v("New Caledonia (French)")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "NZ" } }, [
+                            _vm._v("Nieuw Zeeland")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "NI" } }, [
+                            _vm._v("Nicaragua")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "NE" } }, [
+                            _vm._v("Niger")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "NG" } }, [
+                            _vm._v("Nigeria")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "NU" } }, [
+                            _vm._v("Niue")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "NF" } }, [
+                            _vm._v("Norfolk Island")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "KP" } }, [
+                            _vm._v("North Korea")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "MP" } }, [
+                            _vm._v("Northern Mariana Islands")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "NO" } }, [
+                            _vm._v("Norway")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "OM" } }, [
+                            _vm._v("Oman")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "PK" } }, [
+                            _vm._v("Pakistan")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "PW" } }, [
+                            _vm._v("Palau")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "PA" } }, [
+                            _vm._v("Panama")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "PG" } }, [
+                            _vm._v("Papua New Guinea")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "PY" } }, [
+                            _vm._v("Paraguay")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "PE" } }, [
+                            _vm._v("Peru")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "PH" } }, [
+                            _vm._v("Philippines")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "PN" } }, [
+                            _vm._v("Pitcairn Island")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "PL" } }, [
+                            _vm._v("Polen")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "PF" } }, [
+                            _vm._v("Polynesia (French)")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "PT" } }, [
+                            _vm._v("Portugal")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "PR" } }, [
+                            _vm._v("Puerto Rico")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "QA" } }, [
+                            _vm._v("Qatar")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "RE" } }, [
+                            _vm._v("Reunion (French)")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "RO" } }, [
+                            _vm._v("Romania")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "RU" } }, [
+                            _vm._v("Russia")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "RW" } }, [
+                            _vm._v("Rwanda")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "GS" } }, [
+                            _vm._v("S. Georgia & S. Sandwich Isls.")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "SH" } }, [
+                            _vm._v("Saint Helena")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "KN" } }, [
+                            _vm._v("Saint Kitts & Nevis Anguilla")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "LC" } }, [
+                            _vm._v("Saint Lucia")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "PM" } }, [
+                            _vm._v("Saint Pierre and Miquelon")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "ST" } }, [
+                            _vm._v("Saint Tome (Sao Tome) and Principe")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "VC" } }, [
+                            _vm._v("Saint Vincent & Grenadines")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "WS" } }, [
+                            _vm._v("Samoa")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "SM" } }, [
+                            _vm._v("San Marino")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "SA" } }, [
+                            _vm._v("Saudi Arabia")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "SN" } }, [
+                            _vm._v("Senegal")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "RS" } }, [
+                            _vm._v("Servië")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "SC" } }, [
+                            _vm._v("Seychelles")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "SL" } }, [
+                            _vm._v("Sierra Leone")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "SG" } }, [
+                            _vm._v("Singapore")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "SK" } }, [
+                            _vm._v("Slovakia")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "SI" } }, [
+                            _vm._v("Slovenia")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "SB" } }, [
+                            _vm._v("Solomon Islands")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "SO" } }, [
+                            _vm._v("Somalia")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "ZA" } }, [
+                            _vm._v("South Africa")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "KR" } }, [
+                            _vm._v("South Korea")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "ES" } }, [
+                            _vm._v("Spanje")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "LK" } }, [
+                            _vm._v("Sri Lanka")
+                          ]),
+                          _vm._v(" "),
+                          _c(
+                            "option",
+                            { attrs: { value: "SD" } },
+                            [
+                              _c(
+                                "font",
+                                {
+                                  staticStyle: { "vertical-align": "inherit" }
+                                },
+                                [
+                                  _c(
+                                    "font",
+                                    {
+                                      staticStyle: {
+                                        "vertical-align": "inherit"
+                                      }
+                                    },
+                                    [_vm._v("Sudan")]
+                                  )
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "option",
+                            { attrs: { value: "SR" } },
+                            [
+                              _c(
+                                "font",
+                                {
+                                  staticStyle: { "vertical-align": "inherit" }
+                                },
+                                [
+                                  _c(
+                                    "font",
+                                    {
+                                      staticStyle: {
+                                        "vertical-align": "inherit"
+                                      }
+                                    },
+                                    [_vm._v("Suriname")]
+                                  )
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "option",
+                            { attrs: { value: "SJ" } },
+                            [
+                              _c(
+                                "font",
+                                {
+                                  staticStyle: { "vertical-align": "inherit" }
+                                },
+                                [
+                                  _c(
+                                    "font",
+                                    {
+                                      staticStyle: {
+                                        "vertical-align": "inherit"
+                                      }
+                                    },
+                                    [_vm._v("Svalbard and Jan Mayen Islands")]
+                                  )
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "option",
+                            { attrs: { value: "SZ" } },
+                            [
+                              _c(
+                                "font",
+                                {
+                                  staticStyle: { "vertical-align": "inherit" }
+                                },
+                                [
+                                  _c(
+                                    "font",
+                                    {
+                                      staticStyle: {
+                                        "vertical-align": "inherit"
+                                      }
+                                    },
+                                    [_vm._v("Swaziland")]
+                                  )
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "option",
+                            { attrs: { value: "SE" } },
+                            [
+                              _c(
+                                "font",
+                                {
+                                  staticStyle: { "vertical-align": "inherit" }
+                                },
+                                [
+                                  _c(
+                                    "font",
+                                    {
+                                      staticStyle: {
+                                        "vertical-align": "inherit"
+                                      }
+                                    },
+                                    [_vm._v("Sweden")]
+                                  )
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "option",
+                            { attrs: { value: "CH" } },
+                            [
+                              _c(
+                                "font",
+                                {
+                                  staticStyle: { "vertical-align": "inherit" }
+                                },
+                                [
+                                  _c(
+                                    "font",
+                                    {
+                                      staticStyle: {
+                                        "vertical-align": "inherit"
+                                      }
+                                    },
+                                    [_vm._v("Switzerland")]
+                                  )
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "option",
+                            { attrs: { value: "SY" } },
+                            [
+                              _c(
+                                "font",
+                                {
+                                  staticStyle: { "vertical-align": "inherit" }
+                                },
+                                [
+                                  _c(
+                                    "font",
+                                    {
+                                      staticStyle: {
+                                        "vertical-align": "inherit"
+                                      }
+                                    },
+                                    [_vm._v("Syria")]
+                                  )
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "option",
+                            { attrs: { value: "TJ" } },
+                            [
+                              _c(
+                                "font",
+                                {
+                                  staticStyle: { "vertical-align": "inherit" }
+                                },
+                                [
+                                  _c(
+                                    "font",
+                                    {
+                                      staticStyle: {
+                                        "vertical-align": "inherit"
+                                      }
+                                    },
+                                    [_vm._v("Tajikistan")]
+                                  )
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "option",
+                            { attrs: { value: "TW" } },
+                            [
+                              _c(
+                                "font",
+                                {
+                                  staticStyle: { "vertical-align": "inherit" }
+                                },
+                                [
+                                  _c(
+                                    "font",
+                                    {
+                                      staticStyle: {
+                                        "vertical-align": "inherit"
+                                      }
+                                    },
+                                    [_vm._v("Taiwan")]
+                                  )
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "option",
+                            { attrs: { value: "TZ" } },
+                            [
+                              _c(
+                                "font",
+                                {
+                                  staticStyle: { "vertical-align": "inherit" }
+                                },
+                                [
+                                  _c(
+                                    "font",
+                                    {
+                                      staticStyle: {
+                                        "vertical-align": "inherit"
+                                      }
+                                    },
+                                    [_vm._v("Tanzania")]
+                                  )
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "option",
+                            { attrs: { value: "TH" } },
+                            [
+                              _c(
+                                "font",
+                                {
+                                  staticStyle: { "vertical-align": "inherit" }
+                                },
+                                [
+                                  _c(
+                                    "font",
+                                    {
+                                      staticStyle: {
+                                        "vertical-align": "inherit"
+                                      }
+                                    },
+                                    [_vm._v("Thailand")]
+                                  )
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "option",
+                            { attrs: { value: "TG" } },
+                            [
+                              _c(
+                                "font",
+                                {
+                                  staticStyle: { "vertical-align": "inherit" }
+                                },
+                                [
+                                  _c(
+                                    "font",
+                                    {
+                                      staticStyle: {
+                                        "vertical-align": "inherit"
+                                      }
+                                    },
+                                    [_vm._v("Togo")]
+                                  )
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "option",
+                            { attrs: { value: "TK" } },
+                            [
+                              _c(
+                                "font",
+                                {
+                                  staticStyle: { "vertical-align": "inherit" }
+                                },
+                                [
+                                  _c(
+                                    "font",
+                                    {
+                                      staticStyle: {
+                                        "vertical-align": "inherit"
+                                      }
+                                    },
+                                    [_vm._v("Tokelau")]
+                                  )
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "option",
+                            { attrs: { value: "TO" } },
+                            [
+                              _c(
+                                "font",
+                                {
+                                  staticStyle: { "vertical-align": "inherit" }
+                                },
+                                [
+                                  _c(
+                                    "font",
+                                    {
+                                      staticStyle: {
+                                        "vertical-align": "inherit"
+                                      }
+                                    },
+                                    [_vm._v("Tonga")]
+                                  )
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "option",
+                            { attrs: { value: "TT" } },
+                            [
+                              _c(
+                                "font",
+                                {
+                                  staticStyle: { "vertical-align": "inherit" }
+                                },
+                                [
+                                  _c(
+                                    "font",
+                                    {
+                                      staticStyle: {
+                                        "vertical-align": "inherit"
+                                      }
+                                    },
+                                    [_vm._v("Trinidad and Tobago")]
+                                  )
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "option",
+                            { attrs: { value: "TN" } },
+                            [
+                              _c(
+                                "font",
+                                {
+                                  staticStyle: { "vertical-align": "inherit" }
+                                },
+                                [
+                                  _c(
+                                    "font",
+                                    {
+                                      staticStyle: {
+                                        "vertical-align": "inherit"
+                                      }
+                                    },
+                                    [_vm._v("Tunisia")]
+                                  )
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "option",
+                            { attrs: { value: "TR" } },
+                            [
+                              _c(
+                                "font",
+                                {
+                                  staticStyle: { "vertical-align": "inherit" }
+                                },
+                                [
+                                  _c(
+                                    "font",
+                                    {
+                                      staticStyle: {
+                                        "vertical-align": "inherit"
+                                      }
+                                    },
+                                    [_vm._v("Turkey")]
+                                  )
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "option",
+                            { attrs: { value: "TM" } },
+                            [
+                              _c(
+                                "font",
+                                {
+                                  staticStyle: { "vertical-align": "inherit" }
+                                },
+                                [
+                                  _c(
+                                    "font",
+                                    {
+                                      staticStyle: {
+                                        "vertical-align": "inherit"
+                                      }
+                                    },
+                                    [_vm._v("Turkmenistan")]
+                                  )
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "option",
+                            { attrs: { value: "TC" } },
+                            [
+                              _c(
+                                "font",
+                                {
+                                  staticStyle: { "vertical-align": "inherit" }
+                                },
+                                [
+                                  _c(
+                                    "font",
+                                    {
+                                      staticStyle: {
+                                        "vertical-align": "inherit"
+                                      }
+                                    },
+                                    [_vm._v("Turks and Caicos Islands")]
+                                  )
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "option",
+                            { attrs: { value: "TV" } },
+                            [
+                              _c(
+                                "font",
+                                {
+                                  staticStyle: { "vertical-align": "inherit" }
+                                },
+                                [
+                                  _c(
+                                    "font",
+                                    {
+                                      staticStyle: {
+                                        "vertical-align": "inherit"
+                                      }
+                                    },
+                                    [_vm._v("Tuvalu")]
+                                  )
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "option",
+                            { attrs: { value: "UG" } },
+                            [
+                              _c(
+                                "font",
+                                {
+                                  staticStyle: { "vertical-align": "inherit" }
+                                },
+                                [
+                                  _c(
+                                    "font",
+                                    {
+                                      staticStyle: {
+                                        "vertical-align": "inherit"
+                                      }
+                                    },
+                                    [_vm._v("Uganda")]
+                                  )
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "option",
+                            { attrs: { value: "GB" } },
+                            [
+                              _c(
+                                "font",
+                                {
+                                  staticStyle: { "vertical-align": "inherit" }
+                                },
+                                [
+                                  _c(
+                                    "font",
+                                    {
+                                      staticStyle: {
+                                        "vertical-align": "inherit"
+                                      }
+                                    },
+                                    [_vm._v("United Kingdom")]
+                                  )
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "option",
+                            { attrs: { value: "UA" } },
+                            [
+                              _c(
+                                "font",
+                                {
+                                  staticStyle: { "vertical-align": "inherit" }
+                                },
+                                [
+                                  _c(
+                                    "font",
+                                    {
+                                      staticStyle: {
+                                        "vertical-align": "inherit"
+                                      }
+                                    },
+                                    [_vm._v("Ukraine")]
+                                  )
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "option",
+                            { attrs: { value: "AE" } },
+                            [
+                              _c(
+                                "font",
+                                {
+                                  staticStyle: { "vertical-align": "inherit" }
+                                },
+                                [
+                                  _c(
+                                    "font",
+                                    {
+                                      staticStyle: {
+                                        "vertical-align": "inherit"
+                                      }
+                                    },
+                                    [_vm._v("United Arab Emirates")]
+                                  )
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "option",
+                            { attrs: { value: "US" } },
+                            [
+                              _c(
+                                "font",
+                                {
+                                  staticStyle: { "vertical-align": "inherit" }
+                                },
+                                [
+                                  _c(
+                                    "font",
+                                    {
+                                      staticStyle: {
+                                        "vertical-align": "inherit"
+                                      }
+                                    },
+                                    [_vm._v("United States")]
+                                  )
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "option",
+                            { attrs: { value: "UY" } },
+                            [
+                              _c(
+                                "font",
+                                {
+                                  staticStyle: { "vertical-align": "inherit" }
+                                },
+                                [
+                                  _c(
+                                    "font",
+                                    {
+                                      staticStyle: {
+                                        "vertical-align": "inherit"
+                                      }
+                                    },
+                                    [_vm._v("Uruguay")]
+                                  )
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "option",
+                            { attrs: { value: "UZ" } },
+                            [
+                              _c(
+                                "font",
+                                {
+                                  staticStyle: { "vertical-align": "inherit" }
+                                },
+                                [
+                                  _c(
+                                    "font",
+                                    {
+                                      staticStyle: {
+                                        "vertical-align": "inherit"
+                                      }
+                                    },
+                                    [_vm._v("Uzbekistan")]
+                                  )
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "option",
+                            { attrs: { value: "VU" } },
+                            [
+                              _c(
+                                "font",
+                                {
+                                  staticStyle: { "vertical-align": "inherit" }
+                                },
+                                [
+                                  _c(
+                                    "font",
+                                    {
+                                      staticStyle: {
+                                        "vertical-align": "inherit"
+                                      }
+                                    },
+                                    [_vm._v("Vanuatu")]
+                                  )
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "option",
+                            { attrs: { value: "VE" } },
+                            [
+                              _c(
+                                "font",
+                                {
+                                  staticStyle: { "vertical-align": "inherit" }
+                                },
+                                [
+                                  _c(
+                                    "font",
+                                    {
+                                      staticStyle: {
+                                        "vertical-align": "inherit"
+                                      }
+                                    },
+                                    [_vm._v("Venezuela")]
+                                  )
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "option",
+                            { attrs: { value: "VN" } },
+                            [
+                              _c(
+                                "font",
+                                {
+                                  staticStyle: { "vertical-align": "inherit" }
+                                },
+                                [
+                                  _c(
+                                    "font",
+                                    {
+                                      staticStyle: {
+                                        "vertical-align": "inherit"
+                                      }
+                                    },
+                                    [_vm._v("Vietnam")]
+                                  )
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "option",
+                            { attrs: { value: "VG" } },
+                            [
+                              _c(
+                                "font",
+                                {
+                                  staticStyle: { "vertical-align": "inherit" }
+                                },
+                                [
+                                  _c(
+                                    "font",
+                                    {
+                                      staticStyle: {
+                                        "vertical-align": "inherit"
+                                      }
+                                    },
+                                    [_vm._v("Virgin Islands (British)")]
+                                  )
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "option",
+                            { attrs: { value: "VI" } },
+                            [
+                              _c(
+                                "font",
+                                {
+                                  staticStyle: { "vertical-align": "inherit" }
+                                },
+                                [
+                                  _c(
+                                    "font",
+                                    {
+                                      staticStyle: {
+                                        "vertical-align": "inherit"
+                                      }
+                                    },
+                                    [_vm._v("Virgin Islands (USA)")]
+                                  )
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "option",
+                            { attrs: { value: "WF" } },
+                            [
+                              _c(
+                                "font",
+                                {
+                                  staticStyle: { "vertical-align": "inherit" }
+                                },
+                                [
+                                  _c(
+                                    "font",
+                                    {
+                                      staticStyle: {
+                                        "vertical-align": "inherit"
+                                      }
+                                    },
+                                    [_vm._v("Wallis and Futuna Islands")]
+                                  )
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "option",
+                            { attrs: { value: "EH" } },
+                            [
+                              _c(
+                                "font",
+                                {
+                                  staticStyle: { "vertical-align": "inherit" }
+                                },
+                                [
+                                  _c(
+                                    "font",
+                                    {
+                                      staticStyle: {
+                                        "vertical-align": "inherit"
+                                      }
+                                    },
+                                    [_vm._v("Western Sahara")]
+                                  )
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "option",
+                            { attrs: { value: "YE" } },
+                            [
+                              _c(
+                                "font",
+                                {
+                                  staticStyle: { "vertical-align": "inherit" }
+                                },
+                                [
+                                  _c(
+                                    "font",
+                                    {
+                                      staticStyle: {
+                                        "vertical-align": "inherit"
+                                      }
+                                    },
+                                    [_vm._v("Yemen")]
+                                  )
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "option",
+                            { attrs: { value: "YU" } },
+                            [
+                              _c(
+                                "font",
+                                {
+                                  staticStyle: { "vertical-align": "inherit" }
+                                },
+                                [
+                                  _c(
+                                    "font",
+                                    {
+                                      staticStyle: {
+                                        "vertical-align": "inherit"
+                                      }
+                                    },
+                                    [_vm._v("Yugoslavia")]
+                                  )
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "option",
+                            { attrs: { value: "ZR" } },
+                            [
+                              _c(
+                                "font",
+                                {
+                                  staticStyle: { "vertical-align": "inherit" }
+                                },
+                                [
+                                  _c(
+                                    "font",
+                                    {
+                                      staticStyle: {
+                                        "vertical-align": "inherit"
+                                      }
+                                    },
+                                    [_vm._v("Zaire")]
+                                  )
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "option",
+                            { attrs: { value: "ZM" } },
+                            [
+                              _c(
+                                "font",
+                                {
+                                  staticStyle: { "vertical-align": "inherit" }
+                                },
+                                [
+                                  _c(
+                                    "font",
+                                    {
+                                      staticStyle: {
+                                        "vertical-align": "inherit"
+                                      }
+                                    },
+                                    [_vm._v("Zambia")]
+                                  )
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "option",
+                            { attrs: { value: "ZW" } },
+                            [
+                              _c(
+                                "font",
+                                {
+                                  staticStyle: { "vertical-align": "inherit" }
+                                },
+                                [
+                                  _c(
+                                    "font",
+                                    {
+                                      staticStyle: {
+                                        "vertical-align": "inherit"
+                                      }
+                                    },
+                                    [_vm._v("Zimbabwe")]
+                                  )
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          )
+                        ]
+                      )
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "form-row" }, [
+                    _c("div", { staticClass: "form-group col-md-6" }, [
+                      _c(
+                        "label",
+                        { attrs: { for: "phone" } },
+                        [
+                          _c(
+                            "font",
+                            { staticStyle: { "vertical-align": "inherit" } },
+                            [
+                              _c(
+                                "font",
+                                {
+                                  staticStyle: { "vertical-align": "inherit" }
+                                },
+                                [_vm._v("telephone number")]
+                              )
+                            ],
+                            1
+                          )
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c("input", {
+                        staticClass: "form-control",
+                        attrs: {
+                          required: "",
+                          type: "text",
+                          id: "phone",
+                          name: "phone",
+                          value: ""
+                        }
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "form-group col-md-6" }, [
+                      _c(
+                        "label",
+                        { attrs: { for: "email" } },
+                        [
+                          _c(
+                            "font",
+                            { staticStyle: { "vertical-align": "inherit" } },
+                            [
+                              _c(
+                                "font",
+                                {
+                                  staticStyle: { "vertical-align": "inherit" }
+                                },
+                                [_vm._v("E-mail")]
+                              )
+                            ],
+                            1
+                          )
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c("input", {
+                        staticClass: "form-control",
+                        attrs: {
+                          required: "",
+                          type: "email",
+                          id: "email",
+                          name: "email",
+                          value: ""
+                        }
+                      })
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "form-group " }, [
+                    _c("div", { staticClass: "form-check " }, [
+                      _c("input", {
+                        staticClass:
+                          "form-check-input showw use_shipping_address",
+                        attrs: { type: "checkbox", id: "gridCheck" }
+                      }),
+                      _vm._v(" "),
+                      _c(
+                        "label",
+                        {
+                          staticClass: "form-check-label",
+                          attrs: { for: "gridCheck" }
+                        },
+                        [
+                          _c(
+                            "font",
+                            { staticStyle: { "vertical-align": "inherit" } },
+                            [
+                              _c(
+                                "font",
+                                {
+                                  staticStyle: { "vertical-align": "inherit" }
+                                },
+                                [
+                                  _vm._v(
+                                    "\r\n                                                Delivery address is different from the billing address\r\n                                            "
+                                  )
+                                ]
+                              )
+                            ],
+                            1
+                          )
+                        ],
+                        1
+                      )
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c(
+                    "div",
+                    { staticClass: "hidee", staticStyle: { display: "none" } },
+                    [
+                      _c("div", { staticClass: "form-row" }, [
+                        _c("div", { staticClass: "form-group col-md-12" }, [
+                          _c(
+                            "label",
+                            { attrs: { for: "ship_address" } },
+                            [
+                              _c(
+                                "font",
+                                {
+                                  staticStyle: { "vertical-align": "inherit" }
+                                },
+                                [
+                                  _c(
+                                    "font",
+                                    {
+                                      staticStyle: {
+                                        "vertical-align": "inherit"
+                                      }
+                                    },
+                                    [_vm._v("Address")]
+                                  )
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c("input", {
+                            staticClass: "form-control",
+                            attrs: {
+                              type: "text",
+                              id: "ship_address",
+                              name: "ship_address",
+                              value: ""
+                            }
+                          })
+                        ])
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "form-row" }, [
+                        _c("div", { staticClass: "form-group col-md-2" }, [
+                          _c(
+                            "label",
+                            { attrs: { for: "ship_zipcode" } },
+                            [
+                              _c(
+                                "font",
+                                {
+                                  staticStyle: { "vertical-align": "inherit" }
+                                },
+                                [
+                                  _c(
+                                    "font",
+                                    {
+                                      staticStyle: {
+                                        "vertical-align": "inherit"
+                                      }
+                                    },
+                                    [_vm._v("Postal Code")]
+                                  )
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c("input", {
+                            staticClass: "form-control",
+                            attrs: {
+                              type: "text",
+                              id: "ship_zipcode",
+                              name: "ship_zipcode",
+                              value: ""
+                            }
+                          })
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "form-group col-md-5" }, [
+                          _c(
+                            "label",
+                            { attrs: { for: "ship_city" } },
+                            [
+                              _c(
+                                "font",
+                                {
+                                  staticStyle: { "vertical-align": "inherit" }
+                                },
+                                [
+                                  _c(
+                                    "font",
+                                    {
+                                      staticStyle: {
+                                        "vertical-align": "inherit"
+                                      }
+                                    },
+                                    [_vm._v("Place")]
+                                  )
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c("input", {
+                            staticClass: "form-control",
+                            attrs: {
+                              type: "text",
+                              id: "ship_city",
+                              name: "ship_city",
+                              value: ""
+                            }
+                          })
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "form-group col-md-5" }, [
+                          _c(
+                            "label",
+                            { attrs: { for: "ship_country" } },
+                            [
+                              _c(
+                                "font",
+                                {
+                                  staticStyle: { "vertical-align": "inherit" }
+                                },
+                                [
+                                  _c(
+                                    "font",
+                                    {
+                                      staticStyle: {
+                                        "vertical-align": "inherit"
+                                      }
+                                    },
+                                    [_vm._v("Country")]
+                                  )
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "select",
+                            {
+                              staticClass: "form-control",
+                              attrs: {
+                                id: "ship_country",
+                                name: "ship_country",
+                                required: ""
+                              }
+                            },
+                            [
+                              _c(
+                                "option",
+                                { attrs: { value: "AF" } },
+                                [
+                                  _c(
+                                    "font",
+                                    {
+                                      staticStyle: {
+                                        "vertical-align": "inherit"
+                                      }
+                                    },
+                                    [
+                                      _c(
+                                        "font",
+                                        {
+                                          staticStyle: {
+                                            "vertical-align": "inherit"
+                                          }
+                                        },
+                                        [
+                                          _vm._v(
+                                            "Afghanistan, Islamic State of"
+                                          )
+                                        ]
+                                      )
+                                    ],
+                                    1
+                                  )
+                                ],
+                                1
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "option",
+                                { attrs: { value: "AL" } },
+                                [
+                                  _c(
+                                    "font",
+                                    {
+                                      staticStyle: {
+                                        "vertical-align": "inherit"
+                                      }
+                                    },
+                                    [
+                                      _c(
+                                        "font",
+                                        {
+                                          staticStyle: {
+                                            "vertical-align": "inherit"
+                                          }
+                                        },
+                                        [_vm._v("Albania")]
+                                      )
+                                    ],
+                                    1
+                                  )
+                                ],
+                                1
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "option",
+                                { attrs: { value: "DZ" } },
+                                [
+                                  _c(
+                                    "font",
+                                    {
+                                      staticStyle: {
+                                        "vertical-align": "inherit"
+                                      }
+                                    },
+                                    [
+                                      _c(
+                                        "font",
+                                        {
+                                          staticStyle: {
+                                            "vertical-align": "inherit"
+                                          }
+                                        },
+                                        [_vm._v("Algeria")]
+                                      )
+                                    ],
+                                    1
+                                  )
+                                ],
+                                1
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "option",
+                                { attrs: { value: "ALL" } },
+                                [
+                                  _c(
+                                    "font",
+                                    {
+                                      staticStyle: {
+                                        "vertical-align": "inherit"
+                                      }
+                                    },
+                                    [
+                                      _c(
+                                        "font",
+                                        {
+                                          staticStyle: {
+                                            "vertical-align": "inherit"
+                                          }
+                                        },
+                                        [_vm._v("All countries")]
+                                      )
+                                    ],
+                                    1
+                                  )
+                                ],
+                                1
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "option",
+                                { attrs: { value: "AS" } },
+                                [
+                                  _c(
+                                    "font",
+                                    {
+                                      staticStyle: {
+                                        "vertical-align": "inherit"
+                                      }
+                                    },
+                                    [
+                                      _c(
+                                        "font",
+                                        {
+                                          staticStyle: {
+                                            "vertical-align": "inherit"
+                                          }
+                                        },
+                                        [_vm._v("American Samoa")]
+                                      )
+                                    ],
+                                    1
+                                  )
+                                ],
+                                1
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "option",
+                                { attrs: { value: "AD" } },
+                                [
+                                  _c(
+                                    "font",
+                                    {
+                                      staticStyle: {
+                                        "vertical-align": "inherit"
+                                      }
+                                    },
+                                    [
+                                      _c(
+                                        "font",
+                                        {
+                                          staticStyle: {
+                                            "vertical-align": "inherit"
+                                          }
+                                        },
+                                        [_vm._v("Andorra")]
+                                      )
+                                    ],
+                                    1
+                                  )
+                                ],
+                                1
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "option",
+                                { attrs: { value: "AO" } },
+                                [
+                                  _c(
+                                    "font",
+                                    {
+                                      staticStyle: {
+                                        "vertical-align": "inherit"
+                                      }
+                                    },
+                                    [
+                                      _c(
+                                        "font",
+                                        {
+                                          staticStyle: {
+                                            "vertical-align": "inherit"
+                                          }
+                                        },
+                                        [_vm._v("Angola")]
+                                      )
+                                    ],
+                                    1
+                                  )
+                                ],
+                                1
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "option",
+                                { attrs: { value: "AI" } },
+                                [
+                                  _c(
+                                    "font",
+                                    {
+                                      staticStyle: {
+                                        "vertical-align": "inherit"
+                                      }
+                                    },
+                                    [
+                                      _c(
+                                        "font",
+                                        {
+                                          staticStyle: {
+                                            "vertical-align": "inherit"
+                                          }
+                                        },
+                                        [_vm._v("Anguilla")]
+                                      )
+                                    ],
+                                    1
+                                  )
+                                ],
+                                1
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "option",
+                                { attrs: { value: "AQ" } },
+                                [
+                                  _c(
+                                    "font",
+                                    {
+                                      staticStyle: {
+                                        "vertical-align": "inherit"
+                                      }
+                                    },
+                                    [
+                                      _c(
+                                        "font",
+                                        {
+                                          staticStyle: {
+                                            "vertical-align": "inherit"
+                                          }
+                                        },
+                                        [_vm._v("Antarctica")]
+                                      )
+                                    ],
+                                    1
+                                  )
+                                ],
+                                1
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "option",
+                                { attrs: { value: "AG" } },
+                                [
+                                  _c(
+                                    "font",
+                                    {
+                                      staticStyle: {
+                                        "vertical-align": "inherit"
+                                      }
+                                    },
+                                    [
+                                      _c(
+                                        "font",
+                                        {
+                                          staticStyle: {
+                                            "vertical-align": "inherit"
+                                          }
+                                        },
+                                        [_vm._v("Antigua and Barbuda")]
+                                      )
+                                    ],
+                                    1
+                                  )
+                                ],
+                                1
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "option",
+                                { attrs: { value: "AR" } },
+                                [
+                                  _c(
+                                    "font",
+                                    {
+                                      staticStyle: {
+                                        "vertical-align": "inherit"
+                                      }
+                                    },
+                                    [
+                                      _c(
+                                        "font",
+                                        {
+                                          staticStyle: {
+                                            "vertical-align": "inherit"
+                                          }
+                                        },
+                                        [_vm._v("Argentina")]
+                                      )
+                                    ],
+                                    1
+                                  )
+                                ],
+                                1
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "option",
+                                { attrs: { value: "AM" } },
+                                [
+                                  _c(
+                                    "font",
+                                    {
+                                      staticStyle: {
+                                        "vertical-align": "inherit"
+                                      }
+                                    },
+                                    [
+                                      _c(
+                                        "font",
+                                        {
+                                          staticStyle: {
+                                            "vertical-align": "inherit"
+                                          }
+                                        },
+                                        [_vm._v("Armenia")]
+                                      )
+                                    ],
+                                    1
+                                  )
+                                ],
+                                1
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "option",
+                                { attrs: { value: "AW" } },
+                                [
+                                  _c(
+                                    "font",
+                                    {
+                                      staticStyle: {
+                                        "vertical-align": "inherit"
+                                      }
+                                    },
+                                    [
+                                      _c(
+                                        "font",
+                                        {
+                                          staticStyle: {
+                                            "vertical-align": "inherit"
+                                          }
+                                        },
+                                        [_vm._v("Aruba")]
+                                      )
+                                    ],
+                                    1
+                                  )
+                                ],
+                                1
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "option",
+                                { attrs: { value: "AU" } },
+                                [
+                                  _c(
+                                    "font",
+                                    {
+                                      staticStyle: {
+                                        "vertical-align": "inherit"
+                                      }
+                                    },
+                                    [
+                                      _c(
+                                        "font",
+                                        {
+                                          staticStyle: {
+                                            "vertical-align": "inherit"
+                                          }
+                                        },
+                                        [_vm._v("Australia")]
+                                      )
+                                    ],
+                                    1
+                                  )
+                                ],
+                                1
+                              ),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "AT" } }, [
+                                _vm._v("Oostenrijk")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "AZ" } }, [
+                                _vm._v("Azerbaidjan")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "BS" } }, [
+                                _vm._v("Bahamas")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "BH" } }, [
+                                _vm._v("Bahrain")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "BD" } }, [
+                                _vm._v("Bangladesh")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "BB" } }, [
+                                _vm._v("Barbados")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "BY" } }, [
+                                _vm._v("Belarus")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "BE" } }, [
+                                _vm._v("België")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "BZ" } }, [
+                                _vm._v("Belize")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "BJ" } }, [
+                                _vm._v("Benin")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "BM" } }, [
+                                _vm._v("Bermuda")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "BT" } }, [
+                                _vm._v("Bhutan")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "BO" } }, [
+                                _vm._v("Bolivia")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "BQ" } }, [
+                                _vm._v("Bonaire")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "BA" } }, [
+                                _vm._v("Bosnia-Herzegovina")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "BW" } }, [
+                                _vm._v("Botswana")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "BV" } }, [
+                                _vm._v("Bouvet Island")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "BR" } }, [
+                                _vm._v("Brazil")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "BN" } }, [
+                                _vm._v("Brunei Darussalam")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "BG" } }, [
+                                _vm._v("Bulgaria")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "BF" } }, [
+                                _vm._v("Burkina Faso")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "BI" } }, [
+                                _vm._v("Burundi")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "KH" } }, [
+                                _vm._v("Cambodia, Kingdom of")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "CM" } }, [
+                                _vm._v("Cameroon")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "CA" } }, [
+                                _vm._v("Canada")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "CV" } }, [
+                                _vm._v("Cape Verde")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "KY" } }, [
+                                _vm._v("Cayman Islands")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "CF" } }, [
+                                _vm._v("Central African Republic")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "TD" } }, [
+                                _vm._v("Chad")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "CL" } }, [
+                                _vm._v("Chile")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "CN" } }, [
+                                _vm._v("China")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "CX" } }, [
+                                _vm._v("Christmas Island")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "CC" } }, [
+                                _vm._v("Cocos (Keeling) Islands")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "CO" } }, [
+                                _vm._v("Colombia")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "KM" } }, [
+                                _vm._v("Comoros")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "CG" } }, [
+                                _vm._v("Congo")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "CD" } }, [
+                                _vm._v("Congo, The Democratic Republic of the")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "CK" } }, [
+                                _vm._v("Cook Islands")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "CR" } }, [
+                                _vm._v("Costa Rica")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "HR" } }, [
+                                _vm._v("Croatia")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "CU" } }, [
+                                _vm._v("Cuba")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "CW" } }, [
+                                _vm._v("Curaçao")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "CY" } }, [
+                                _vm._v("Cyprus")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "CZ" } }, [
+                                _vm._v("Tjechië")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "DK" } }, [
+                                _vm._v("Denmark")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "DJ" } }, [
+                                _vm._v("Djibouti")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "DM" } }, [
+                                _vm._v("Dominica")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "DO" } }, [
+                                _vm._v("Dominican Republic")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "TP" } }, [
+                                _vm._v("East Timor")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "EC" } }, [
+                                _vm._v("Ecuador")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "EG" } }, [
+                                _vm._v("Egypt")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "SV" } }, [
+                                _vm._v("El Salvador")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "GQ" } }, [
+                                _vm._v("Equatorial Guinea")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "ER" } }, [
+                                _vm._v("Eritrea")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "EE" } }, [
+                                _vm._v("Estonia")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "ET" } }, [
+                                _vm._v("Ethiopia")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "FK" } }, [
+                                _vm._v("Falkland Islands")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "FO" } }, [
+                                _vm._v("Faroe Islands")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "FJ" } }, [
+                                _vm._v("Fiji")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "FI" } }, [
+                                _vm._v("Finland")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "CS" } }, [
+                                _vm._v("Former Czechoslovakia")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "FR" } }, [
+                                _vm._v("Frankrijk")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "GF" } }, [
+                                _vm._v("French Guyana")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "TF" } }, [
+                                _vm._v("French Southern Territories")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "GA" } }, [
+                                _vm._v("Gabon")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "GM" } }, [
+                                _vm._v("Gambia")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "GE" } }, [
+                                _vm._v("Georgia")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "DE" } }, [
+                                _vm._v("Duitsland")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "GH" } }, [
+                                _vm._v("Ghana")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "GI" } }, [
+                                _vm._v("Gibraltar")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "GR" } }, [
+                                _vm._v("Griekenland")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "GL" } }, [
+                                _vm._v("Greenland")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "GD" } }, [
+                                _vm._v("Grenada")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "GP" } }, [
+                                _vm._v("Guadeloupe (French)")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "GU" } }, [
+                                _vm._v("Guam (USA)")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "GT" } }, [
+                                _vm._v("Guatemala")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "GG" } }, [
+                                _vm._v("Guernsey")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "GN" } }, [
+                                _vm._v("Guinea")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "GW" } }, [
+                                _vm._v("Guinea Bissau")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "GY" } }, [
+                                _vm._v("Guyana")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "HT" } }, [
+                                _vm._v("Haiti")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "HM" } }, [
+                                _vm._v("Heard and McDonald Islands")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "VA" } }, [
+                                _vm._v("Holy See (Vatican City State)")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "HN" } }, [
+                                _vm._v("Honduras")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "HK" } }, [
+                                _vm._v("Hong-kong")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "HU" } }, [
+                                _vm._v("Hongarijë")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "IS" } }, [
+                                _vm._v("Iceland")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "IN" } }, [
+                                _vm._v("India")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "ID" } }, [
+                                _vm._v("Indonesia")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "IR" } }, [
+                                _vm._v("Iran")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "IQ" } }, [
+                                _vm._v("Iraq")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "IE" } }, [
+                                _vm._v("Ierland")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "IM" } }, [
+                                _vm._v("Isle of Man")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "IL" } }, [
+                                _vm._v("Israel")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "IT" } }, [
+                                _vm._v("Italië")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "CI" } }, [
+                                _vm._v("Ivory Coast (Cote D'Ivoire)")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "JM" } }, [
+                                _vm._v("Jamaica")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "JP" } }, [
+                                _vm._v("Japan")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "JO" } }, [
+                                _vm._v("Jordan")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "KZ" } }, [
+                                _vm._v("Kazakhstan")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "KE" } }, [
+                                _vm._v("Kenya")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "KI" } }, [
+                                _vm._v("Kiribati")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "XK" } }, [
+                                _vm._v("Kosovo")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "KW" } }, [
+                                _vm._v("Kuwait")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "KG" } }, [
+                                _vm._v("Kyrgyz Republic (Kyrgyzstan)")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "LA" } }, [
+                                _vm._v("Laos")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "LV" } }, [
+                                _vm._v("Latvia")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "LB" } }, [
+                                _vm._v("Lebanon")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "LS" } }, [
+                                _vm._v("Lesotho")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "LR" } }, [
+                                _vm._v("Liberia")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "LY" } }, [
+                                _vm._v("Libya")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "LI" } }, [
+                                _vm._v("Liechtenstein")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "LT" } }, [
+                                _vm._v("Lithuania")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "LU" } }, [
+                                _vm._v("Luxemburg")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "MO" } }, [
+                                _vm._v("Macau")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "MK" } }, [
+                                _vm._v("Macedonia")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "MG" } }, [
+                                _vm._v("Madagascar")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "MW" } }, [
+                                _vm._v("Malawi")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "MY" } }, [
+                                _vm._v("Malaysia")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "MV" } }, [
+                                _vm._v("Maldives")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "ML" } }, [
+                                _vm._v("Mali")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "MT" } }, [
+                                _vm._v("Malta")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "MH" } }, [
+                                _vm._v("Marshall Islands")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "MQ" } }, [
+                                _vm._v("Martinique (French)")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "MR" } }, [
+                                _vm._v("Mauritania")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "MU" } }, [
+                                _vm._v("Mauritius")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "YT" } }, [
+                                _vm._v("Mayotte")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "MX" } }, [
+                                _vm._v("Mexico")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "FM" } }, [
+                                _vm._v("Micronesia")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "MD" } }, [
+                                _vm._v("Moldova")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "MC" } }, [
+                                _vm._v("Monaco")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "MN" } }, [
+                                _vm._v("Mongolia")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "ME" } }, [
+                                _vm._v("Montenegro")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "MS" } }, [
+                                _vm._v("Montserrat")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "MA" } }, [
+                                _vm._v("Morocco")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "MZ" } }, [
+                                _vm._v("Mozambique")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "MM" } }, [
+                                _vm._v("Myanmar")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "NA" } }, [
+                                _vm._v("Namibia")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "NR" } }, [
+                                _vm._v("Nauru")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "NP" } }, [
+                                _vm._v("Nepal")
+                              ]),
+                              _vm._v(" "),
+                              _c(
+                                "option",
+                                { attrs: { value: "NL", selected: "" } },
+                                [_vm._v("Nederland")]
+                              ),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "AN" } }, [
+                                _vm._v("Netherlands Antilles")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "NC" } }, [
+                                _vm._v("New Caledonia (French)")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "NZ" } }, [
+                                _vm._v("Nieuw Zeeland")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "NI" } }, [
+                                _vm._v("Nicaragua")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "NE" } }, [
+                                _vm._v("Niger")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "NG" } }, [
+                                _vm._v("Nigeria")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "NU" } }, [
+                                _vm._v("Niue")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "NF" } }, [
+                                _vm._v("Norfolk Island")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "KP" } }, [
+                                _vm._v("North Korea")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "MP" } }, [
+                                _vm._v("Northern Mariana Islands")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "NO" } }, [
+                                _vm._v("Norway")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "OM" } }, [
+                                _vm._v("Oman")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "PK" } }, [
+                                _vm._v("Pakistan")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "PW" } }, [
+                                _vm._v("Palau")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "PA" } }, [
+                                _vm._v("Panama")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "PG" } }, [
+                                _vm._v("Papua New Guinea")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "PY" } }, [
+                                _vm._v("Paraguay")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "PE" } }, [
+                                _vm._v("Peru")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "PH" } }, [
+                                _vm._v("Philippines")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "PN" } }, [
+                                _vm._v("Pitcairn Island")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "PL" } }, [
+                                _vm._v("Polen")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "PF" } }, [
+                                _vm._v("Polynesia (French)")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "PT" } }, [
+                                _vm._v("Portugal")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "PR" } }, [
+                                _vm._v("Puerto Rico")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "QA" } }, [
+                                _vm._v("Qatar")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "RE" } }, [
+                                _vm._v("Reunion (French)")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "RO" } }, [
+                                _vm._v("Romania")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "RU" } }, [
+                                _vm._v("Russia")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "RW" } }, [
+                                _vm._v("Rwanda")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "GS" } }, [
+                                _vm._v("S. Georgia & S. Sandwich Isls.")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "SH" } }, [
+                                _vm._v("Saint Helena")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "KN" } }, [
+                                _vm._v("Saint Kitts & Nevis Anguilla")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "LC" } }, [
+                                _vm._v("Saint Lucia")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "PM" } }, [
+                                _vm._v("Saint Pierre and Miquelon")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "ST" } }, [
+                                _vm._v("Saint Tome (Sao Tome) and Principe")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "VC" } }, [
+                                _vm._v("Saint Vincent & Grenadines")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "WS" } }, [
+                                _vm._v("Samoa")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "SM" } }, [
+                                _vm._v("San Marino")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "SA" } }, [
+                                _vm._v("Saudi Arabia")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "SN" } }, [
+                                _vm._v("Senegal")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "RS" } }, [
+                                _vm._v("Servië")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "SC" } }, [
+                                _vm._v("Seychelles")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "SL" } }, [
+                                _vm._v("Sierra Leone")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "SG" } }, [
+                                _vm._v("Singapore")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "SK" } }, [
+                                _vm._v("Slovakia")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "SI" } }, [
+                                _vm._v("Slovenia")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "SB" } }, [
+                                _vm._v("Solomon Islands")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "SO" } }, [
+                                _vm._v("Somalia")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "ZA" } }, [
+                                _vm._v("South Africa")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "KR" } }, [
+                                _vm._v("South Korea")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "ES" } }, [
+                                _vm._v("Spanje")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "LK" } }, [
+                                _vm._v("Sri Lanka")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "SD" } }, [
+                                _vm._v("Sudan")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "SR" } }, [
+                                _vm._v("Suriname")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "SJ" } }, [
+                                _vm._v("Svalbard and Jan Mayen Islands")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "SZ" } }, [
+                                _vm._v("Swaziland")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "SE" } }, [
+                                _vm._v("Zweden")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "CH" } }, [
+                                _vm._v("Zwitserland")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "SY" } }, [
+                                _vm._v("Syria")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "TJ" } }, [
+                                _vm._v("Tadjikistan")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "TW" } }, [
+                                _vm._v("Taiwan")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "TZ" } }, [
+                                _vm._v("Tanzania")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "TH" } }, [
+                                _vm._v("Thailand")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "TG" } }, [
+                                _vm._v("Togo")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "TK" } }, [
+                                _vm._v("Tokelau")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "TO" } }, [
+                                _vm._v("Tonga")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "TT" } }, [
+                                _vm._v("Trinidad and Tobago")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "TN" } }, [
+                                _vm._v("Tunisia")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "TR" } }, [
+                                _vm._v("Turkey")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "TM" } }, [
+                                _vm._v("Turkmenistan")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "TC" } }, [
+                                _vm._v("Turks and Caicos Islands")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "TV" } }, [
+                                _vm._v("Tuvalu")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "UG" } }, [
+                                _vm._v("Uganda")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "GB" } }, [
+                                _vm._v("Verenigd Koninkrijk")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "UA" } }, [
+                                _vm._v("Ukraine")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "AE" } }, [
+                                _vm._v("United Arab Emirates")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "US" } }, [
+                                _vm._v("United States")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "UY" } }, [
+                                _vm._v("Uruguay")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "UZ" } }, [
+                                _vm._v("Uzbekistan")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "VU" } }, [
+                                _vm._v("Vanuatu")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "VE" } }, [
+                                _vm._v("Venezuela")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "VN" } }, [
+                                _vm._v("Vietnam")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "VG" } }, [
+                                _vm._v("Virgin Islands (British)")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "VI" } }, [
+                                _vm._v("Virgin Islands (USA)")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "WF" } }, [
+                                _vm._v("Wallis and Futuna Islands")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "EH" } }, [
+                                _vm._v("Western Sahara")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "YE" } }, [
+                                _vm._v("Yemen")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "YU" } }, [
+                                _vm._v("Yugoslavia")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "ZR" } }, [
+                                _vm._v("Zaire")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "ZM" } }, [
+                                _vm._v("Zambia")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "ZW" } }, [
+                                _vm._v("Zimbabwe")
+                              ])
+                            ]
+                          )
+                        ])
+                      ])
+                    ]
+                  ),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "form-group" }, [
+                    _c(
+                      "label",
+                      { attrs: { for: "inputAddress" } },
+                      [
+                        _c(
+                          "font",
+                          { staticStyle: { "vertical-align": "inherit" } },
+                          [
+                            _c(
+                              "font",
+                              { staticStyle: { "vertical-align": "inherit" } },
+                              [_vm._v("Comments and additions for this order:")]
+                            )
+                          ],
+                          1
+                        )
+                      ],
+                      1
+                    ),
+                    _vm._v(" "),
+                    _c("textarea", {
+                      staticClass: "form-control",
+                      attrs: {
+                        id: "exampleFormControlTextarea1",
+                        rows: "3",
+                        name: "remarks"
+                      }
+                    })
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "form-row" }, [
+                    _c("div", { staticClass: "form-group col-md-4" }, [
+                      _c(
+                        "div",
+                        { staticClass: "form-check form-check-inline" },
+                        [
+                          _c("input", {
+                            staticClass: "form-check-input",
+                            attrs: {
+                              type: "checkbox",
+                              id: "zsd",
+                              value: "1",
+                              name: "optin"
+                            }
+                          }),
+                          _vm._v(" "),
+                          _c(
+                            "label",
+                            {
+                              staticClass: "form-check-label",
+                              attrs: { for: "zsd" }
+                            },
+                            [
+                              _c(
+                                "font",
+                                {
+                                  staticStyle: { "vertical-align": "inherit" }
+                                },
+                                [
+                                  _c(
+                                    "font",
+                                    {
+                                      staticStyle: {
+                                        "vertical-align": "inherit"
+                                      }
+                                    },
+                                    [
+                                      _vm._v(
+                                        "I want to sign up for the newsletter"
+                                      )
+                                    ]
+                                  )
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          )
+                        ]
+                      )
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "form-group col-md-4" }, [
+                      _c(
+                        "div",
+                        { staticClass: "form-check form-check-inline" },
+                        [
+                          _c("input", {
+                            staticClass: "form-check-input",
+                            attrs: {
+                              type: "checkbox",
+                              id: "sd",
+                              value: "1",
+                              name: "termsconditions",
+                              required: ""
+                            }
+                          }),
+                          _vm._v(" "),
+                          _c(
+                            "label",
+                            {
+                              staticClass: "form-check-label",
+                              attrs: { for: "sd" }
+                            },
+                            [
+                              _c(
+                                "font",
+                                {
+                                  staticStyle: { "vertical-align": "inherit" }
+                                },
+                                [
+                                  _c(
+                                    "font",
+                                    {
+                                      staticStyle: {
+                                        "vertical-align": "inherit"
+                                      }
+                                    },
+                                    [
+                                      _vm._v(
+                                        "I agree to the Terms and Conditions*"
+                                      )
+                                    ]
+                                  )
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          )
+                        ]
+                      )
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "form-group col-md-2" }, [
+                      _c(
+                        "button",
+                        { staticClass: "btn-cus", attrs: { type: "submit" } },
+                        [
+                          _c(
+                            "font",
+                            { staticStyle: { "vertical-align": "inherit" } },
+                            [
+                              _c(
+                                "font",
+                                {
+                                  staticStyle: { "vertical-align": "inherit" }
+                                },
+                                [_vm._v("to pay")]
+                              )
+                            ],
+                            1
+                          )
+                        ],
+                        1
+                      )
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _vm._m(0)
+                ]
+              )
+            ])
+          ])
+        ])
+      ])
+    ])
+  ])
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "col-12 text-right" }, [
+        _c("div", { staticClass: "mt-2" }, [
+          _c("img", {
+            attrs: {
+              src:
+                "https://www.mollie.com/external/icons/payment-methods/ideal.svg",
+              height: "50"
+            }
+          }),
+          _vm._v(" "),
+          _c("img", {
+            attrs: {
+              src:
+                "https://www.mollie.com/external/icons/payment-methods/bancontact.svg",
+              height: "50"
+            }
+          })
+        ])
+      ])
+    ])
+  }
+]
 render._withStripped = true
 
 
@@ -46498,13 +52169,15 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "product-btn" }, [
-      _c("a", { staticClass: "btn-pro", attrs: { href: "#" } }, [
+      _c("a", { staticClass: "btn-pro", attrs: { href: "/product" } }, [
         _vm._v("View")
       ]),
       _vm._v(" "),
-      _c("a", { staticClass: "btn-pro addToCart shop", attrs: { href: "#" } }, [
-        _vm._v("Checkout")
-      ])
+      _c(
+        "a",
+        { staticClass: "btn-pro addToCart shop", attrs: { href: "/cart" } },
+        [_vm._v("Checkout")]
+      )
     ])
   },
   function() {
@@ -58771,6 +64444,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_durability_durability_vue__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./components/durability/durability.vue */ "./resources/js/components/durability/durability.vue");
 /* harmony import */ var _components_contact_contact_vue__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./components/contact/contact.vue */ "./resources/js/components/contact/contact.vue");
 /* harmony import */ var _components_shop_product_view_vue__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./components/shop/product_view.vue */ "./resources/js/components/shop/product_view.vue");
+/* harmony import */ var _components_shop_cart_vue__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./components/shop/cart.vue */ "./resources/js/components/shop/cart.vue");
+/* harmony import */ var _components_shop_checkout_vue__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./components/shop/checkout.vue */ "./resources/js/components/shop/checkout.vue");
 /**
  * First we will load all of this project's JavaScript dependencies which
  * includes Vue and other libraries. It is a great starting point when
@@ -58798,6 +64473,8 @@ window.Vue = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.common.
 
 
 
+
+
 /**
  * Next, we will create a fresh Vue application instance and attach it to
  * the page. Then, you may begin adding components to this application
@@ -58815,7 +64492,9 @@ var app = new Vue({
     'about-page': _components_about_about_vue__WEBPACK_IMPORTED_MODULE_5__["default"],
     'durability-page': _components_durability_durability_vue__WEBPACK_IMPORTED_MODULE_6__["default"],
     'contact-page': _components_contact_contact_vue__WEBPACK_IMPORTED_MODULE_7__["default"],
-    'product-view': _components_shop_product_view_vue__WEBPACK_IMPORTED_MODULE_8__["default"]
+    'product-view': _components_shop_product_view_vue__WEBPACK_IMPORTED_MODULE_8__["default"],
+    'cart-page': _components_shop_cart_vue__WEBPACK_IMPORTED_MODULE_9__["default"],
+    'checkout-page': _components_shop_checkout_vue__WEBPACK_IMPORTED_MODULE_10__["default"]
   },
   created: function created() {
     var is_loading = document.getElementById("is_loading");
@@ -59884,6 +65563,250 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_tipslist_vue_vue_type_template_id_550d04a9___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_tipslist_vue_vue_type_template_id_550d04a9___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/components/shop/cart.vue":
+/*!***********************************************!*\
+  !*** ./resources/js/components/shop/cart.vue ***!
+  \***********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _cart_vue_vue_type_template_id_293c3f44___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./cart.vue?vue&type=template&id=293c3f44& */ "./resources/js/components/shop/cart.vue?vue&type=template&id=293c3f44&");
+/* harmony import */ var _cart_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./cart.vue?vue&type=script&lang=js& */ "./resources/js/components/shop/cart.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _cart_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _cart_vue_vue_type_template_id_293c3f44___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _cart_vue_vue_type_template_id_293c3f44___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/shop/cart.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/shop/cart.vue?vue&type=script&lang=js&":
+/*!************************************************************************!*\
+  !*** ./resources/js/components/shop/cart.vue?vue&type=script&lang=js& ***!
+  \************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_cart_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib??ref--4-0!../../../../node_modules/vue-loader/lib??vue-loader-options!./cart.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/shop/cart.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_cart_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/components/shop/cart.vue?vue&type=template&id=293c3f44&":
+/*!******************************************************************************!*\
+  !*** ./resources/js/components/shop/cart.vue?vue&type=template&id=293c3f44& ***!
+  \******************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_cart_vue_vue_type_template_id_293c3f44___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./cart.vue?vue&type=template&id=293c3f44& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/shop/cart.vue?vue&type=template&id=293c3f44&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_cart_vue_vue_type_template_id_293c3f44___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_cart_vue_vue_type_template_id_293c3f44___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/components/shop/cart_view.vue":
+/*!****************************************************!*\
+  !*** ./resources/js/components/shop/cart_view.vue ***!
+  \****************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _cart_view_vue_vue_type_template_id_57b87bd4___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./cart_view.vue?vue&type=template&id=57b87bd4& */ "./resources/js/components/shop/cart_view.vue?vue&type=template&id=57b87bd4&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+var script = {}
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__["default"])(
+  script,
+  _cart_view_vue_vue_type_template_id_57b87bd4___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _cart_view_vue_vue_type_template_id_57b87bd4___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/shop/cart_view.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/shop/cart_view.vue?vue&type=template&id=57b87bd4&":
+/*!***********************************************************************************!*\
+  !*** ./resources/js/components/shop/cart_view.vue?vue&type=template&id=57b87bd4& ***!
+  \***********************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_cart_view_vue_vue_type_template_id_57b87bd4___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./cart_view.vue?vue&type=template&id=57b87bd4& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/shop/cart_view.vue?vue&type=template&id=57b87bd4&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_cart_view_vue_vue_type_template_id_57b87bd4___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_cart_view_vue_vue_type_template_id_57b87bd4___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/components/shop/checkout.vue":
+/*!***************************************************!*\
+  !*** ./resources/js/components/shop/checkout.vue ***!
+  \***************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _checkout_vue_vue_type_template_id_644126f8___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./checkout.vue?vue&type=template&id=644126f8& */ "./resources/js/components/shop/checkout.vue?vue&type=template&id=644126f8&");
+/* harmony import */ var _checkout_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./checkout.vue?vue&type=script&lang=js& */ "./resources/js/components/shop/checkout.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _checkout_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _checkout_vue_vue_type_template_id_644126f8___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _checkout_vue_vue_type_template_id_644126f8___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/shop/checkout.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/shop/checkout.vue?vue&type=script&lang=js&":
+/*!****************************************************************************!*\
+  !*** ./resources/js/components/shop/checkout.vue?vue&type=script&lang=js& ***!
+  \****************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_checkout_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib??ref--4-0!../../../../node_modules/vue-loader/lib??vue-loader-options!./checkout.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/shop/checkout.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_checkout_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/components/shop/checkout.vue?vue&type=template&id=644126f8&":
+/*!**********************************************************************************!*\
+  !*** ./resources/js/components/shop/checkout.vue?vue&type=template&id=644126f8& ***!
+  \**********************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_checkout_vue_vue_type_template_id_644126f8___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./checkout.vue?vue&type=template&id=644126f8& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/shop/checkout.vue?vue&type=template&id=644126f8&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_checkout_vue_vue_type_template_id_644126f8___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_checkout_vue_vue_type_template_id_644126f8___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/components/shop/checkout_view.vue":
+/*!********************************************************!*\
+  !*** ./resources/js/components/shop/checkout_view.vue ***!
+  \********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _checkout_view_vue_vue_type_template_id_1f15ddb0___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./checkout_view.vue?vue&type=template&id=1f15ddb0& */ "./resources/js/components/shop/checkout_view.vue?vue&type=template&id=1f15ddb0&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+var script = {}
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__["default"])(
+  script,
+  _checkout_view_vue_vue_type_template_id_1f15ddb0___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _checkout_view_vue_vue_type_template_id_1f15ddb0___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/shop/checkout_view.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/shop/checkout_view.vue?vue&type=template&id=1f15ddb0&":
+/*!***************************************************************************************!*\
+  !*** ./resources/js/components/shop/checkout_view.vue?vue&type=template&id=1f15ddb0& ***!
+  \***************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_checkout_view_vue_vue_type_template_id_1f15ddb0___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./checkout_view.vue?vue&type=template&id=1f15ddb0& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/shop/checkout_view.vue?vue&type=template&id=1f15ddb0&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_checkout_view_vue_vue_type_template_id_1f15ddb0___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_checkout_view_vue_vue_type_template_id_1f15ddb0___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 

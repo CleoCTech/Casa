@@ -13,6 +13,9 @@
                     </div>
                 </div>
                 <div v-for="product in products.slice(0, 9)" :key="product.id" class="col-4 col-sm-4 col-md-4 col-xs-4 p-0">
+                    <!-- <div v-if="key ==2">
+
+                    </div> -->
                     <div class="product bg-pink home">
                         <div class="product-img">
                             <!-- <a href="#">
@@ -72,6 +75,12 @@ export default {
                 self.$parent.is_loading = false;
             });
         },
-    }
+        // checkVisibility(num){
+        //     if (num %1 ==0) {
+        //         return 
+        //     }
+        // }
+        }
+    
 }
 </script>

@@ -25,3 +25,5 @@ Route::get('/about', 'PagesController@about')->name('about-casa');
 Route::get('/durability', 'PagesController@durability')->name('durability');
 Route::get('/contact', 'PagesController@contact')->name('contact');
 Route::get('/product', 'PagesController@product')->name('product-details');
+Route::get('/cart', 'PagesController@cart')->name('cart');
+Route::get('/checkout', 'PagesController@checkout')->name('checkout');

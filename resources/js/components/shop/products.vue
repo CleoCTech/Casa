@@ -18,9 +18,9 @@
                             </a>
                             <p>{{product.price}}</p>
                             <div class="product-btn">
-                                <a class="btn-pro" href="#">View</a>
-                                <!-- <a class="btn-pro" href="{{route('/product')}}">View</a> -->
-                                <a class="btn-pro addToCart shop" href="#">Checkout</a>
+                                <!-- <a class="btn-pro" href="#">View</a> -->
+                                <a class="btn-pro" href="/product">View</a>
+                                <a class="btn-pro addToCart shop" href="/cart">Checkout</a>
                             </div>
                         </div>
                     </div>

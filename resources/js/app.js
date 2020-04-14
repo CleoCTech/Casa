@@ -28,6 +28,8 @@ import aboutPage from './components/about/about.vue';
 import durabilityPage from './components/durability/durability.vue';
 import contactPage from './components/contact/contact.vue';
 import productView from './components/shop/product_view.vue';
+import cartPage from './components/shop/cart.vue';
+import checkoutPage from './components/shop/checkout.vue';
 /**
  * Next, we will create a fresh Vue application instance and attach it to
  * the page. Then, you may begin adding components to this application
@@ -46,6 +48,8 @@ const app = new Vue({
         'durability-page': durabilityPage,
         'contact-page': contactPage,
         'product-view': productView,
+        'cart-page': cartPage,
+        'checkout-page': checkoutPage,
     },
     created() {
         var is_loading = document.getElementById("is_loading");

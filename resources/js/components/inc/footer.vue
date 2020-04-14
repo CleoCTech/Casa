@@ -198,8 +198,8 @@
                     <div class="footer-bottom">
                         <div class="social">
                             <ul>
-                                <li><a href="https://twitter.com/cleo_hacker" target="_blank"><i class="fab fa-twitter"></i></a></li>
-                                <li><a href="https://www.instagram.com/cleo_hacker/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                                <li><a href="https://twitter.com/cleo_hacker" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="https://www.instagram.com/cleo_hacker/" target="_blank"><i class="fa fa-instagram"></i></a></li>
                             </ul>
                             <a href="https://cleoportfolio.000webhostapp.com/" target="_blank">
                                 <font style="vertical-align: inherit;">
